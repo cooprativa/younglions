@@ -18,11 +18,28 @@
         <path d="M9.5 0L0 8.5V20H7V13H12V20H19V8.5L9.5 0Z" fill="black"/>
       </svg>
     </a>
-    <a href="#sobre" class="nav-link">SOBRE</a>
-    <a href="#juri" class="nav-link">JÚRI</a>
-    <a href="#roger" class="nav-link">ROGER HATCHUEL</a>
-    <a href="#historia" class="nav-link">A HISTÓRIA</a>
-    <a href="#vencedores" class="nav-link">VENCEDORES</a>
+    <div class="nav-items">
+      <a href="#sobre" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">SOBRE</span>
+      </a>
+      <a href="#juri" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">JÚRI</span>
+      </a>
+      <a href="#roger" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">ROGER HATCHUEL</span>
+      </a>
+      <a href="#historia" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">A HISTÓRIA</span>
+      </a>
+      <a href="#vencedores" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">VENCEDORES</span>
+      </a>
+    </div>
   </nav>
 
   <!-- Hero Section -->
