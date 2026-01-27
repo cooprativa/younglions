@@ -972,12 +972,38 @@
 
   @media (max-width: 480px) {
     .nav {
-      gap: 0.5rem;
+      padding: 0.5rem 0;
+    }
+
+    .nav-home {
+      padding: 0 0.5rem 0 0.75rem;
+    }
+
+    .nav-home svg {
+      width: 14px;
+      height: 15px;
+    }
+
+    .nav-items {
+      gap: 0.1rem;
+      margin-left: 0.1rem;
+      flex-wrap: wrap;
     }
 
     .nav-link {
-      font-size: 0.75rem;
-      padding: 0.25rem;
+      padding: 0 0.5rem;
+      height: 45px;
+    }
+
+    .nav-text {
+      font-size: 0.7rem;
+      letter-spacing: 0;
+    }
+
+    .nav-bg {
+      height: 70px;
+      max-width: 100px;
+      top: -12px;
     }
 
     .hero-year {
