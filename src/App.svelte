@@ -826,13 +826,35 @@
   /* Responsive Design */
   @media (max-width: 1024px) {
     .nav {
-      padding: 1rem 2rem;
-      gap: 1rem;
+      height: auto;
+      min-height: 67px;
       flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+
+    .nav-home {
+      padding: 0 1rem 0 2rem;
+    }
+
+    .nav-items {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-left: 0.5rem;
     }
 
     .nav-link {
+      padding: 0 1rem;
+      height: 60px;
+    }
+
+    .nav-text {
       font-size: 1rem;
+    }
+
+    .nav-bg {
+      height: 100px;
+      max-width: 160px;
+      top: -20px;
     }
 
     .section-header {
