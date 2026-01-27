@@ -254,28 +254,70 @@
   .nav {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    padding: 1.5rem 4rem;
+    gap: 0;
+    padding: 0;
     background-color: #FFCD00;
+    height: 67px;
+    position: relative;
   }
 
   .nav-home {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 0 2rem 0 4rem;
+    z-index: 10;
+    transition: transform 0.3s;
+  }
+
+  .nav-home:hover {
+    transform: scale(1.1);
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    margin-left: 1rem;
   }
 
   .nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+    padding: 0 2rem;
     color: #000;
     text-decoration: none;
-    font-size: 1.125rem;
-    font-weight: 500;
-    letter-spacing: 0.164px;
-    text-transform: uppercase;
-    transition: opacity 0.3s;
+    transition: transform 0.3s;
   }
 
   .nav-link:hover {
-    opacity: 0.7;
+    transform: translateY(-2px);
+  }
+
+  .nav-bg {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 126px;
+    max-width: 200px;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .nav-text {
+    position: relative;
+    z-index: 2;
+    font-size: 1.3125rem;
+    font-weight: 500;
+    letter-spacing: 0.164px;
+    text-transform: uppercase;
+    white-space: nowrap;
   }
 
   /* Hero Section */
