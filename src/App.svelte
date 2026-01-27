@@ -129,7 +129,93 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <img src="https://api.builder.io/api/v1/image/assets/TEMP/7f4e795860c1a52df4972df71e0b778c08175c3b?width=296" alt="Betclic Logo" class="footer-logo" />
+    <div class="footer-container">
+      <!-- Main Sponsors -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">PROMOTOR</h3>
+          <span class="footer-section-label">MARCA OFICIAL</span>
+        </div>
+        <div class="footer-logos main-sponsors">
+          <img src="https://api.builder.io/api/v1/image/assets/TEMP/7f4e795860c1a52df4972df71e0b778c08175c3b?width=296" alt="Betclic" class="footer-logo-lg" />
+          <img src="https://api.builder.io/api/v1/image/assets/TEMP/846a1ec083d772ed133b654c19a2cfd030de6aeb?width=460" alt="Partner" class="footer-logo-lg" />
+        </div>
+      </div>
+
+      <!-- Official Partners -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">PARCEIRO OFICIAL</h3>
+          <span class="footer-section-label">PRÉMIO DE PARTICIPAÇÃO</span>
+        </div>
+        <div class="footer-logos official-partners">
+          <div class="footer-logo-placeholder">Hallinan</div>
+          <div class="footer-logo-placeholder">NOS</div>
+          <div class="footer-logo-placeholder">Vodafone</div>
+        </div>
+      </div>
+
+      <!-- Creative Partnerships -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">PARCEIROS CRIATIVOS</h3>
+        </div>
+        <div class="footer-logos creative-partners">
+          <div class="footer-logo-placeholder">Aperf</div>
+          <div class="footer-logo-placeholder">Good</div>
+          <div class="footer-logo-placeholder">Brandia</div>
+          <div class="footer-logo-placeholder">Central</div>
+        </div>
+      </div>
+
+      <!-- Collaborators -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">COLAB</h3>
+        </div>
+        <div class="footer-logos collaborators">
+          <div class="footer-logo-placeholder">SMAC</div>
+          <div class="footer-logo-placeholder">MEIOS & MEDIA</div>
+          <div class="footer-logo-placeholder">MARKETEER</div>
+          <div class="footer-logo-placeholder">BRIEFING</div>
+        </div>
+      </div>
+
+      <!-- Support -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">ENGAJADORES</h3>
+        </div>
+        <div class="footer-logos supporters">
+          <div class="footer-logo-placeholder">DMBB</div>
+          <div class="footer-logo-placeholder">G+</div>
+          <div class="footer-logo-placeholder">Coral</div>
+          <div class="footer-logo-placeholder">Criativar</div>
+        </div>
+      </div>
+
+      <!-- Bottom brands -->
+      <div class="footer-section">
+        <div class="footer-logos bottom-brands">
+          <div class="footer-logo-placeholder">29</div>
+          <div class="footer-logo-placeholder">Plano B</div>
+          <div class="footer-logo-placeholder">Good</div>
+          <div class="footer-logo-placeholder">Jump</div>
+          <div class="footer-logo-placeholder">Vox</div>
+          <div class="footer-logo-placeholder">UCI</div>
+        </div>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="footer-social">
+        <a href="#" class="social-link">FACEBOOK</a>
+        <a href="#" class="social-link">INSTAGRAM</a>
+        <a href="#" class="social-link">LINKEDIN</a>
+        <a href="#" class="social-link">TIKTOK</a>
+        <a href="#" class="social-link">CANVA</a>
+        <a href="#" class="social-link">LIONS</a>
+      </div>
+    </div>
   </footer>
 </div>
 
