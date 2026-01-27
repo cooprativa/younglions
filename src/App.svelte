@@ -835,6 +835,33 @@
     .stats-footer {
       padding: 2rem 1rem;
     }
+
+    .footer-section-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .footer-logos {
+      gap: 1.5rem;
+    }
+
+    .main-sponsors,
+    .official-partners,
+    .creative-partners,
+    .collaborators,
+    .supporters,
+    .bottom-brands {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .footer-social {
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .social-link {
+      font-size: 1rem;
+    }
   }
 
   @media (max-width: 480px) {
