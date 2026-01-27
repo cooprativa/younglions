@@ -876,12 +876,37 @@
 
   @media (max-width: 768px) {
     .nav {
-      justify-content: center;
-      padding: 1rem;
+      justify-content: flex-start;
+      padding: 0.75rem 0;
+    }
+
+    .nav-home {
+      padding: 0 0.75rem 0 1rem;
+    }
+
+    .nav-home svg {
+      width: 16px;
+      height: 17px;
+    }
+
+    .nav-items {
+      gap: 0.25rem;
+      margin-left: 0.25rem;
     }
 
     .nav-link {
+      padding: 0 0.75rem;
+      height: 50px;
+    }
+
+    .nav-text {
       font-size: 0.875rem;
+    }
+
+    .nav-bg {
+      height: 80px;
+      max-width: 130px;
+      top: -15px;
     }
 
     .hero {
