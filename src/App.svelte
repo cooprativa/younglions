@@ -882,5 +882,46 @@
       font-size: 1.5rem;
       padding: 0.75rem 1.5rem;
     }
+
+    .footer {
+      padding: 2rem 1rem;
+    }
+
+    .footer-section {
+      padding: 1.5rem 0;
+    }
+
+    .footer-section-title {
+      font-size: 1rem;
+    }
+
+    .footer-section-label {
+      font-size: 0.875rem;
+    }
+
+    .main-sponsors,
+    .official-partners,
+    .creative-partners,
+    .collaborators,
+    .supporters,
+    .bottom-brands {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 1rem;
+    }
+
+    .footer-logo-placeholder {
+      font-size: 0.875rem;
+      padding: 1rem;
+      min-height: 60px;
+    }
+
+    .footer-social {
+      gap: 0.75rem;
+      padding: 2rem 0 1rem;
+    }
+
+    .social-link {
+      font-size: 0.875rem;
+    }
   }
 </style>
