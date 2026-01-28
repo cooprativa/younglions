@@ -18,11 +18,28 @@
         <path d="M9.5 0L0 8.5V20H7V13H12V20H19V8.5L9.5 0Z" fill="black"/>
       </svg>
     </a>
-    <a href="#sobre" class="nav-link">SOBRE</a>
-    <a href="#juri" class="nav-link">JÚRI</a>
-    <a href="#roger" class="nav-link">ROGER HATCHUEL</a>
-    <a href="#historia" class="nav-link">A HISTÓRIA</a>
-    <a href="#vencedores" class="nav-link">VENCEDORES</a>
+    <div class="nav-items">
+      <a href="#sobre" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">SOBRE</span>
+      </a>
+      <a href="#juri" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">JÚRI</span>
+      </a>
+      <a href="#roger" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">ROGER HATCHUEL</span>
+      </a>
+      <a href="#historia" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">A HISTÓRIA</span>
+      </a>
+      <a href="#vencedores" class="nav-link">
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/8a7e29f7adbccc435daa8a2dc29f4ac686a6413f?width=826" alt="" class="nav-bg" />
+        <span class="nav-text">VENCEDORES</span>
+      </a>
+    </div>
   </nav>
 
   <!-- Hero Section -->
@@ -129,7 +146,93 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <img src="https://api.builder.io/api/v1/image/assets/TEMP/7f4e795860c1a52df4972df71e0b778c08175c3b?width=296" alt="Betclic Logo" class="footer-logo" />
+    <div class="footer-container">
+      <!-- Main Sponsors -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">PROMOTOR</h3>
+          <span class="footer-section-label">MARCA OFICIAL</span>
+        </div>
+        <div class="footer-logos main-sponsors">
+          <img src="https://api.builder.io/api/v1/image/assets/TEMP/7f4e795860c1a52df4972df71e0b778c08175c3b?width=296" alt="Betclic" class="footer-logo-lg" />
+          <img src="https://api.builder.io/api/v1/image/assets/TEMP/846a1ec083d772ed133b654c19a2cfd030de6aeb?width=460" alt="Partner" class="footer-logo-lg" />
+        </div>
+      </div>
+
+      <!-- Official Partners -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">PARCEIRO OFICIAL</h3>
+          <span class="footer-section-label">PRÉMIO DE PARTICIPAÇÃO</span>
+        </div>
+        <div class="footer-logos official-partners">
+          <div class="footer-logo-placeholder">Hallinan</div>
+          <div class="footer-logo-placeholder">NOS</div>
+          <div class="footer-logo-placeholder">Vodafone</div>
+        </div>
+      </div>
+
+      <!-- Creative Partnerships -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">PARCEIROS CRIATIVOS</h3>
+        </div>
+        <div class="footer-logos creative-partners">
+          <div class="footer-logo-placeholder">Aperf</div>
+          <div class="footer-logo-placeholder">Good</div>
+          <div class="footer-logo-placeholder">Brandia</div>
+          <div class="footer-logo-placeholder">Central</div>
+        </div>
+      </div>
+
+      <!-- Collaborators -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">COLAB</h3>
+        </div>
+        <div class="footer-logos collaborators">
+          <div class="footer-logo-placeholder">SMAC</div>
+          <div class="footer-logo-placeholder">MEIOS & MEDIA</div>
+          <div class="footer-logo-placeholder">MARKETEER</div>
+          <div class="footer-logo-placeholder">BRIEFING</div>
+        </div>
+      </div>
+
+      <!-- Support -->
+      <div class="footer-section">
+        <div class="footer-section-header">
+          <h3 class="footer-section-title">ENGAJADORES</h3>
+        </div>
+        <div class="footer-logos supporters">
+          <div class="footer-logo-placeholder">DMBB</div>
+          <div class="footer-logo-placeholder">G+</div>
+          <div class="footer-logo-placeholder">Coral</div>
+          <div class="footer-logo-placeholder">Criativar</div>
+        </div>
+      </div>
+
+      <!-- Bottom brands -->
+      <div class="footer-section">
+        <div class="footer-logos bottom-brands">
+          <div class="footer-logo-placeholder">29</div>
+          <div class="footer-logo-placeholder">Plano B</div>
+          <div class="footer-logo-placeholder">Good</div>
+          <div class="footer-logo-placeholder">Jump</div>
+          <div class="footer-logo-placeholder">Vox</div>
+          <div class="footer-logo-placeholder">UCI</div>
+        </div>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="footer-social">
+        <a href="#" class="social-link">FACEBOOK</a>
+        <a href="#" class="social-link">INSTAGRAM</a>
+        <a href="#" class="social-link">LINKEDIN</a>
+        <a href="#" class="social-link">TIKTOK</a>
+        <a href="#" class="social-link">CANVA</a>
+        <a href="#" class="social-link">LIONS</a>
+      </div>
+    </div>
   </footer>
 </div>
 
@@ -151,28 +254,70 @@
   .nav {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    padding: 1.5rem 4rem;
+    gap: 0;
+    padding: 0;
     background-color: #FFCD00;
+    height: 67px;
+    position: relative;
   }
 
   .nav-home {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 0 2rem 0 4rem;
+    z-index: 10;
+    transition: transform 0.3s;
+  }
+
+  .nav-home:hover {
+    transform: scale(1.1);
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    margin-left: 1rem;
   }
 
   .nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+    padding: 0 2rem;
     color: #000;
     text-decoration: none;
-    font-size: 1.125rem;
-    font-weight: 500;
-    letter-spacing: 0.164px;
-    text-transform: uppercase;
-    transition: opacity 0.3s;
+    transition: transform 0.3s;
   }
 
   .nav-link:hover {
-    opacity: 0.7;
+    transform: translateY(-2px);
+  }
+
+  .nav-bg {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 126px;
+    max-width: 200px;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .nav-text {
+    position: relative;
+    z-index: 2;
+    font-size: 1.3125rem;
+    font-weight: 500;
+    letter-spacing: 0.164px;
+    text-transform: uppercase;
+    white-space: nowrap;
   }
 
   /* Hero Section */
@@ -544,26 +689,172 @@
 
   /* Footer */
   .footer {
-    background-color: #FFCD00;
-    padding: 3rem 2rem;
-    text-align: right;
+    background-color: #EBEBEB;
+    padding: 4rem 2rem;
   }
 
-  .footer-logo {
-    width: 148px;
+  .footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .footer-section {
+    padding: 2rem 0;
+    border-bottom: 2px solid #2B302D;
+  }
+
+  .footer-section:last-of-type {
+    border-bottom: none;
+  }
+
+  .footer-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-section-title {
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.5px;
+  }
+
+  .footer-section-label {
+    font-size: clamp(1rem, 1.5vw, 1.375rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .footer-logos {
+    display: grid;
+    gap: 3rem 2rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .main-sponsors {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 4rem;
+  }
+
+  .official-partners {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .creative-partners {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .collaborators {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  .supporters {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .bottom-brands {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+  }
+
+  .footer-logo-lg {
+    width: 100%;
+    max-width: 200px;
     height: auto;
+  }
+
+  .footer-logo-placeholder {
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    border: 2px solid #2B302D;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 3rem 0 1rem;
+  }
+
+  .social-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: opacity 0.3s;
+    position: relative;
+  }
+
+  .social-link:hover {
+    opacity: 0.7;
+  }
+
+  .social-link::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s;
+  }
+
+  .social-link:hover::before {
+    width: 100%;
   }
 
   /* Responsive Design */
   @media (max-width: 1024px) {
     .nav {
-      padding: 1rem 2rem;
-      gap: 1rem;
+      height: auto;
+      min-height: 67px;
       flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+
+    .nav-home {
+      padding: 0 1rem 0 2rem;
+    }
+
+    .nav-items {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-left: 0.5rem;
     }
 
     .nav-link {
+      padding: 0 1rem;
+      height: 60px;
+    }
+
+    .nav-text {
       font-size: 1rem;
+    }
+
+    .nav-bg {
+      height: 100px;
+      max-width: 160px;
+      top: -20px;
     }
 
     .section-header {
@@ -585,12 +876,37 @@
 
   @media (max-width: 768px) {
     .nav {
-      justify-content: center;
-      padding: 1rem;
+      justify-content: flex-start;
+      padding: 0.75rem 0;
+    }
+
+    .nav-home {
+      padding: 0 0.75rem 0 1rem;
+    }
+
+    .nav-home svg {
+      width: 16px;
+      height: 17px;
+    }
+
+    .nav-items {
+      gap: 0.25rem;
+      margin-left: 0.25rem;
     }
 
     .nav-link {
+      padding: 0 0.75rem;
+      height: 50px;
+    }
+
+    .nav-text {
       font-size: 0.875rem;
+    }
+
+    .nav-bg {
+      height: 80px;
+      max-width: 130px;
+      top: -15px;
     }
 
     .hero {
@@ -625,16 +941,69 @@
     .stats-footer {
       padding: 2rem 1rem;
     }
+
+    .footer-section-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .footer-logos {
+      gap: 1.5rem;
+    }
+
+    .main-sponsors,
+    .official-partners,
+    .creative-partners,
+    .collaborators,
+    .supporters,
+    .bottom-brands {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .footer-social {
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .social-link {
+      font-size: 1rem;
+    }
   }
 
   @media (max-width: 480px) {
     .nav {
-      gap: 0.5rem;
+      padding: 0.5rem 0;
+    }
+
+    .nav-home {
+      padding: 0 0.5rem 0 0.75rem;
+    }
+
+    .nav-home svg {
+      width: 14px;
+      height: 15px;
+    }
+
+    .nav-items {
+      gap: 0.1rem;
+      margin-left: 0.1rem;
+      flex-wrap: wrap;
     }
 
     .nav-link {
-      font-size: 0.75rem;
-      padding: 0.25rem;
+      padding: 0 0.5rem;
+      height: 45px;
+    }
+
+    .nav-text {
+      font-size: 0.7rem;
+      letter-spacing: 0;
+    }
+
+    .nav-bg {
+      height: 70px;
+      max-width: 100px;
+      top: -12px;
     }
 
     .hero-year {
@@ -644,6 +1013,47 @@
     .cta-button {
       font-size: 1.5rem;
       padding: 0.75rem 1.5rem;
+    }
+
+    .footer {
+      padding: 2rem 1rem;
+    }
+
+    .footer-section {
+      padding: 1.5rem 0;
+    }
+
+    .footer-section-title {
+      font-size: 1rem;
+    }
+
+    .footer-section-label {
+      font-size: 0.875rem;
+    }
+
+    .main-sponsors,
+    .official-partners,
+    .creative-partners,
+    .collaborators,
+    .supporters,
+    .bottom-brands {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 1rem;
+    }
+
+    .footer-logo-placeholder {
+      font-size: 0.875rem;
+      padding: 1rem;
+      min-height: 60px;
+    }
+
+    .footer-social {
+      gap: 0.75rem;
+      padding: 2rem 0 1rem;
+    }
+
+    .social-link {
+      font-size: 0.875rem;
     }
   }
 </style>
