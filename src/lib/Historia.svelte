@@ -8,28 +8,28 @@
             year: '1996',
             title: 'A ESTREIA',
             text: 'O ano de fundação da presença portuguesa. Sob o nome "Young Hot Dogs", Portugal estreou-se internacionalmente com a dupla Susana Sequeira e João Madeira da Nova Publicidade. Em solo nacional, a primeira vitória sorriu a João Coutinho e Tiago Guedes, da Ogilvy & Mather, marcando o início de um legado de excelência criativa jovem.',
-            image: '/src/imagenshistoria/imagem1.jpg',
+            image: '/imagenshistoria/imagem1.jpg',
             caption: 'A Juventude contra a droga'
         },
         {
             year: '1998',
             title: 'O 1º OURO',
             text: 'Um marco histórico para a publicidade nacional. Apenas dois anos após a estreia, Portugal conquista o primeiro Ouro. A dupla Diogo Anahory e José Bomtempo (TBWA/EPG) superou a concorrência global com o icónico trabalho "Cicatriz" para a Children\'s Lifeline.',
-            image: '/src/imagenshistoria/imagem2.jpg',
+            image: '/imagenshistoria/imagem2.jpg',
             caption: 'Children‘s Lifeline_ Medalha de OURO'
         },
         {
             year: '1999',
             title: 'BICAMPEÕES',
             text: 'A confirmação do talento luso com o segundo Ouro consecutivo. Sandro Porto e Liliana Dantas (FCB/MKT) garantiram a vitória com o trabalho "AIDS RESEARCH" para a amfAR. O júri internacional destacou a simplicidade brilhante e a interatividade da ideia.',
-            image: '/src/imagenshistoria/imagem3.jpg',
+            image: '/imagenshistoria/imagem3.jpg',
             caption: 'Fundação Americana contra a Sida_ Medalha de OURO'
         },
         {
             year: '2004',
             title: 'OURO EM CYBER',
             text: 'A revolução digital chega ao pódio. A tripla Claudio Lima, Daniel Pereira e Leonardo Pereira (FCB) conquistou o primeiro Ouro na categoria Cyber. Numa altura em que o digital começava a dominar, venceram com um banner inovador sobre HIV/AIDS.',
-            image: '/src/imagenshistoria/imagem4.jpg',
+            image: '/imagenshistoria/imagem4.jpg',
             caption: 'Global Business Coalition on HIV/AIDS\n' +
                 '-Medalha de\n' +
                 'OURO\n' +
@@ -48,7 +48,7 @@
             year: '2009',
             title: 'MEDIA',
             text: 'O ano da expansão para o planeamento de meios com o lançamento da categoria Media. A delegação nacional atingiu os 8 elementos e foi um ano de glória transversal: Portugal trouxe para casa a Medalha de Ouro na competição de Imprensa e a Medalha de Prata em Cyber.',
-            image: '/src/imagenshistoria/imagem5.jpg',
+            image: '/imagenshistoria/imagem5.jpg',
             caption: 'Nuno Teixeira, Fred Bosh, José Bomtempo, Zélia Morais\n' +
                 'e Clara Tehrani ( da esquerda para a direita )em\n' +
                 'Cannes, após vitória do Ouro em Imprensa (Nuno\n' +
@@ -59,21 +59,21 @@
             year: '2010',
             title: 'MARKETERS',
             text: 'O festival abre portas ao lado do cliente. A estreia da categoria Young Marketers permitiu que Bruno Rio e Tiago Talone (Unicer) fossem os primeiros representantes de marcas portuguesas. Com esta adição, Portugal passou a levar uma comitiva de 10 jovens profissionais.',
-            image: '/src/imagenshistoria/imagem6.jpg',
+            image: '/imagenshistoria/imagem6.jpg',
             caption: 'Bruno Rio e Tiago Talone'
         },
         {
             year: '2011',
             title: 'BRONZE CYBER',
             text: 'O regresso aos prémios na vertente digital. A dupla Maria João Amparo e Rita Bernardo, da FullSix, conquistou a Medalha de Bronze na categoria Cyber. O desafio proposto pelo "The Planet Earth Institute" foi superado com distinção.',
-            image: '/src/imagenshistoria/imagem7.jpg',
+            image: '/imagenshistoria/imagem7.jpg',
             caption: 'Medalha de Bronze_ Young Cyber'
         },
         {
             year: '2012',
             title: 'DESIGN & OURO',
             text: 'Estreia da categoria Design e um ano dourado para os Marketers. Afonso Ferreira e Francisca Oliveira conquistaram o primeiro Ouro de sempre para Portugal em Marketing. O ano fechou com chave de ouro com Joaquim Costa e Ricardo Ferreira a garantirem o Bronze em Media.',
-            image: '/src/imagenshistoria/imagem8.jpg',
+            image: '/imagenshistoria/imagem8.jpg',
             caption: 'Afonso Ferreira e Francisca Oliveira com o CEO do\n' +
                 'festival Philip Thomas no palco do “Palais des\n' +
                 'Festivals”'
@@ -82,14 +82,14 @@
             year: '2014',
             title: 'PR & RECORDE',
             text: 'A família Young Lions atinge a sua maior dimensão. Com a abertura da categoria de Relações Públicas (PR), estreada por Ana Rita Delgado e Ana Margarida Rosário, a delegação nacional bateu o recorde histórico com 14 jovens profissionais a representar as cores nacionais.',
-            image: '/src/imagenshistoria/imagem9.jpg',
+            image: '/imagenshistoria/imagem9.jpg',
             caption: 'Ana Rita Delgado e a Ana Margarida Rosário'
         },
         {
             year: '2016',
             title: 'BRONZE DESIGN',
             text: 'O design português volta a brilhar. A dupla Maria Bessa e Rui Simões, da agência NOSSA, conquistou a Medalha de Bronze na categoria Design. O trabalho respondeu de forma exímia ao desafio lançado pelas Nações Unidas sobre o tema "Global Goals Health".',
-            image: '/src/imagenshistoria/imagem10.jpg',
+            image: '/imagenshistoria/imagem10.jpg',
             caption: 'Rui Simões e Maria Bessa'
         },
         {
@@ -98,11 +98,11 @@
             text: 'Um ano de dupla celebração. Portugal regressou de Cannes com duas Medalhas de Bronze na bagagem, demonstrando talento tanto nas agências como nos clientes: Inês Coelho e Elsa Rodrigues (Fuel) brilharam em Design, enquanto José Pedro Silva e Mário Alves (Unicer) subiram ao pódio em Marketing.',
             multiData: [
                 {
-                    src: '/src/imagenshistoria/imagem12.jpg',
+                    src: '/imagenshistoria/imagem12.jpg',
                     caption: 'José Pedro Silva e Mário Alves (Bronze em Marketing)'
                 },
                 {
-                    src: '/src/imagenshistoria/imagem11.jpg',
+                    src: '/imagenshistoria/imagem11.jpg',
                     caption: 'Inês Coelho e Elsa Rodrigues (Bronze em Design)'
                 }
             ]
@@ -113,11 +113,11 @@
             text: 'Uma das melhores performances de sempre. Portugal somou duas medalhas de peso: Rita Almeida e Diogo Vasques (Worten/Montepio) trouxeram o Ouro na categoria de Marketing, enquanto Cláudio Soares e Patrícia Coelho (JWT/Big Fish) garantiram a Prata em Design.',
             multiData: [
                 {
-                    src: '/src/imagenshistoria/imagem13.jpg',
+                    src: '/imagenshistoria/imagem13.jpg',
                     caption: 'Rita Almeida e Diogo Vasques'
                 },
                 {
-                    src: '/src/imagenshistoria/imagem17.jpg',
+                    src: '/imagenshistoria/imagem17.jpg',
                     caption: 'Cláudio Soares e Patrícia Cordeiro'
                 }
             ]
@@ -126,21 +126,21 @@
             year: '2021',
             title: 'BRONZE MEDIA',
             text: 'Resiliência em tempos de pandemia. Numa edição atípica realizada totalmente online, a criatividade portuguesa não baixou os braços. A dupla Andreia Esteves e Ema Pimenta destacou-se internacionalmente, conquistando a Medalha de Bronze na categoria de Media.',
-            image: '/src/imagenshistoria/imagem14.jpg',
+            image: '/imagenshistoria/imagem14.jpg',
             caption: 'Ema Pimenta e Andreia Esteves'
         },
         {
             year: '2023',
             title: 'BRONZE IMPRENSA',
             text: 'O regresso às origens. Portugal voltou a ser premiado na categoria fundadora do festival, Imprensa. A dupla Maria Branco e Carlota Real demonstrou que o meio impresso continua vivo e impactante, garantindo a Medalha de Bronze para Portugal.',
-            image: '/src/imagenshistoria/imagem15.jpg',
+            image: '/imagenshistoria/imagem15.jpg',
             caption: 'Maria Branco e Carlota Real'
         },
         {
             year: '2024',
             title: 'BRONZE DIGITAL',
             text: 'O sucesso na era digital. Tomás Almeida e João Chicau conquistaram o Bronze na categoria Digital. A comitiva portuguesa mostrou uma consistência notável, alcançando ainda Shortlists nas categorias de Filme (Francisco Machado) e Design (David Canaes e Francisco Roque do Vale).',
-            image: '/src/imagenshistoria/imagem16.jpg',
+            image: '/imagenshistoria/imagem16.jpg',
             caption: 'João Chicau e Francisco Roque do Vale'
         }
     ];
@@ -184,28 +184,28 @@
 
     <section class="hero-historia">
         <div class="hero-logo">
-            <img src="/src/assets/paginscricao/logoinscricao.png" alt="Young Lions Logo" class="logo-img" />
+            <img src="/assets/paginscricao/logoinscricao.png" alt="Young Lions Logo" class="logo-img" />
         </div>
 
         <div class="hero-center">
             <div class="pasta-container">
-                <img src="/src/assets/pasta.png" alt="" class="pasta-img" />
+                <img src="/assets/pasta.png" alt="" class="pasta-img" />
                 <span class="pasta-texto">A HISTÓRIA</span>
             </div>
         </div>
 
         <div class="hero-culpado">
-            <img src="/src/svg/paginscricao/culpadoinscricao.svg" alt="Sê Culpado" class="culpado-img" />
+            <img src="/svg/paginscricao/culpadoinscricao.svg" alt="Sê Culpado" class="culpado-img" />
         </div>
 
         <div class="hero-furos">
-            <img src="/src/svg/furossobre.svg" alt="" class="furos-sobre-svg" />
+            <img src="/svg/furossobre.svg" alt="" class="furos-sobre-svg" />
         </div>
     </section>
 
     <section class="intro-culpados">
         <div class="intro-container">
-            <img src="/src/svg/culpados.svg" alt="Culpados" class="culpados-svg" />
+            <img src="/svg/culpados.svg" alt="Culpados" class="culpados-svg" />
 
             <p class="intro-text">
                 Ao longo de 30 anos construímos um longo cadastro na defesa da criatividade.<br>
@@ -277,7 +277,7 @@
     </section>
 
     <div class="footer-extra-sobre-container">
-        <img src="/src/assets/fundos/footerextrahistoria.png" alt="" class="footer-extra-sobre-img" />
+        <img src="/assets/fundos/footerextrahistoria.png" alt="" class="footer-extra-sobre-img" />
     </div>
 
     <footer class="footer">
@@ -288,26 +288,26 @@
                 <div class="f-group-left">
                     <span class="f-label">ORGANIZAÇÃO</span>
                     <div class="f-imgs-row">
-                        <img src="/src/footerimagens/mop.png" alt="MOP" class="f-img" />
+                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img" />
                     </div>
                 </div>
                 <div class="f-group-right">
                     <span class="f-label text-right">NAMING SPONSOR</span>
-                    <img src="/src/footerimagens/betclic.png" alt="Betclic" class="f-img big-logo" />
+                    <img src="/footerimagens/betclic.png" alt="Betclic" class="f-img big-logo" />
                 </div>
             </div>
 
             <div class="footer-row row-2">
                 <div class="f-group-left">
                     <span class="f-label">APOIO INSTITUCIONAL</span>
-                    <img src="/src/footerimagens/turismoportugal.png" alt="Turismo de Portugal" class="f-img" />
+                    <img src="/footerimagens/turismoportugal.png" alt="Turismo de Portugal" class="f-img" />
                 </div>
                 <div class="f-group-right">
                     <span class="f-label text-right">PATROCINADORES</span>
                     <div class="f-imgs-row gap-large">
-                        <img src="/src/footerimagens/belissimo.png" alt="Bellissimo" class="f-img" />
-                        <img src="/src/footerimagens/nos.png" alt="NOS" class="f-img" />
-                        <img src="/src/footerimagens/worten.png" alt="Worten" class="f-img" />
+                        <img src="/footerimagens/belissimo.png" alt="Bellissimo" class="f-img" />
+                        <img src="/footerimagens/nos.png" alt="NOS" class="f-img" />
+                        <img src="/footerimagens/worten.png" alt="Worten" class="f-img" />
                     </div>
                 </div>
             </div>
@@ -315,37 +315,37 @@
             <div class="footer-row row-3">
                 <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
                 <div class="f-imgs-row gap-medium">
-                    <img src="/src/footerimagens/apame.png" alt="Apeme" class="f-img" />
-                    <img src="/src/footerimagens/apan2.png" alt="Apan" class="f-img" />
-                    <img src="/src/footerimagens/apap.png" alt="APAP" class="f-img" />
-                    <img src="/src/footerimagens/apce.png" alt="APCE" class="f-img" />
-                    <img src="/src/footerimagens/apecom.png" alt="Apecom" class="f-img" />
-                    <img src="/src/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                    <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
+                    <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
+                    <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
+                    <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
+                    <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
+                    <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
                 </div>
             </div>
 
             <div class="footer-row row-4">
                 <div class="f-col">
                     <span class="f-label">CAMPANHA</span>
-                    <img src="/src/footerimagens/fernando.png" alt="Campanha" class="f-img2 start" />
+                    <img src="/footerimagens/fernando.png" alt="Campanha" class="f-img2 start" />
                 </div>
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA MEDIA</span>
-                    <img src="/src/footerimagens/ipgmediabrands.png" alt="IPG" class="f-img2 start ipg-logo" />
+                    <img src="/footerimagens/ipgmediabrands.png" alt="IPG" class="f-img2 start ipg-logo" />
                 </div>
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA RP</span>
-                    <img src="/src/footerimagens/centraldeinformacao.png" alt="Central" class="f-img2 start" />
+                    <img src="/footerimagens/centraldeinformacao.png" alt="Central" class="f-img2 start" />
                 </div>
                 <div class="f-col">
                     <span class="f-label">PRODUTORA OFICIAL</span>
-                    <img src="/src/footerimagens/78films.png" alt="Film Brokers" class="f-img2 start" />
+                    <img src="/footerimagens/78films.png" alt="Film Brokers" class="f-img2 start" />
                 </div>
                 <div class="f-col right-align">
                     <span class="f-label">PARCEIRO EM ANALÍTICA E ESTUDOS DE MERCADO</span>
                     <div class="f-imgs-row">
-                        <img src="/src/footerimagens/carma.png" alt="Carma" class="f-img2" />
-                        <img src="/src/footerimagens/newssearch.png" alt="NewsSearch" class="f-img2" />
+                        <img src="/footerimagens/carma.png" alt="Carma" class="f-img2" />
+                        <img src="/footerimagens/newssearch.png" alt="NewsSearch" class="f-img2" />
                     </div>
                 </div>
             </div>
@@ -353,22 +353,22 @@
             <div class="footer-row row-5">
                 <div class="f-group-left narrow">
                     <span class="f-label">AGÊNCIA ATIVAÇÃO</span>
-                    <img src="/src/footerimagens/29graus.png" alt="29 Graus" class="f-img" />
+                    <img src="/footerimagens/29graus.png" alt="29 Graus" class="f-img" />
                 </div>
 
                 <div class="f-group-center">
                     <span class="f-label">PARCEIROS MEDIA</span>
                     <div class="f-imgs-row gap-medium">
-                        <img src="/src/footerimagens/+m.png" alt="M80" class="f-img" />
-                        <img src="/src/footerimagens/mop2.png" alt="MOP" class="f-img" />
-                        <img src="/src/footerimagens/publico.png" alt="Publico" class="f-img" />
-                        <img src="/src/footerimagens/rtp.png" alt="RTP" class="f-img" />
+                        <img src="/footerimagens/+m.png" alt="M80" class="f-img" />
+                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img" />
+                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img" />
+                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img" />
                     </div>
                 </div>
 
                 <div class="f-group-right narrow">
                     <span class="f-label text-right">APOIO</span>
-                    <img src="/src/footerimagens/sagres.png" alt="Sagres" class="f-img" />
+                    <img src="/footerimagens/sagres.png" alt="Sagres" class="f-img" />
                 </div>
             </div>
 
@@ -385,7 +385,7 @@
 
     <section class="furos-bottom-section">
         <div class="furos-container">
-            <img src="/src/svg/furos.svg" alt="" class="furos-svg" />
+            <img src="/svg/furos.svg" alt="" class="furos-svg" />
         </div>
     </section>
 </div>

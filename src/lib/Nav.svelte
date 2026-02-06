@@ -3,7 +3,7 @@
 
 <nav class="nav">
   <div class="nav-bg">
-    <img src="/src/svg/nav/homenav.svg" alt="" class="nav-svg" />
+    <img src="/svg/nav/homenav.svg" alt="" class="nav-svg" />
   </div>
   <div class="nav-overlay">
     <a href="#top" class="nav-home" aria-label="Home">

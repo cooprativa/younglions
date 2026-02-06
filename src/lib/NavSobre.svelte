@@ -1,6 +1,6 @@
 <nav class="nav">
   <div class="nav-bg">
-    <img src="/src/svg/nav/sobrenav.svg" alt="" class="nav-svg" />
+    <img src="/svg/nav/sobrenav.svg" alt="" class="nav-svg" />
   </div>
   <div class="nav-overlay">
     <a href="#home" class="nav-home" aria-label="Home">
