@@ -47,11 +47,11 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <img src="/src/svg/herocompleto.svg" alt="Young Lions 2026" class="hero-complete" />
+      <img src="/svg/herocompleto.svg" alt="Young Lions 2026" class="hero-complete" />
     </div>
 
     <a href="#inscricao" class="cta-tab">
-      <img src="/src/assets/fundos/img.png" alt="" class="cta-tab-bg" />
+      <img src="/assets/fundos/img.png" alt="" class="cta-tab-bg" />
       <span class="cta-tab-text">INSCREVE-TE</span>
     </a>
   </section>
@@ -72,11 +72,11 @@
   <!-- Statistics Section -->
   <section class="stats-section">
     <div class="stats-svg-container">
-      <img src="/src/svg/O nosso cadastro.svg" alt="O nosso cadastro - 220 participantes, 6 Ouro, 2 Prata, 8 Bronze" class="stats-svg" />
+      <img src="/svg/O nosso cadastro.svg" alt="O nosso cadastro - 220 participantes, 6 Ouro, 2 Prata, 8 Bronze" class="stats-svg" />
       <a href="#historia" class="stats-btn-overlay">SABE MAIS</a>
     </div>
     <div class="furos-container">
-      <img src="/src/svg/furos.svg" alt="" class="furos-svg" />
+      <img src="/svg/furos.svg" alt="" class="furos-svg" />
     </div>
   </section>
 
@@ -91,7 +91,7 @@
     </div>
 
     <div class="footer-extra-container">
-      <img src="/src/assets/fundos/Footerextra.png" alt="" class="footer-extra-img" />
+      <img src="/assets/fundos/Footerextra.png" alt="" class="footer-extra-img" />
     </div>
   </section>
 
@@ -103,26 +103,26 @@
                 <div class="f-group-left">
                     <span class="f-label">ORGANIZAÇÃO</span>
                     <div class="f-imgs-row">
-                        <img src="/src/footerimagens/mop.png" alt="MOP" class="f-img" />
+                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img" />
                     </div>
                 </div>
                 <div class="f-group-right">
                     <span class="f-label text-right">NAMING SPONSOR</span>
-                    <img src="/src/footerimagens/betclic.png" alt="Betclic" class="f-img big-logo" />
+                    <img src="/footerimagens/betclic.png" alt="Betclic" class="f-img big-logo" />
                 </div>
             </div>
 
             <div class="footer-row row-2">
                 <div class="f-group-left">
                     <span class="f-label">APOIO INSTITUCIONAL</span>
-                    <img src="/src/footerimagens/turismoportugal.png" alt="Turismo de Portugal" class="f-img" />
+                    <img src="/footerimagens/turismoportugal.png" alt="Turismo de Portugal" class="f-img" />
                 </div>
                 <div class="f-group-right">
                     <span class="f-label text-right">PATROCINADORES</span>
                     <div class="f-imgs-row gap-large">
-                        <img src="/src/footerimagens/belissimo.png" alt="Bellissimo" class="f-img" />
-                        <img src="/src/footerimagens/nos.png" alt="NOS" class="f-img" />
-                        <img src="/src/footerimagens/worten.png" alt="Worten" class="f-img" />
+                        <img src="/footerimagens/belissimo.png" alt="Bellissimo" class="f-img" />
+                        <img src="/footerimagens/nos.png" alt="NOS" class="f-img" />
+                        <img src="/footerimagens/worten.png" alt="Worten" class="f-img" />
                     </div>
                 </div>
             </div>
@@ -130,37 +130,37 @@
             <div class="footer-row row-3">
                 <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
                 <div class="f-imgs-row gap-medium">
-                    <img src="/src/footerimagens/apame.png" alt="Apeme" class="f-img" />
-                    <img src="/src/footerimagens/apan2.png" alt="Apan" class="f-img" />
-                    <img src="/src/footerimagens/apap.png" alt="APAP" class="f-img" />
-                    <img src="/src/footerimagens/apce.png" alt="APCE" class="f-img" />
-                    <img src="/src/footerimagens/apecom.png" alt="Apecom" class="f-img" />
-                    <img src="/src/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                    <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
+                    <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
+                    <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
+                    <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
+                    <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
+                    <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
                 </div>
             </div>
 
             <div class="footer-row row-4">
                 <div class="f-col">
                     <span class="f-label">CAMPANHA</span>
-                    <img src="/src/footerimagens/fernando.png" alt="Campanha" class="f-img2 start" />
+                    <img src="/footerimagens/fernando.png" alt="Campanha" class="f-img2 start" />
                 </div>
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA MEDIA</span>
-                    <img src="/src/footerimagens/ipgmediabrands.png" alt="IPG" class="f-img2 start ipg-logo" />
+                    <img src="/footerimagens/ipgmediabrands.png" alt="IPG" class="f-img2 start ipg-logo" />
                 </div>
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA RP</span>
-                    <img src="/src/footerimagens/centraldeinformacao.png" alt="Central" class="f-img2 start" />
+                    <img src="/footerimagens/centraldeinformacao.png" alt="Central" class="f-img2 start" />
                 </div>
                 <div class="f-col">
                     <span class="f-label">PRODUTORA OFICIAL</span>
-                    <img src="/src/footerimagens/78films.png" alt="Film Brokers" class="f-img2 start" />
+                    <img src="/footerimagens/78films.png" alt="Film Brokers" class="f-img2 start" />
                 </div>
                 <div class="f-col right-align">
                     <span class="f-label">PARCEIRO EM ANALÍTICA E ESTUDOS DE MERCADO</span>
                     <div class="f-imgs-row">
-                        <img src="/src/footerimagens/carma.png" alt="Carma" class="f-img2" />
-                        <img src="/src/footerimagens/newssearch.png" alt="NewsSearch" class="f-img2" />
+                        <img src="/footerimagens/carma.png" alt="Carma" class="f-img2" />
+                        <img src="/footerimagens/newssearch.png" alt="NewsSearch" class="f-img2" />
                     </div>
                 </div>
             </div>
@@ -168,22 +168,22 @@
             <div class="footer-row row-5">
                 <div class="f-group-left narrow">
                     <span class="f-label">AGÊNCIA ATIVAÇÃO</span>
-                    <img src="/src/footerimagens/29graus.png" alt="29 Graus" class="f-img" />
+                    <img src="/footerimagens/29graus.png" alt="29 Graus" class="f-img" />
                 </div>
 
                 <div class="f-group-center">
                     <span class="f-label">PARCEIROS MEDIA</span>
                     <div class="f-imgs-row gap-medium">
-                        <img src="/src/footerimagens/+m.png" alt="M80" class="f-img" />
-                        <img src="/src/footerimagens/mop2.png" alt="MOP" class="f-img" />
-                        <img src="/src/footerimagens/publico.png" alt="Publico" class="f-img" />
-                        <img src="/src/footerimagens/rtp.png" alt="RTP" class="f-img" />
+                        <img src="/footerimagens/+m.png" alt="M80" class="f-img" />
+                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img" />
+                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img" />
+                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img" />
                     </div>
                 </div>
 
                 <div class="f-group-right narrow">
                     <span class="f-label text-right">APOIO</span>
-                    <img src="/src/footerimagens/sagres.png" alt="Sagres" class="f-img" />
+                    <img src="/footerimagens/sagres.png" alt="Sagres" class="f-img" />
                 </div>
             </div>
 
@@ -201,7 +201,7 @@
   <!-- Bottom Furos Section -->
   <section class="furos-bottom-section">
     <div class="furos-container">
-      <img src="/src/svg/furos.svg" alt="" class="furos-svg" />
+      <img src="/svg/furos.svg" alt="" class="furos-svg" />
     </div>
   </section>
 </div>
