@@ -73,7 +73,6 @@
   <section class="stats-section">
     <div class="stats-svg-container">
       <img src="/svg/O nosso cadastro.svg" alt="O nosso cadastro - 220 participantes, 6 Ouro, 2 Prata, 8 Bronze" class="stats-svg" />
-      <a href="#historia" class="stats-btn-overlay">SABE MAIS</a>
     </div>
     <div class="furos-container">
       <img src="/svg/furos.svg" alt="" class="furos-svg" />
@@ -300,28 +299,24 @@
 
   /* Statistics Section */
   .stats-section {
-    width: 100%;
-    padding: 0;
-    background-color: #EBEBEB;
-    overflow: hidden;
-    position: relative;
+      background-color: #EBEBEB;
+      padding: 4rem 3rem;
+      width: 100%;
+      position: relative;
   }
 
   .stats-svg-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding: 3rem 4rem;
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
   .stats-svg {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
+      width: 100%;
+      height: auto;
+      display: block;
   }
 
   /* Furos Container */
@@ -341,27 +336,9 @@
     display: block;
   }
 
-  .stats-btn-overlay {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0.875rem 2rem;
-    background-color: #0A1214;
-    color: #EBEBEB;
-    border: none;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.5625rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.3s;
-    text-decoration: none;
-  }
 
-  .stats-btn-overlay:hover {
-    background-color: #2B302D;
-  }
+
+
 
   /* Sections Common Styles */
   section {
@@ -771,11 +748,6 @@
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       padding: 1rem;
       gap: 1.5rem;
-    }
-
-    .stats-btn-overlay {
-      font-size: 1.2rem;
-      padding: 0.75rem 1.5rem;
     }
 
     .footer-social {

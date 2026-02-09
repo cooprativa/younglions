@@ -811,6 +811,166 @@
   }
 
 
+  /* Media Query para Tablets (iPad, Androids em landscape/portrait) */
+  @media screen and (max-width: 1024px) {
+
+      /* 1. Contentor Principal: Passa de lado-a-lado para coluna */
+      .folhas-container {
+          display: flex;
+          flex-direction: column; /* Empilha: Texto em cima, Form em baixo */
+          align-items: center;    /* Centraliza tudo */
+          justify-content: flex-start;
+          padding: 0 20px;        /* Margem de segurança nas laterais */
+          gap: 40px;              /* Espaço entre o texto e o formulário */
+      }
+
+      /* 2. Resetar posicionamentos absolutos que causam "flutuação" indesejada */
+      .form-overlay,
+      .titulo-inscricao {
+          position: relative;
+          width: 100%;
+          top: auto;
+          left: auto;
+          right: auto;
+          transform: none;
+      }
+
+      /* 3. Texto e Títulos: Centralizados para leitura fácil */
+      .titulo-inscricao {
+          text-align: center;
+          max-width: 700px;
+          padding-right: 0;
+      }
+
+      .titulo-svg {
+          margin: 0 auto 20px auto; /* Centraliza a imagem do título */
+          width: 80%; /* Ajusta tamanho do título gráfico */
+      }
+
+      .titulo-descricao,
+      .titulo-contacto {
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      /* 4. Passos: Organizados */
+      .passos-container {
+          align-items: flex-start; /* Mantém alinhamento interno */
+          display: inline-flex;    /* Mantém o bloco coeso */
+          flex-direction: column;
+          margin-top: 30px;
+          width: 100%;
+          max-width: 500px;
+      }
+
+      /* 5. Formulário: Largura controlada e centralizado */
+      .form-overlay {
+          max-width: 100%; /* Ocupa a largura disponível no tablet */
+          margin: 0 auto;
+          box-sizing: border-box;
+      }
+
+      /* 6. Inputs que estão em linha (Data/Email): Empilhar se o tablet for estreito */
+      .form-row {
+          display: flex;
+          flex-wrap: wrap; /* Permite que caiam para a linha de baixo se faltar espaço */
+          gap: 15px;
+      }
+
+      .form-row .form-group {
+          flex: 1 1 45%; /* Tenta ocupar 50%, mas ajusta-se */
+          min-width: 250px; /* Se for menor que 250px, empilha */
+      }
+
+      /* 7. Header (Logos): Garantir que não sobrepõem */
+      .hero-content {
+          padding: 20px;
+          flex-wrap: wrap; /* Permite quebra de linha se necessário */
+          gap: 20px;
+      }
+  }
+
+  /* APENAS TABLET (Max 1024px) */
+  @media screen and (max-width: 1024px) {
+
+      /* 1. O contentor do texto (lado esquerdo no HTML) */
+      .titulo-inscricao {
+          /* Reseta qualquer "flutuação" anterior */
+          position: relative !important;
+          top: auto !important;
+          left: auto !important;
+          transform: none !important;
+
+          /* Estrutura sólida */
+          display: block;
+          width: 100%;
+          max-width: 600px; /* Impede que o texto fique demasiado largo e difícil de ler */
+          margin: 0 auto 40px auto; /* Centraliza o bloco na página e empurra o formulário para baixo */
+          padding: 0 20px; /* Margem interna para não colar nas bordas do ecrã */
+
+          /* Alinhamento do conteúdo */
+          text-align: center;
+          z-index: 5; /* Garante que está acima das folhas de fundo */
+      }
+
+      /* 2. A imagem do título "Inscrição" */
+      .titulo-svg {
+          display: block;
+          margin: 0 auto 20px auto; /* Centraliza a imagem */
+          max-width: 80%; /* Ajusta o tamanho para não estourar */
+          height: auto;
+      }
+
+      /* 3. O texto "SÊ CULPADO DE..." */
+      .titulo-subtexto {
+          font-size: 1.8rem; /* Tamanho legível */
+          line-height: 1.2;
+          margin-bottom: 15px;
+          display: block; /* Garante que ocupa a linha */
+      }
+
+      /* 4. Descrição e Email */
+      .titulo-descricao,
+      .titulo-contacto {
+          font-size: 1rem;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 90%; /* Evita que o texto vá de ponta a ponta */
+      }
+
+      /* =================================================
+         5. OS PASSOS (1, 2, 3) - Onde costuma haver mais "bagunça"
+         ================================================= */
+      .passos-container {
+          display: flex;
+          flex-direction: column; /* Empilha os passos um por um */
+          align-items: center; /* Centraliza os passos */
+          gap: 20px; /* Espaço entre cada passo */
+          margin-top: 30px;
+          width: 100%;
+      }
+
+      .passo-box {
+          display: flex;
+          align-items: center; /* Alinha o número com o texto verticalmente */
+          justify-content: flex-start; /* Mantém o texto junto ao número */
+          text-align: left; /* O texto dentro do passo deve ser lido da esq para dir */
+
+          /* Cria um "bloco" para cada passo */
+          width: 100%;
+          max-width: 450px;
+          background-color: rgba(255, 255, 255, 0.6); /* Opcional: fundo subtil para leitura */
+          padding: 10px;
+          border-radius: 8px;
+      }
+
+      .passo-numero {
+          flex-shrink: 0; /* Impede que a bolinha do número encolha */
+          margin-right: 15px;
+      }
+  }
+
+
   /* --- RESPONSIVO (MOBILE) --- */
   @media (max-width: 1024px) {
       .footer-row {
