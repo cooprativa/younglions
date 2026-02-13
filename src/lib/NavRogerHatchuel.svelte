@@ -34,6 +34,7 @@
 
     <div class="nav-overlay" class:active={isOpen}>
         <a href="#home" class="nav-home" aria-label="Home" on:click={closeMenu}>
+            <span class="nav-text mobile-only">HOME</span>
             <span class="sr-only">Home</span>
         </a>
 
@@ -91,12 +92,17 @@
         line-height: normal;
     }
 
+    /* DESKTOP: HOME INVISÍVEL */
     .nav-home {
         position: absolute;
         left: 0%;
         width: 3%;
         height: 100%;
         z-index: 5;
+    }
+
+    .mobile-only {
+        display: none; /* Esconde o texto HOME no PC */
     }
 
     .nav-link {
@@ -136,6 +142,7 @@
         overflow: hidden; clip: rect(0 0 0 0); border: 0;
     }
 
+    /* --- MOBILE --- */
     @media (max-width: 850px) {
         .nav { height: 70px; }
         .nav-bg { display: none; }
@@ -182,6 +189,22 @@
 
         .nav-overlay.active { right: 0; }
 
+        /* FAZ O LINK HOME APARECER NO MENU */
+        .nav-home {
+            position: relative;
+            left: auto !important;
+            width: auto !important;
+            height: auto;
+            margin: 20px 0;
+            display: block;
+        }
+
+        .mobile-only {
+            display: inline-block; /* Revela o texto HOME */
+            font-size: 22px;
+            color: #000;
+        }
+
         .nav-link {
             position: relative;
             left: auto !important;
@@ -192,6 +215,7 @@
         }
 
         .nav-text { font-size: 22px; color: #000 !important; }
+
         .nav-text.white {
             background: #000;
             color: #fff !important;

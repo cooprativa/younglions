@@ -32,11 +32,13 @@
         <span></span>
     </button>
 
-    <a href="#home" class="nav-home" aria-label="Home" on:click={closeMenu}>
-        <span class="sr-only">Home</span>
-    </a>
+
 
     <div class="nav-overlay" class:active={isOpen}>
+        <a href="#home" class="nav-home" aria-label="Home" on:click={closeMenu}>
+            <span class="nav-text mobile-only">HOME</span>
+            <span class="sr-only">Home</span>
+        </a>
         <a href="#sobre" class="nav-link link-sobre" on:click={closeMenu}>
             <span class="nav-text">SOBRE</span>
         </a>
@@ -88,6 +90,7 @@
         line-height: normal;
     }
 
+    /* DESKTOP: HOME INVISÍVEL */
     .nav-home {
         position: absolute;
         left: 0%;
@@ -95,6 +98,11 @@
         height: 100%;
         z-index: 5;
         top: 5%;
+    }
+
+    /* ESCONDE O TEXTO "HOME" NO PC */
+    .mobile-only {
+        display: none;
     }
 
     .nav-link {
@@ -119,7 +127,7 @@
 
     .white { color: #fff; }
 
-    /* --- POSIÇÕES CORRIGIDAS --- */
+    /* --- POSIÇÕES DESKTOP --- */
     .link-sobre { left: -1%; width: 17%; }
     .link-juri { left: 18%; width: 17%; }
     .link-historia { left: 40%; width: 17%; }
@@ -134,9 +142,10 @@
         overflow: hidden; clip: rect(0 0 0 0); border: 0;
     }
 
+    /* --- MOBILE --- */
     @media (max-width: 850px) {
-        .nav { height: 70px; }
-        .nav-bg { display: none; }
+        .nav { height: 70px; background: transparent; }
+        .nav-bg { display: none !important; }
 
         .hamburger {
             display: flex;
@@ -152,13 +161,7 @@
             top: 25px;
         }
 
-        .hamburger span {
-            width: 100%;
-            height: 2px;
-            background: #000;
-            transition: 0.3s;
-        }
-
+        .hamburger span { width: 100%; height: 2px; background: #000; transition: 0.3s; }
         .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
         .hamburger.open span:nth-child(2) { opacity: 0; }
         .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
@@ -172,28 +175,70 @@
             background-color: #ffffff;
             flex-direction: column;
             justify-content: center;
-            transform: none;
-            left: auto;
+            align-items: center;
             transition: 0.4s ease-in-out;
             z-index: 100;
+            visibility: hidden; /* Esconde tudo enquanto fechado */
         }
 
-        .nav-overlay.active { right: 0; }
+        .nav-overlay.active {
+            right: 0;
+            visibility: visible;
+        }
 
-        .nav-link {
-            position: relative;
+        /* 🔹 RESET TOTAL DA HOME NO MOBILE 🔹 */
+        .nav-home {
+            /* Forçamos o link a comportar-se como um item da lista */
+            position: relative !important;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+
+            /* Anulamos todas as coordenadas do Desktop */
             left: auto !important;
+            top: auto !important;
+            bottom: auto !important;
+            right: auto !important;
+            transform: none !important;
+
+            /* Damos tamanho para ele ser visível e clicável */
             width: auto !important;
-            height: auto;
-            margin: 20px 0;
-            transform: none;
+            height: auto !important;
+            margin-bottom: 25px !important;
+            z-index: 110;
         }
 
-        .nav-text { font-size: 22px; color: #000 !important; }
+        /* Revela o texto que adicionaste no HTML */
+        .mobile-only {
+            display: inline-block !important;
+            font-size: 22px !important;
+            color: #000 !important;
+            font-family: 'IBM Plex Mono', monospace;
+            visibility: visible !important;
+        }
+
+        /* RESET DOS OUTROS LINKS */
+        .nav-link {
+            position: relative !important;
+            left: auto !important;
+            top: auto !important;
+            width: auto !important;
+            height: auto !important;
+            margin: 15px 0 !important;
+            transform: none !important;
+            display: flex !important;
+        }
+
+        .nav-text {
+            font-size: 22px !important;
+            color: #000 !important;
+            visibility: visible !important;
+        }
+
         .nav-text.white {
             background: #000;
             color: #fff !important;
-            padding: 10px 20px;
+            padding: 10px 25px;
             border-radius: 4px;
         }
     }

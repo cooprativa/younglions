@@ -34,6 +34,7 @@
 
     <div class="nav-overlay" class:active={isOpen}>
         <a href="#home" class="nav-home" aria-label="Home" on:click={closeMenu}>
+            <span class="nav-text mobile-only">HOME</span>
             <span class="sr-only">Home</span>
         </a>
 
@@ -60,6 +61,7 @@
 </nav>
 
 <style>
+    /* --- CSS EXISTENTE (DESKTOP) --- */
     .nav {
         position: relative;
         width: 100%;
@@ -82,7 +84,6 @@
         transform: translateX(-10vw);
     }
 
-    /* --- DESKTOP --- */
     .nav-overlay {
         position: absolute;
         top: 0;
@@ -107,6 +108,11 @@
         z-index: 5;
     }
 
+    /* ESCONDE O TEXTO "HOME" NO PC */
+    .mobile-only {
+        display: none;
+    }
+
     .nav-link {
         position: absolute;
         height: 100%;
@@ -129,7 +135,6 @@
 
     .white { color: #000000; }
 
-    /* Posições exatas do teu CSS */
     .link-sobre { left: -21%; width: 20%; }
     .link-juri { left: 2%; width: 20%; }
     .link-historia { left: 26%; width: 20%; }
@@ -165,7 +170,7 @@
             z-index: 101;
             position: absolute;
             right: 20px;
-            top: 25px; /* Espaçamento de topo mantido */
+            top: 25px;
         }
 
         .hamburger span {
@@ -195,6 +200,21 @@
         }
 
         .nav-overlay.active { right: 0; }
+
+        /* AJUSTE DO LINK HOME PARA APARECER NA LISTA */
+        .nav-home {
+            position: relative;
+            left: auto;
+            top: auto;
+            width: auto;
+            height: auto;
+            margin-bottom: 20px; /* Espaço para o próximo link */
+        }
+
+        .mobile-only {
+            display: inline-block; /* Revela o texto HOME */
+            font-size: 22px;
+        }
 
         .nav-link {
             position: relative;
