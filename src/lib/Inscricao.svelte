@@ -157,14 +157,13 @@
 
   <!-- Footer -->
     <footer class="footer">
-
         <div class="footer-rows-container">
 
             <div class="footer-row row-1">
                 <div class="f-group-left">
                     <span class="f-label">ORGANIZAÇÃO</span>
                     <div class="f-imgs-row">
-                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img" />
+                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img img1" />
                     </div>
                 </div>
                 <div class="f-group-right">
@@ -180,23 +179,26 @@
                 </div>
                 <div class="f-group-right">
                     <span class="f-label text-right">PATROCINADORES</span>
-                    <div class="f-imgs-row gap-large">
-                        <img src="/footerimagens/belissimo.png" alt="Bellissimo" class="f-img" />
-                        <img src="/footerimagens/nos.png" alt="NOS" class="f-img" />
-                        <img src="/footerimagens/worten.png" alt="Worten" class="f-img" />
-                    </div>
+                    <img src="/footerimagens/patrocinadores.png" alt="Patrocinadores" class="f-img single-logo" />
                 </div>
             </div>
 
             <div class="footer-row row-3">
-                <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
-                <div class="f-imgs-row gap-medium">
-                    <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
-                    <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
-                    <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
-                    <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
-                    <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
-                    <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                <div class="f-group-left partners-left">
+                    <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
+                    <div class="f-imgs-row gap-medium">
+                        <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
+                        <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
+                        <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
+                        <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
+                        <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
+                        <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                    </div>
+                </div>
+
+                <div class="f-group-right bootcamp-right">
+                    <span class="f-label">Bootcamp Host</span>
+                    <img src="/footerimagens/IADE.png" alt="IADE" class="f-img" />
                 </div>
             </div>
 
@@ -205,46 +207,46 @@
                     <span class="f-label">CAMPANHA</span>
                     <img src="/footerimagens/fernando.png" alt="Campanha" class="f-img2 start" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA MEDIA</span>
-                    <img src="/footerimagens/ipgmediabrands.png" alt="IPG" class="f-img2 start ipg-logo" />
+                    <img src="/footerimagens/OMNICOM.png" alt="OMNICOM" class="f-img2 start small-logo" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA RP</span>
                     <img src="/footerimagens/centraldeinformacao.png" alt="Central" class="f-img2 start" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">PRODUTORA OFICIAL</span>
-                    <img src="/footerimagens/78films.png" alt="Film Brokers" class="f-img2 start" />
+                    <img src="/footerimagens/ProdutoraOficial.png" alt="Film Brokers" class="f-img2 start" />
                 </div>
+
                 <div class="f-col right-align">
+                    <span class="f-label text-right">PARCEIRO WEB</span>
+                    <img src="/footerimagens/cooprativa.png" alt="Cooprativa" class="f-img2 end" />
+                </div>
+            </div>
+
+            <div class="footer-row row-5">
+                <div class="f-group-left">
                     <span class="f-label">PARCEIRO EM ANALÍTICA E ESTUDOS DE MERCADO</span>
                     <div class="f-imgs-row">
                         <img src="/footerimagens/carma.png" alt="Carma" class="f-img2" />
                         <img src="/footerimagens/newssearch.png" alt="NewsSearch" class="f-img2" />
                     </div>
                 </div>
-            </div>
 
-            <div class="footer-row row-5">
-                <div class="f-group-left narrow">
-                    <span class="f-label">AGÊNCIA ATIVAÇÃO</span>
-                    <img src="/footerimagens/29graus.png" alt="29 Graus" class="f-img" />
-                </div>
-
-                <div class="f-group-center">
-                    <span class="f-label">PARCEIROS MEDIA</span>
-                    <div class="f-imgs-row gap-medium">
-                        <img src="/footerimagens/+m.png" alt="M80" class="f-img" />
-                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img" />
-                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img" />
-                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img" />
+                <div class="f-group-right force-right">
+                    <span class="f-label text-right">PARCEIROS MEDIA</span>
+                    <div class="f-imgs-row gap-medium right-aligned-imgs">
+                        <img src="/footerimagens/+m.png" alt="M80" class="f-img2" />
+                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img2" />
+                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img2" />
+                        <img src="/footerimagens/RFM.png" alt="RFM" class="f-img2" />
+                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img2" />
                     </div>
-                </div>
-
-                <div class="f-group-right narrow">
-                    <span class="f-label text-right">APOIO</span>
-                    <img src="/footerimagens/sagres.png" alt="Sagres" class="f-img" />
                 </div>
             </div>
 
@@ -268,952 +270,746 @@
 </div>
 
 <style>
-  .inscricao-page {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #FFCD00;
-    overflow-x: hidden;
-  }
-
-  /* Hero Section */
-  .hero-inscricao {
-    width: 100%;
-    padding: 4rem 2rem;
-    background-color: #FFCD00;
-    overflow: visible;
-  }
-
-  .hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-    gap: 2rem;
-    padding: 0 2rem;
-  }
-
-  .hero-left {
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  .hero-right {
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .logo-inscricao {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    display: block;
-  }
-
-  .culpado-inscricao {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    display: block;
-  }
-
-  /* Folhas Container */
-  .folhas-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin-left: -40px;
-    margin-top: 3rem;
-    margin-right: 5rem;
-    overflow: visible;
-    position: relative;
-  }
-
-  .folhas-juntas {
-    width: calc(100% + 40px);
-    max-width: none;
-    height: auto;
-    display: block;
-  }
-
-  /* Título Inscrição - Folha Esquerda */
-  .titulo-inscricao {
-    position: absolute;
-    top: 10%;
-    left: 12%;
-    width: 35%;
-    max-width: 320px;
-    z-index: 10;
-  }
-
-  .titulo-svg {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .titulo-subtexto {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #000;
-    margin-top: 3.2rem;
-    line-height: 1.4;
-  }
-
-  .titulo-descricao {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.85rem;
-    font-weight: 400;
-    color: #000;
-    margin-top: 1.5rem;
-    line-height: 1.6;
-      text-transform: uppercase;
-  }
-
-  .titulo-contacto {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.85rem;
-    font-weight: 400;
-    color: #000;
-    margin-top: 1rem;
-    line-height: 1.6;
-      text-transform: uppercase;
-  }
-
-  .email-link {
-    color: #D5B32A;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .email-link:hover {
-    text-decoration: underline;
-  }
-
-  /* Passos */
-  .passos-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 1.5rem;
-  }
-
-  .passo-box {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.75rem 1rem;
-    border: 2px solid #0A1214;
-    background-color: transparent;
-  }
-
-  .passo-numero {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 4.5rem;
-    font-weight: 700;
-    color: #0A1214;
-    line-height: 1;
-  }
-
-  .passo-texto {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    font-weight: 400;
-    color: #0A1214;
-    line-height: 1.4;
-    text-transform: uppercase;
-    margin: 0;
-  }
-
-  /* Form Overlay - Posicionado sobre a folha direita */
-  .form-overlay {
-    position: absolute;
-    top: 5%;
-    right: 2%;
-    width: 52%;
-    max-width: 650px;
-    height: auto;
-    padding: 2rem;
-    z-index: 10;
-  }
-
-  /* Formulário */
-  .inscricao-form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  /* Labels */
-  .form-label {
-    display: block;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: #000;
-    margin-bottom: 6px;
-  }
-
-  /* Títulos de Secção */
-  .section-title {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.8rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #000;
-    margin: 0 0 4px 0;
-    padding-top: 4px;
-  }
-
-  /* Form Section */
-  .form-section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-top: 4px;
-  }
-
-  /* Form Group */
-  .form-group {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Form Row - 2 colunas */
-  .form-row {
-    display: flex;
-    gap: 10px;
-  }
-
-  .form-row .form-group {
-    flex: 1;
-  }
-
-  /* Inputs, Selects */
-  .form-input,
-  .form-select {
-    width: 100%;
-    height: 56px;
-    padding: 16px 18px;
-    background-color: #E7E3D5;
-    border: none;
-    border-radius: 8px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: #000;
-    outline: none;
-    transition: outline 0.2s;
-    box-sizing: border-box;
-  }
-
-  .form-input::placeholder {
-    color: #000;
-    opacity: 1;
-    font-weight: 600;
-  }
-
-  .form-input:focus,
-  .form-select:focus {
-    outline: 1px solid rgba(0, 0, 0, 0.3);
-  }
-
-  /* Select */
-  .form-select {
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23000' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 16px center;
-    padding-right: 40px;
-    cursor: pointer;
-  }
-
-  /* Upload Area */
-  .upload-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    min-height: 70px;
-    background-color: #E7E3D5;
-    border: 1.5px dashed rgba(0, 0, 0, 0.4);
-    border-radius: 8px;
-    cursor: pointer;
-    text-align: left;
-    padding: 14px 16px;
-    box-sizing: border-box;
-    transition: border-color 0.2s;
-  }
-
-  .upload-area:hover {
-    border-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .file-input {
-    display: none;
-  }
-
-  .upload-text {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    color: #000;
-    margin-bottom: 2px;
-  }
-
-  .upload-subtext {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    font-weight: 400;
-    color: #555;
-  }
-
-  /* Consent */
-  .consent-group {
-    margin-top: 6px;
-  }
-
-  .consent-label {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    cursor: pointer;
-  }
-
-  .consent-checkbox {
-    width: 16px;
-    height: 16px;
-    margin-top: 2px;
-    accent-color: #000;
-    cursor: pointer;
-    flex-shrink: 0;
-    border: 1px solid #000;
-  }
-
-  .consent-text {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    font-weight: 400;
-    color: #000;
-    line-height: 1.5;
-  }
-
-  .consent-link {
-    color: #000;
-    text-decoration: underline;
-  }
-
-  /* Submit Button */
-  .submit-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 12px;
-  }
-
-  .submit-btn {
-    width: auto;
-    height: 48px;
-    padding: 0 2rem;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.875rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .submit-btn:hover {
-    background-color: #2B302D;
-  }
-
-  /* Footer */
-  .footer {
-    background-color: #EBEBEB;
-    padding: 2rem 2rem 3rem;
-  }
-
-  /* --- CSS DO NOVO FOOTER CORRIGIDO E AJUSTADO --- */
-
-  .footer-rows-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      background-color: transparent;
-      border: none;
-      font-family: 'IBM Plex Mono', monospace;
-  }
-
-  /* Estilo Base para cada Linha */
-  .footer-row {
-      width: 100%;
-      border: 2px solid #000;
-      margin-bottom: 1.5rem;
-      background-color: transparent;
-      padding: 1.5rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-  }
-
-  .footer-row:last-child {
-      margin-bottom: 0;
-      border-bottom: 2px solid #000;
-  }
-
-  /* --- LABELS E TEXTOS --- */
-  .f-label {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #000;
-      margin-bottom: 1rem;
-      display: block;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      line-height: 1.2;
-  }
-
-  .text-right {
-      text-align: right;
-      width: 100%;
-  }
-
-  /* --- IMAGENS GERAIS --- */
-  .f-img {
-      height: 40px;
-      width: auto;
-      object-fit: contain;
-      display: block;
-  }
-
-  .f-img.big-logo {
-      height: 50px;
-  }
-
-  /* --- IMAGENS PEQUENAS (LINHA 4) --- */
-  /* Corrigido: classe isolada e tamanho reduzido para 30px */
-  .f-img2 {
-      height: 30px; /* Reduzido para dar espaço */
-      width: auto;
-      object-fit: contain;
-      display: block;
-  }
-
-  .f-imgs-row {
-      display: flex;
-      gap: 1.5rem;
-      align-items: center;
-      flex-wrap: wrap;
-  }
-
-  .f-imgs-row.gap-large { gap: 3rem; }
-  .f-imgs-row.gap-medium { gap: 2rem; }
-
-
-  /* --- GRUPOS DE POSICIONAMENTO --- */
-  .f-group-left {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      text-align: left;
-  }
-
-  .f-group-right {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      text-align: right;
-  }
-
-  /* --- REGRAS ESPECÍFICAS POR LINHA --- */
-
-  .row-1, .row-2 {
-      align-items: flex-end;
-  }
-
-  .row-3 {
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  /* Linha 4: Grid com 5 colunas */
-  .row-4 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
-      gap: 1rem;
-      align-items: start;
-  }
-
-  .f-col {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  .f-col.right-align {
-      align-items: flex-end;
-      text-align: right;
-  }
-
-  /* Garante que na direita as imagens ficam lado a lado e encostadas à direita */
-  .f-col.right-align .f-imgs-row {
-      justify-content: flex-end;
-  }
-
-  /* --- LINHA 5: AJUSTES PARA ESQUERDA --- */
-  .row-5 {
-      display: flex;
-      /* Altera o justify para start para podermos controlar a posição manualmente */
-      justify-content: flex-start;
-      align-items: flex-end;
-      gap: 4rem; /* Dá espaço entre o grupo da esquerda e o do meio */
-  }
-
-  /* O grupo do meio (Parceiros Media) agora alinha à esquerda */
-  .f-group-center {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; /* Alinha à esquerda */
-      padding: 0; /* Remove padding antigo */
-  }
-
-  /* Força o grupo da direita (Apoio) a ir para o extremo direito */
-  .f-group-right.narrow {
-      margin-left: auto; /* Isto empurra este elemento sozinho para a direita */
-      flex: 0 0 auto;
-  }
-
-  .f-group-left.narrow {
-      flex: 0 0 auto;
-  }
-
-  /* Ajuste específico para o IPG */
-  .ipg-logo {
-      height: 22px; /* Era 30px, reduz para 22px ou 20px conforme o gosto */
-  }
-
-
-  /* Media Query para Tablets (iPad, Androids em landscape/portrait) */
-  @media screen and (max-width: 1024px) {
-
-      /* 1. Contentor Principal: Passa de lado-a-lado para coluna */
-      .folhas-container {
-          display: flex;
-          flex-direction: column; /* Empilha: Texto em cima, Form em baixo */
-          align-items: center;    /* Centraliza tudo */
-          justify-content: flex-start;
-          padding: 0 20px;        /* Margem de segurança nas laterais */
-          gap: 40px;              /* Espaço entre o texto e o formulário */
-      }
-
-      /* 2. Resetar posicionamentos absolutos que causam "flutuação" indesejada */
-      .form-overlay,
-      .titulo-inscricao {
-          position: relative;
-          width: 100%;
-          top: auto;
-          left: auto;
-          right: auto;
-          transform: none;
-      }
-
-      /* 3. Texto e Títulos: Centralizados para leitura fácil */
-      .titulo-inscricao {
-          text-align: center;
-          max-width: 700px;
-          padding-right: 0;
-      }
-
-      .titulo-svg {
-          margin: 0 auto 20px auto; /* Centraliza a imagem do título */
-          width: 80%; /* Ajusta tamanho do título gráfico */
-      }
-
-      .titulo-descricao,
-      .titulo-contacto {
-          margin-left: auto;
-          margin-right: auto;
-      }
-
-      /* 4. Passos: Organizados */
-      .passos-container {
-          align-items: flex-start; /* Mantém alinhamento interno */
-          display: inline-flex;    /* Mantém o bloco coeso */
-          flex-direction: column;
-          margin-top: 30px;
-          width: 100%;
-          max-width: 500px;
-      }
-
-      /* 5. Formulário: Largura controlada e centralizado */
-      .form-overlay {
-          max-width: 100%; /* Ocupa a largura disponível no tablet */
-          margin: 0 auto;
-          box-sizing: border-box;
-      }
-
-      /* 6. Inputs que estão em linha (Data/Email): Empilhar se o tablet for estreito */
-      .form-row {
-          display: flex;
-          flex-wrap: wrap; /* Permite que caiam para a linha de baixo se faltar espaço */
-          gap: 15px;
-      }
-
-      .form-row .form-group {
-          flex: 1 1 45%; /* Tenta ocupar 50%, mas ajusta-se */
-          min-width: 250px; /* Se for menor que 250px, empilha */
-      }
-
-      /* 7. Header (Logos): Garantir que não sobrepõem */
-      .hero-content {
-          padding: 20px;
-          flex-wrap: wrap; /* Permite quebra de linha se necessário */
-          gap: 20px;
-      }
-  }
-
-  /* APENAS TABLET (Max 1024px) */
-  @media screen and (max-width: 1024px) {
-
-      /* 1. O contentor do texto (lado esquerdo no HTML) */
-      .titulo-inscricao {
-          /* Reseta qualquer "flutuação" anterior */
-          position: relative !important;
-          top: auto !important;
-          left: auto !important;
-          transform: none !important;
-
-          /* Estrutura sólida */
-          display: block;
-          width: 100%;
-          max-width: 600px; /* Impede que o texto fique demasiado largo e difícil de ler */
-          margin: 0 auto 40px auto; /* Centraliza o bloco na página e empurra o formulário para baixo */
-          padding: 0 20px; /* Margem interna para não colar nas bordas do ecrã */
-
-          /* Alinhamento do conteúdo */
-          text-align: center;
-          z-index: 5; /* Garante que está acima das folhas de fundo */
-      }
-
-      /* 2. A imagem do título "Inscrição" */
-      .titulo-svg {
-          display: block;
-          margin: 0 auto 20px auto; /* Centraliza a imagem */
-          max-width: 80%; /* Ajusta o tamanho para não estourar */
-          height: auto;
-      }
-
-      /* 3. O texto "SÊ CULPADO DE..." */
-      .titulo-subtexto {
-          font-size: 1.8rem; /* Tamanho legível */
-          line-height: 1.2;
-          margin-bottom: 15px;
-          display: block; /* Garante que ocupa a linha */
-      }
-
-      /* 4. Descrição e Email */
-      .titulo-descricao,
-      .titulo-contacto {
-          font-size: 1rem;
-          margin-left: auto;
-          margin-right: auto;
-          max-width: 90%; /* Evita que o texto vá de ponta a ponta */
-      }
-
-      /* =================================================
-         5. OS PASSOS (1, 2, 3) - Onde costuma haver mais "bagunça"
-         ================================================= */
-      .passos-container {
-          display: flex;
-          flex-direction: column; /* Empilha os passos um por um */
-          align-items: center; /* Centraliza os passos */
-          gap: 20px; /* Espaço entre cada passo */
-          margin-top: 30px;
-          width: 100%;
-      }
-
-      .passo-box {
-          display: flex;
-          align-items: center; /* Alinha o número com o texto verticalmente */
-          justify-content: flex-start; /* Mantém o texto junto ao número */
-          text-align: left; /* O texto dentro do passo deve ser lido da esq para dir */
-
-          /* Cria um "bloco" para cada passo */
-          width: 100%;
-          max-width: 450px;
-          background-color: rgba(255, 255, 255, 0.6); /* Opcional: fundo subtil para leitura */
-          padding: 10px;
-          border-radius: 8px;
-      }
-
-      .passo-numero {
-          flex-shrink: 0; /* Impede que a bolinha do número encolha */
-          margin-right: 15px;
-      }
-  }
-
-
-  /* --- RESPONSIVO (MOBILE) --- */
-  @media (max-width: 1024px) {
-      .footer-row {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 2rem;
-      }
-
-      .row-4 {
-          display: flex;
-          flex-direction: column;
-      }
-
-      .row-5 {
-          gap: 2rem; /* Reduz gap no mobile */
-      }
-
-      .f-group-right,
-      .f-col.right-align,
-      .text-right,
-      .f-col.right-align .f-imgs-row,
-      .f-group-right.narrow {
-          align-items: flex-start;
-          justify-content: flex-start;
-          text-align: left;
-          margin-left: 0; /* Remove o auto margin no mobile */
-      }
-  }
-
-  .footer-social {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3rem 4rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .social-link {
-    color: #000;
-    text-decoration: none;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.125rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: opacity 0.3s;
-    position: relative;
-  }
-
-  .social-link:hover {
-    opacity: 0.7;
-  }
-
-  .social-link::before {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #000;
-    transition: width 0.3s;
-  }
-
-  .social-link:hover::before {
-    width: 100%;
-  }
-
-  /* Furos Bottom Section */
-  .furos-bottom-section {
-    background-color: #FFCD00;
-    padding: 0;
-    width: 100%;
-  }
-
-  .furos-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 4rem;
-  }
-
-  .furos-svg {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* Responsive */
-  @media (max-width: 1200px) {
-    .form-overlay {
-      width: 45%;
-      max-width: 480px;
-      padding: 1.5rem;
-      right: 3%;
+    /* --- GERAL DA PÁGINA INSCRIÇÃO --- */
+    .inscricao-page {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #FFCD00; /* Amarelo */
+        overflow-x: hidden;
+        font-family: 'IBM Plex Mono', monospace;
     }
 
-    .form-input,
-    .form-select {
-      height: 44px;
-      font-size: 0.75rem;
+    /* Hero Section */
+    .hero-inscricao {
+        width: 100%;
+        padding: 4rem 2rem;
+        background-color: #FFCD00;
+        overflow: visible;
     }
 
-    .upload-area {
-      height: 80px;
+    .hero-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
+        gap: 2rem;
+        padding: 0 2rem;
     }
 
-    .upload-text {
-      font-size: 0.65rem;
-    }
-  }
-
-  @media (max-width: 992px) {
-    .form-overlay {
-      position: relative;
-      top: auto;
-      right: auto;
-      width: 100%;
-      max-width: 600px;
-      margin: 2rem auto 0;
-      padding: 2rem;
-      background-color: #FBF6E3;
-      border-radius: 8px;
+    .hero-left {
+        flex: 0 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
+    .hero-right {
+        flex: 0 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .logo-inscricao {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        display: block;
+    }
+
+    .culpado-inscricao {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+    }
+
+    /* Folhas Container */
     .folhas-container {
-      flex-direction: column;
-      align-items: center;
-      margin-left: 0;
-      margin-right: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: -40px;
+        margin-top: 3rem;
+        margin-right: 5rem;
+        overflow: visible;
+        position: relative;
     }
 
     .folhas-juntas {
-      width: 100%;
-      max-width: 800px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .hero-content {
-      flex-direction: column;
-      gap: 2rem;
+        width: calc(100% + 40px);
+        max-width: none;
+        height: auto;
+        display: block;
     }
 
-    .hero-left,
-    .hero-right {
-      justify-content: center;
+    /* Título Inscrição - Folha Esquerda */
+    .titulo-inscricao {
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        width: 35%;
+        max-width: 320px;
+        z-index: 10;
     }
 
-    .logo-inscricao {
-      max-width: 180px;
+    .titulo-svg {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
-    .culpado-inscricao {
-      max-width: 220px;
+    .titulo-subtexto {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #000;
+        margin-top: 3.2rem;
+        line-height: 1.4;
     }
 
+    .titulo-descricao {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.85rem;
+        font-weight: 400;
+        color: #000;
+        margin-top: 1.5rem;
+        line-height: 1.6;
+        text-transform: uppercase;
+    }
+
+    .titulo-contacto {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.85rem;
+        font-weight: 400;
+        color: #000;
+        margin-top: 1rem;
+        line-height: 1.6;
+        text-transform: uppercase;
+    }
+
+    .email-link {
+        color: #D5B32A;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .email-link:hover { text-decoration: underline; }
+
+    /* Passos */
+    .passos-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .passo-box {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.75rem 1rem;
+        border: 2px solid #0A1214;
+        background-color: transparent;
+    }
+
+    .passo-numero {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 4.5rem;
+        font-weight: 700;
+        color: #0A1214;
+        line-height: 1;
+    }
+
+    .passo-texto {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.65rem;
+        font-weight: 400;
+        color: #0A1214;
+        line-height: 1.4;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    /* Form Overlay */
     .form-overlay {
-      padding: 1.5rem;
+        position: absolute;
+        top: 5%;
+        right: 2%;
+        width: 52%;
+        max-width: 650px;
+        height: auto;
+        padding: 2rem;
+        z-index: 10;
     }
 
-    .form-row {
-      flex-direction: column;
-      gap: 16px;
+    /* Formulário */
+    .inscricao-form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 
-    .footer-social {
-      gap: 1.5rem;
-      justify-content: center;
-      padding: 2rem 2rem 1rem;
-    }
-
-    .social-link {
-      font-size: 1rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .hero-inscricao {
-      padding: 2rem 1rem;
-    }
-
-    .logo-inscricao {
-      max-width: 140px;
-    }
-
-    .culpado-inscricao {
-      max-width: 180px;
-    }
-
-    .form-overlay {
-      padding: 1rem;
-    }
-
-    .form-input,
-    .form-select {
-      height: 42px;
-      padding: 10px 12px;
-      font-size: 0.7rem;
+    .form-label {
+        display: block;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #000;
+        margin-bottom: 6px;
     }
 
     .section-title {
-      font-size: 0.75rem;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #000;
+        margin: 0 0 4px 0;
+        padding-top: 4px;
+    }
+
+    .form-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 4px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .form-row .form-group { flex: 1; }
+
+    /* Inputs, Selects */
+    .form-input,
+    .form-select {
+        width: 100%;
+        height: 56px;
+        padding: 16px 18px;
+        background-color: #E7E3D5;
+        border: none;
+        border-radius: 8px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #000;
+        outline: none;
+        transition: outline 0.2s;
+        box-sizing: border-box;
+    }
+
+    .form-input::placeholder {
+        color: #000;
+        opacity: 1;
+        font-weight: 600;
+    }
+
+    .form-input:focus,
+    .form-select:focus {
+        outline: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .form-select {
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23000' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 16px center;
+        padding-right: 40px;
+        cursor: pointer;
     }
 
     .upload-area {
-      height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        min-height: 70px;
+        background-color: #E7E3D5;
+        border: 1.5px dashed rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+        cursor: pointer;
+        text-align: left;
+        padding: 14px 16px;
+        box-sizing: border-box;
+        transition: border-color 0.2s;
     }
 
+    .upload-area:hover { border-color: rgba(0, 0, 0, 0.6); }
+
+    .file-input { display: none; }
+
     .upload-text {
-      font-size: 0.6rem;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        color: #000;
+        margin-bottom: 2px;
     }
 
     .upload-subtext {
-      font-size: 0.55rem;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.65rem;
+        font-weight: 400;
+        color: #555;
+    }
+
+    .consent-group { margin-top: 6px; }
+
+    .consent-label {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .consent-checkbox {
+        width: 16px;
+        height: 16px;
+        margin-top: 2px;
+        accent-color: #000;
+        cursor: pointer;
+        flex-shrink: 0;
+        border: 1px solid #000;
     }
 
     .consent-text {
-      font-size: 0.65rem;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.65rem;
+        font-weight: 400;
+        color: #000;
+        line-height: 1.5;
+    }
+
+    .consent-link {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .submit-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 12px;
     }
 
     .submit-btn {
-      height: 44px;
-      font-size: 0.75rem;
+        width: auto;
+        height: 48px;
+        padding: 0 2rem;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.875rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: background-color 0.3s;
     }
 
+    .submit-btn:hover { background-color: #2B302D; }
+
+    /* Furos Bottom Section */
+    .furos-bottom-section {
+        background-color: #FFCD00;
+        padding: 0;
+        width: 100%;
+    }
+
+    .furos-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 4rem;
+    }
+
+    .furos-svg {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* --- FOOTER ATUALIZADO (Versão Amarela) --- */
     .footer {
-      padding: 2rem 1rem;
+        background-color: #EBEBEB; /* Fundo Amarelo (ou #EBEBEB se preferires a caixa cinza) */
+        padding: 2rem 2rem 3rem;
+        position: relative;
+        font-family: 'IBM Plex Mono', monospace;
     }
 
+    /* Nota: Se o teu footer original era cinzento (#EBEBEB), muda o background-color acima para #EBEBEB */
+
+    .footer-rows-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: transparent;
+        border: none;
+    }
+
+    /* Estilo Base da Linha */
+    .footer-row {
+        width: 100%;
+        border: 2px solid #000;
+        margin-bottom: 1.5rem;
+        background-color: transparent;
+        padding: 1.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-row:last-child {
+        margin-bottom: 0;
+        border-bottom: 2px solid #000;
+    }
+
+    /* Labels */
+    .f-label {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 2rem;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+    }
+
+    .text-right {
+        text-align: right;
+        width: 100%;
+    }
+
+    /* Imagens Gerais */
+    .f-img {
+        height: 40px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    .f-img.big-logo { height: 50px; }
+
+    /* Imagens Pequenas (Row 4 e 5) */
+    .f-img2 {
+        height: 30px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    /* Ajuste específico para OMNICOM ficar menor */
+    .small-logo {
+        height: 20px !important;
+        width: auto;
+    }
+
+    .f-img.single-logo {
+        width: 70%;
+        max-width: 700px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .f-imgs-row {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .f-imgs-row.gap-medium { gap: 2rem; }
+
+    /* Grupos */
+    .f-group-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .f-group-left img[alt="MOP"] {
+        height: 60px;
+        width: auto;
+    }
+
+    .f-group-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    /* Regras Específicas Row 1, 2, 3 */
+    .row-2 .f-group-left .f-label {
+        display: block;
+        margin-top: 0;
+        line-height: 1.2;
+        padding-top: 0;
+        margin-bottom: 4.5rem;
+    }
+
+    .row-1, .row-2 { align-items: flex-end; }
+
+    .row-3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .partners-left { max-width: 100%; }
+    .partners-left .f-img {
+        transform: scale(0.8);
+        transform-origin: left center;
+    }
+
+    .bootcamp-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        gap: 2rem;
+    }
+    .bootcamp-right .f-label { margin: 0; }
+
+    /* --- ROW 4: GRID 5 COLUNAS --- */
+    .row-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .f-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .f-col.right-align {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .f-img2.end { align-self: flex-end; }
+
+    /* --- ROW 5: Flex Space Between --- */
+    .row-5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 2rem;
+    }
+
+    .force-right {
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .right-aligned-imgs { justify-content: flex-end; }
+
+    /* Redes Sociais */
     .footer-social {
-      gap: 1rem;
-      padding: 2rem 1rem 1rem;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3rem 4rem 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .social-link {
-      font-size: 0.875rem;
+        color: #000;
+        text-decoration: none;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.125rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        transition: opacity 0.3s;
+        position: relative;
     }
-  }
+
+    .social-link:hover { opacity: 0.7; }
+    .social-link::before {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #000;
+        transition: width 0.3s;
+    }
+    .social-link:hover::before { width: 100%; }
+
+    /* --- RESPONSIVO --- */
+
+    /* Tablet e Mobile (até 1024px) */
+    @media screen and (max-width: 1024px) {
+
+        /* --- ALTERAÇÃO PRINCIPAL: Esconder as folhas de fundo --- */
+        .folhas-juntas {
+            display: none;
+        }
+
+        /* Ajustar o container principal agora que não há imagem de fundo */
+        .folhas-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 20px;
+            gap: 40px;
+            /* Removemos as margens negativas do desktop para centrar tudo */
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* Ajustes de posicionamento para Título e Formulário */
+        .form-overlay, .titulo-inscricao {
+            position: relative;
+            width: 100%;
+            top: auto;
+            left: auto;
+            right: auto;
+            transform: none;
+        }
+
+        /* Estilo do Título */
+        .titulo-inscricao {
+            text-align: center;
+            max-width: 700px;
+            padding-right: 0;
+            margin-top: 2rem;
+        }
+
+        .titulo-svg {
+            margin: 0 auto 20px auto;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .titulo-descricao, .titulo-contacto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Passos */
+        .passos-container {
+            align-items: center; /* Centrar os passos */
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            width: 100%;
+        }
+
+        .passo-box {
+            width: 100%;
+            max-width: 450px;
+            /* Opcional: Adicionar um fundo suave para destacar os passos no amarelo */
+            border: 2px solid #000;
+            padding: 10px;
+            border-radius: 0;
+            margin-bottom: 10px;
+        }
+
+        /* Hero Header */
+        .hero-content {
+            padding: 20px;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center; /* Centra logo e boneco */
+        }
+
+        .hero-left, .hero-right {
+            justify-content: center;
+        }
+
+        /* Formulário */
+        .form-overlay {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0; /* Remove padding extra do overlay */
+        }
+
+        .titulo-subtexto { display: block; }
+
+        .form-row { display: flex; flex-wrap: wrap; gap: 15px; }
+        .form-row .form-group { flex: 1 1 45%; min-width: 250px; }
+
+        /* Footer Mobile/Tablet adjustments (mantive os teus originais) */
+        .footer-row {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2rem;
+        }
+        .row-4 {
+            display: flex;
+            flex-direction: column;
+        }
+        .row-5 {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .f-group-right,
+        .f-col.right-align,
+        .text-right,
+        .force-right,
+        .right-aligned-imgs {
+            align-items: flex-start !important;
+            justify-content: flex-start !important;
+            text-align: left !important;
+            margin-left: 0;
+        }
+        .f-img2.end { align-self: flex-start; }
+    }
+
+    /* Mobile Pequeno */
+    @media (max-width: 480px) {
+        .hero-inscricao { padding: 2rem 1rem; }
+        .logo-inscricao { max-width: 140px; }
+        .culpado-inscricao { max-width: 180px; }
+        .form-overlay { padding: 1rem; }
+        .form-input, .form-select { height: 42px; padding: 10px 12px; font-size: 0.7rem; }
+        .section-title { font-size: 0.75rem; }
+        .upload-area { height: 70px; }
+        .upload-text { font-size: 0.6rem; }
+        .upload-subtext { font-size: 0.55rem; }
+        .consent-text { font-size: 0.65rem; }
+        .submit-btn { height: 44px; font-size: 0.75rem; }
+
+        .footer { padding: 2rem 1rem; }
+        .footer-social { gap: 1rem; padding: 2rem 1rem 1rem; }
+        .social-link { font-size: 0.875rem; }
+    }
 </style>
 

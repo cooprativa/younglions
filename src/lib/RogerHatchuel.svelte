@@ -187,16 +187,14 @@
             <img src="/assets/fundos/extraroger.png" alt="" class="footer-extra-sobre-img-2" />
         </div>
     </section>
-
     <footer class="footer">
-
         <div class="footer-rows-container">
 
             <div class="footer-row row-1">
                 <div class="f-group-left">
                     <span class="f-label">ORGANIZAÇÃO</span>
                     <div class="f-imgs-row">
-                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img" />
+                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img img1" />
                     </div>
                 </div>
                 <div class="f-group-right">
@@ -212,23 +210,26 @@
                 </div>
                 <div class="f-group-right">
                     <span class="f-label text-right">PATROCINADORES</span>
-                    <div class="f-imgs-row gap-large">
-                        <img src="/footerimagens/belissimo.png" alt="Bellissimo" class="f-img" />
-                        <img src="/footerimagens/nos.png" alt="NOS" class="f-img" />
-                        <img src="/footerimagens/worten.png" alt="Worten" class="f-img" />
-                    </div>
+                    <img src="/footerimagens/patrocinadores.png" alt="Patrocinadores" class="f-img single-logo" />
                 </div>
             </div>
 
             <div class="footer-row row-3">
-                <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
-                <div class="f-imgs-row gap-medium">
-                    <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
-                    <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
-                    <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
-                    <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
-                    <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
-                    <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                <div class="f-group-left partners-left">
+                    <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
+                    <div class="f-imgs-row gap-medium">
+                        <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
+                        <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
+                        <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
+                        <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
+                        <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
+                        <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                    </div>
+                </div>
+
+                <div class="f-group-right bootcamp-right">
+                    <span class="f-label">Bootcamp Host</span>
+                    <img src="/footerimagens/IADE.png" alt="IADE" class="f-img" />
                 </div>
             </div>
 
@@ -237,46 +238,46 @@
                     <span class="f-label">CAMPANHA</span>
                     <img src="/footerimagens/fernando.png" alt="Campanha" class="f-img2 start" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA MEDIA</span>
-                    <img src="/footerimagens/ipgmediabrands.png" alt="IPG" class="f-img2 start ipg-logo" />
+                    <img src="/footerimagens/OMNICOM.png" alt="OMNICOM" class="f-img2 start small-logo" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA RP</span>
                     <img src="/footerimagens/centraldeinformacao.png" alt="Central" class="f-img2 start" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">PRODUTORA OFICIAL</span>
-                    <img src="/footerimagens/78films.png" alt="Film Brokers" class="f-img2 start" />
+                    <img src="/footerimagens/ProdutoraOficial.png" alt="Film Brokers" class="f-img2 start" />
                 </div>
+
                 <div class="f-col right-align">
+                    <span class="f-label text-right">PARCEIRO WEB</span>
+                    <img src="/footerimagens/cooprativa.png" alt="Cooprativa" class="f-img2 end" />
+                </div>
+            </div>
+
+            <div class="footer-row row-5">
+                <div class="f-group-left">
                     <span class="f-label">PARCEIRO EM ANALÍTICA E ESTUDOS DE MERCADO</span>
                     <div class="f-imgs-row">
                         <img src="/footerimagens/carma.png" alt="Carma" class="f-img2" />
                         <img src="/footerimagens/newssearch.png" alt="NewsSearch" class="f-img2" />
                     </div>
                 </div>
-            </div>
 
-            <div class="footer-row row-5">
-                <div class="f-group-left narrow">
-                    <span class="f-label">AGÊNCIA ATIVAÇÃO</span>
-                    <img src="/footerimagens/29graus.png" alt="29 Graus" class="f-img" />
-                </div>
-
-                <div class="f-group-center">
-                    <span class="f-label">PARCEIROS MEDIA</span>
-                    <div class="f-imgs-row gap-medium">
-                        <img src="/footerimagens/+m.png" alt="M80" class="f-img" />
-                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img" />
-                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img" />
-                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img" />
+                <div class="f-group-right force-right">
+                    <span class="f-label text-right">PARCEIROS MEDIA</span>
+                    <div class="f-imgs-row gap-medium right-aligned-imgs">
+                        <img src="/footerimagens/+m.png" alt="M80" class="f-img2" />
+                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img2" />
+                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img2" />
+                        <img src="/footerimagens/RFM.png" alt="RFM" class="f-img2" />
+                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img2" />
                     </div>
-                </div>
-
-                <div class="f-group-right narrow">
-                    <span class="f-label text-right">APOIO</span>
-                    <img src="/footerimagens/sagres.png" alt="Sagres" class="f-img" />
                 </div>
             </div>
 
@@ -300,1007 +301,917 @@
 </div>
 
 <style>
-  @font-face {
-    font-family: 'Aber Mono';
-    src: url('../fonts/Aber-Mono-Bold.woff2') format('woff2'),
-         url('../fonts/Aber-Mono-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Aber Mono';
-    src: url('../fonts/Aber-Mono-Regular.woff2') format('woff2'),
-         url('../fonts/Aber-Mono-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Aber Mono';
-    src: url('../fonts/Aber-Mono-Light.woff2') format('woff2'),
-         url('../fonts/Aber-Mono-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  .roger-page {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #39BE91;
-    overflow-x: hidden;
-  }
-
-  /* Hero Section */
-  .hero-roger {
-    width: 100%;
-    min-height: 80vh;
-    padding: 4rem 3rem 10rem;
-    background-color: #39BE91;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Logo - Canto superior esquerdo */
-  .hero-logo {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-  }
-
-  .logo-img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
-    display: block;
-  }
-
-  /* Centro - Pasta com texto */
-  .hero-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .pasta-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .pasta-img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    display: block;
-  }
-
-  .pasta-texto {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: 'Aber Mono', monospace;
-      font-size: 8rem;
-      font-weight: 700;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 10px;
-
-
-      white-space: normal; /* Permite que o texto quebre de linha */
-      text-align: center;  /* Centra as duas linhas uma com a outra */
-      line-height: 0.9;    /* Aproxima as linhas verticalmente */
-  }
-
-  /* Culpado - Canto inferior direito */
-  .hero-culpado {
-      position: absolute;
-      bottom: 8rem;
-      right: 3px;
-  }
-
-  .culpado-img {
-      width: 100%;
-      max-width: 360px;
-      height: auto;
-  }
-
-  /* Furos no fim do hero */
-  .hero-furos {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 2rem;
-  }
-
-  .furos-sobre-svg {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    display: block;
-    margin-bottom: 50px;
-  }
-
-  /* Secção Medalha e Texto */
-  .medalha-section {
-      background-color: #fff;
-      padding: 4rem 3rem;
-      width: 100%;
-  }
-
-  .medalha-container {
-      display: flex;
-      border: 2px solid #2B302D;
-      max-width: 1400px;
-      margin: 0 auto;
-  }
-
-  .medalha-imagem {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-  }
-
-  .medalha-img {
-      width: 100%;      /* Mantém a largura total do contentor */
-      height: auto;     /* <-- Deixa a altura ajustar-se proporcionalmente */
-      /* object-fit: fit; <-- Remove esta linha, não é necessária se usares height: auto */
-      display: block;
-  }
-
-  .medalha-texto {
-      flex: 0 0 66.666%;
-      padding: 3rem;
-      display: flex;
-      align-items: center;
-      border-left: 2px solid #2B302D;
-  }
-  /* Secção 30 Anos */
-  .anos-section {
-      background-color: #fff;
-      padding: 4rem 3rem;
-      width: 100%;
-  }
-
-  .anos-container {
-      max-width: 1400px;
-      margin: 0 auto;
-  }
-
-  .anos-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-  }
-
-  .anos-text {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10rem;
-      font-weight: 800;
-      color: #000;
-      line-height: 1;
-      text-transform: uppercase;
-  }
-
-  .primeira-linha {
-      margin-bottom: 0;
-  }
-
-  .segunda-linha {
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0;
-      margin-left: 185px;
-  }
-
-
-  .terceira-linha {
-      justify-content: space-between;
-      align-items: flex-start; /* Alinha verticalmente pelo centro */
-  }
-
-  .portugal-mini-container {
-      display: flex;
-      margin-top: 20px;
-      align-items: center;
-      padding: 0 2rem; /* Dá espaço entre o texto grande e o pequeno */
-      text-align: left; /* Texto alinhado à esquerda como na imagem */
-      max-width: 600px; /* Limita a largura para não esticar demais */
-  }
-
-  .portugal-mini {
-      font-family: 'IBM Plex Mono', monospace; /* Mantém esta fonte para o texto pequeno se preferires, ou muda para Aber Mono */
-      font-size: 1rem; /* Tamanho mais pequeno conforme a imagem */
-      font-weight: 50;
-      color: #39BE91; /* A cor VERDE do Roger Hatchuel */
-      line-height: 32px;
-      letter-spacing: 0.5px;
-      text-transform: uppercase; /* Força tudo a maiúsculas conforme a imagem */
-      margin: 0;
-      text-align: left;
-  }
-
-  /* Secção de Citação (Quote) */
-  .quote-section {
-      background-color: #fff; /* Fundo branco para contraste */
-      padding: 5rem 3rem;
-      width: 100%;
-  }
-
-  .quote-container {
-      max-width: 900px; /* Largura mais contida para leitura fácil */
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Centra tudo horizontalmente */
-      text-align: left;
-      margin-left: 400px;
-      margin-top: -75px;
-  }
-
-  .quote-aspas-svg {
-      width: 680px; /* Tamanho das aspas */
-      height: auto;
-      margin-bottom: 2rem; /* Espaço abaixo das aspas */
-      display: block;
-  }
-
-  .quote-text {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 1.7rem; /* Tamanho de texto grande e legível */
-      font-weight: 600;
-      color: #000;
-      line-height: 1.4;
-       margin-top: -300px;
-      margin-left: 105px;
-      margin-bottom: 1rem; /* Espaço até ao autor */
-      text-transform: uppercase;
-  }
-
-  .quote-author {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 1rem;
-      font-weight: 700; /* Mais negrito para destaque */
-      color: #000;
-      text-transform: uppercase; /* Autor em maiúsculas */
-      letter-spacing: 1px;
-      margin-left: -300px;
-  }
-
-  /* Ajustes Responsivos para a Citação */
-  @media (max-width: 768px) {
-      .quote-section {
-          padding: 4rem 2rem;
-      }
-      .quote-text {
-          font-size: 1.25rem;
-      }
-      .quote-aspas-svg {
-          width: 40px;
-      }
-  }
-
-  /* Secção Em que Consiste */
-  .consiste-section {
-      background-color: #39BE91; /* Fundo verde pedido */
-      padding: 4rem 3rem;
-      width: 100%;
-  }
-
-  .consiste-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      border: 2px solid #2B302D; /* Borda externa principal */
-      background-color: #EBEBEB; /* Fundo cinzento igual à imagem */
-  }
-
-  /* Header do Retângulo */
-  .consiste-header {
-      padding: 2rem 3rem;
-      border-bottom: 2px solid #2B302D; /* Linha que separa o título do conteúdo */
-  }
-
-  .consiste-main-title {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 2rem;
-      font-weight: 700;
-      color: #000;
-      margin: 0;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-  }
-
-  /* Grid do Conteúdo */
-  .consiste-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* Duas colunas iguais */
-      gap: 4rem; /* Espaço entre colunas e linhas */
-      padding: 4rem 3rem;
-  }
-
-  .consiste-item {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-  }
-
-  .consiste-item-title {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 1.125rem;
-      font-weight: 700;
-      color: #000;
-      margin: 0;
-      text-transform: uppercase;
-  }
-
-  .consiste-item-text {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 1rem;
-      font-weight: 400;
-      color: #000;
-      margin: 0;
-      line-height: 1.5;
-      text-transform: uppercase; /* Conforme a imagem */
-      max-width: 550px;
-  }
-
-  /* Responsivo */
-  @media (max-width: 1024px) {
-      .consiste-main-title {
-          font-size: 1.5rem;
-      }
-  }
-
-  @media (max-width: 768px) {
-      .consiste-section {
-          padding: 2rem 1.5rem;
-      }
-
-      .consiste-header, .consiste-grid {
-          padding: 2rem 1.5rem;
-      }
-
-      .consiste-grid {
-          grid-template-columns: 1fr; /* Passa para 1 coluna no telemóvel */
-          gap: 3rem;
-      }
-
-      .consiste-main-title {
-          font-size: 1.25rem;
-      }
-  }
-
-  /* Container dos furos */
-  .furos {
-      margin-top: 100px;
-      width: 100%;
-      background-color: #39BE91; /* Mantém o verde da secção anterior para parecer contínuo */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0 2rem 1rem; /* Padding lateral e espaço extra em baixo antes do footer */
-  }
-
-  /* Estilo para a imagem SVG dentro da classe furos */
-  .furos img {
-      width: 100%;
-      max-width: 1400px; /* Alinha com a largura máxima do conteúdo da secção anterior */
-      height: auto;
-      display: block;
-  }
-
-  /* Ajuste para mobile se necessário */
-  @media (max-width: 768px) {
-      .furos {
-          padding: 0 1.5rem 3rem;
-      }
-  }
-
-  /* Secção Info 1-2-3 */
-  .info-section {
-      background-color: #EBEBEB;
-      padding: 5rem 3rem; /* Voltei ao padding original (grande) */
-      width: 100%;
-  }
-
-  .info-container {
-      max-width: 1400px; /* Voltei à largura original (larga) */
-      margin: 100px auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 4rem;
-      align-items: start;
-  }
-
-  .info-col {
-      display: flex;
-      flex-direction: column;
-  }
-
-  /* Header: Título + Número Gigante */
-  .info-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center; /* Mantém centrado verticalmente */
-      margin-bottom: 2rem;
-      position: relative;
-      height: 120px; /* Altura ajustada para o novo tamanho do número */
-      overflow: visible;
-  }
-
-  .info-title {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 1.5rem; /* <-- REDUZIDO (era 2.5rem) */
-      font-weight: 700;
-      color: #000;
-      text-transform: uppercase;
-      max-width: 60%;
-      line-height: 1.2;
-      margin: 0;
-      z-index: 2;
-  }
-
-  .info-number {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9rem; /* <-- REDUZIDO (era 15rem) */
-      font-weight: 700;
-      color: #000;
-      line-height: 0;
-      position: absolute;
-      right: -10px;
-
-      /* Centrar verticalmente */
-      top: 50%;
-      transform: translateY(-55%);
-
-      z-index: 1;
-      pointer-events: none;
-  }
-
-  /* Corpo do Texto - MANTIDO O TAMANHO ORIGINAL */
-  .info-body {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.85rem; /* Mantive o tamanho legível */
-      font-weight: 400;
-      color: #000;
-      text-transform: uppercase;
-      line-height: 1.5;
-      z-index: 2;
-      position: relative;
-  }
-
-  .info-body p {
-      margin-bottom: 1.2rem;
-  }
-
-  .info-body strong {
-      font-weight: 700;
-  }
-
-  /* Lista da primeira coluna */
-  .info-list {
-      list-style-type: none;
-      padding-left: 0;
-      margin: 0;
-  }
-
-  .info-list li {
-      margin-bottom: 0.8rem;
-      position: relative;
-      padding-left: 1.2rem;
-      display: flex;
-      align-items: baseline;
-  }
-
-  .info-list li::before {
-      content: '.';
-      position: absolute;
-      left: 0;
-      top: -0.6rem;
-      font-size: 1.5rem;
-      font-weight: 700;
-      line-height: 1;
-  }
-
-  /* Link de Email a Verde */
-  .info-link {
-      color: #39BE91;
-      text-decoration: underline;
-      font-weight: 700;
-      transition: opacity 0.3s;
-  }
-
-  .info-link:hover {
-      opacity: 0.7;
-  }
-
-  /* Responsivo */
-  @media (max-width: 1024px) {
-      .info-container {
-          gap: 2rem;
-      }
-      .info-number {
-          font-size: 7rem;
-      }
-      .info-header {
-          height: 100px;
-      }
-      .info-title {
-          font-size: 1.25rem;
-      }
-  }
-
-  @media (max-width: 768px) {
-      .info-container {
-          grid-template-columns: 1fr;
-          gap: 4rem;
-          margin: 50px auto;
-      }
-
-      .info-header {
-          margin-bottom: 1rem;
-          justify-content: space-between;
-          gap: 1rem;
-          height: auto;
-          min-height: 80px;
-      }
-
-      .info-number {
-          position: relative;
-          font-size: 6rem;
-          top: 0;
-          right: 0;
-          transform: none;
-          line-height: 1;
-      }
-
-      .info-title {
-          max-width: 70%;
-          font-size: 1.25rem;
-      }
-  }
-
-  /* Container para centrar */
-  .timeline-container {
-      width: 100%;
-      display: flex;
-      justify-content: center; /* Centra a imagem horizontalmente */
-      align-items: center;
-      padding: 4rem 2rem; /* Dá espaço em cima e em baixo */
-      background-color: #EBEBEB; /* Mantém o fundo cinzento (opcional, remove se quiseres branco) */
-  }
-
-  /* A imagem em si */
-  .timeline-img {
-      width: 100%;        /* Ocupa 80% da largura do ecrã */
-      max-width: 1400px; /* Mas nunca passa de 1000px */
-      height: auto;      /* Mantém a proporção correta */
-      display: block;
-  }
-
-  /* Ajuste para telemóvel */
-  @media (max-width: 768px) {
-      .timeline-img {
-          width: 100%; /* No telemóvel pode ocupar a largura toda para se ver bem */
-          padding: 0 1rem;
-      }
-  }
-
-
-  /* Footer */
-  .footer {
-    background-color: #39BE91;
-    padding: 2rem 2rem 3rem;
-    position: relative;
-  }
-
-  /* --- CSS DO NOVO FOOTER CORRIGIDO E AJUSTADO --- */
-
-  .footer-rows-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      background-color: transparent;
-      border: none;
-      font-family: 'IBM Plex Mono', monospace;
-  }
-
-  /* Estilo Base para cada Linha */
-  .footer-row {
-      width: 100%;
-      border: 2px solid #000;
-      margin-bottom: 1.5rem;
-      background-color: transparent;
-      padding: 1.5rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-  }
-
-  .footer-row:last-child {
-      margin-bottom: 0;
-      border-bottom: 2px solid #000;
-  }
-
-  /* --- LABELS E TEXTOS --- */
-  .f-label {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #000;
-      margin-bottom: 1rem;
-      display: block;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      line-height: 1.2;
-  }
-
-  .text-right {
-      text-align: right;
-      width: 100%;
-  }
-
-  /* --- IMAGENS GERAIS --- */
-  .f-img {
-      height: 40px;
-      width: auto;
-      object-fit: contain;
-      display: block;
-  }
-
-  .f-img.big-logo {
-      height: 50px;
-  }
-
-  /* --- IMAGENS PEQUENAS (LINHA 4) --- */
-  /* Corrigido: classe isolada e tamanho reduzido para 30px */
-  .f-img2 {
-      height: 30px; /* Reduzido para dar espaço */
-      width: auto;
-      object-fit: contain;
-      display: block;
-  }
-
-  .f-imgs-row {
-      display: flex;
-      gap: 1.5rem;
-      align-items: center;
-      flex-wrap: wrap;
-  }
-
-  .f-imgs-row.gap-large { gap: 3rem; }
-  .f-imgs-row.gap-medium { gap: 2rem; }
-
-
-  /* --- GRUPOS DE POSICIONAMENTO --- */
-  .f-group-left {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      text-align: left;
-  }
-
-  .f-group-right {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      text-align: right;
-  }
-
-  /* --- REGRAS ESPECÍFICAS POR LINHA --- */
-
-  .row-1, .row-2 {
-      align-items: flex-end;
-  }
-
-  .row-3 {
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  /* Linha 4: Grid com 5 colunas */
-  .row-4 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
-      gap: 1rem;
-      align-items: start;
-  }
-
-  .f-col {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  .f-col.right-align {
-      align-items: flex-end;
-      text-align: right;
-  }
-
-  /* Garante que na direita as imagens ficam lado a lado e encostadas à direita */
-  .f-col.right-align .f-imgs-row {
-      justify-content: flex-end;
-  }
-
-  /* --- LINHA 5: AJUSTES PARA ESQUERDA --- */
-  .row-5 {
-      display: flex;
-      /* Altera o justify para start para podermos controlar a posição manualmente */
-      justify-content: flex-start;
-      align-items: flex-end;
-      gap: 4rem; /* Dá espaço entre o grupo da esquerda e o do meio */
-  }
-
-  /* O grupo do meio (Parceiros Media) agora alinha à esquerda */
-  .f-group-center {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; /* Alinha à esquerda */
-      padding: 0; /* Remove padding antigo */
-  }
-
-  /* Força o grupo da direita (Apoio) a ir para o extremo direito */
-  .f-group-right.narrow {
-      margin-left: auto; /* Isto empurra este elemento sozinho para a direita */
-      flex: 0 0 auto;
-  }
-
-  .f-group-left.narrow {
-      flex: 0 0 auto;
-  }
-
-  /* Ajuste específico para o IPG */
-  .ipg-logo {
-      height: 22px; /* Era 30px, reduz para 22px ou 20px conforme o gosto */
-  }
-
-
-  /* --- RESPONSIVO (MOBILE) --- */
-  @media (max-width: 1024px) {
-      .footer-row {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 2rem;
-      }
-
-      .row-4 {
-          display: flex;
-          flex-direction: column;
-      }
-
-      .row-5 {
-          gap: 2rem; /* Reduz gap no mobile */
-      }
-
-      .f-group-right,
-      .f-col.right-align,
-      .text-right,
-      .f-col.right-align .f-imgs-row,
-      .f-group-right.narrow {
-          align-items: flex-start;
-          justify-content: flex-start;
-          text-align: left;
-          margin-left: 0; /* Remove o auto margin no mobile */
-      }
-  }
-
-  .footer-social {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3rem 4rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .social-link {
-    color: #000;
-    text-decoration: none;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.125rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: opacity 0.3s;
-    position: relative;
-  }
-
-  .social-link:hover {
-    opacity: 0.7;
-  }
-
-  .social-link::before {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #000;
-    transition: width 0.3s;
-  }
-
-  .social-link:hover::before {
-    width: 100%;
-  }
-
-  /* Furos Bottom Section */
-  .furos-bottom-section {
-    background-color: #EBEBEB;
-    padding: 0;
-    width: 100%;
-  }
-
-  .furos-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 4rem;
-  }
-
-  .furos-svg {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* Footer Extra Image */
-  .footer-extra-sobre-container {
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-end;
-      padding: 2rem 0 0 0;
-      margin-top: 10rem;
-      margin-bottom: -115px;
-      margin-left: -10px;
-  }
-
-  .footer-extra-sobre-img {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-      display: block;
-  }
-
-  .footer-extra-sobre-container-2 {
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-end;
-      padding: 2rem 0 0 0;
-      margin-top: 10rem;
-      margin-bottom: -115px;
-      margin-left: 1000px;
-  }
-
-  .footer-extra-sobre-img-2 {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-      display: block;
-  }
-
-  /* Responsive */
-  @media (max-width: 1024px) {
-    .pasta-texto {
-      font-size: 4rem;
-      letter-spacing: 8px;
+    /* --- FONTES --- */
+    @font-face {
+        font-family: 'Aber Mono';
+        src: url('../fonts/Aber-Mono-Bold.woff2') format('woff2'),
+        url('../fonts/Aber-Mono-Bold.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
     }
 
-    .pasta-img {
-      max-width: 500px;
+    @font-face {
+        font-family: 'Aber Mono';
+        src: url('../fonts/Aber-Mono-Regular.woff2') format('woff2'),
+        url('../fonts/Aber-Mono-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
     }
 
-    .culpado-img {
-      max-width: 150px;
+    @font-face {
+        font-family: 'Aber Mono';
+        src: url('../fonts/Aber-Mono-Light.woff2') format('woff2'),
+        url('../fonts/Aber-Mono-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
     }
 
-    .logo-img {
-      max-width: 220px;
+    /* --- GERAL DA PÁGINA ROGER --- */
+    .roger-page {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #39BE91; /* Verde */
+        overflow-x: hidden;
     }
-  }
 
-  @media (max-width: 768px) {
+    /* Hero Section */
     .hero-roger {
-      min-height: 70vh;
-      padding: 2rem;
+        width: 100%;
+        min-height: 80vh;
+        padding: 4rem 3rem 10rem;
+        background-color: #39BE91;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    /* Logo - Canto superior esquerdo */
     .hero-logo {
-      top: 1.5rem;
-      left: 1.5rem;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
     }
 
     .logo-img {
-      max-width: 160px;
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        display: block;
     }
 
-    .pasta-texto {
-      font-size: 2.5rem;
-      letter-spacing: 5px;
+    /* Centro - Pasta com texto */
+    .hero-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .pasta-img {
-      max-width: 380px;
-    }
-
-    .hero-culpado {
-      bottom: 1.5rem;
-      right: 1.5rem;
-    }
-
-    .culpado-img {
-      max-width: 120px;
-    }
-
-    .footer-social {
-      gap: 1.5rem;
-      justify-content: center;
-      padding: 2rem 2rem 1rem;
-    }
-
-    .social-link {
-      font-size: 1rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .hero-roger {
-      min-height: 60vh;
-      padding: 1.5rem;
-    }
-
-    .hero-logo {
-      top: 1rem;
-      left: 1rem;
-    }
-
-    .logo-img {
-      max-width: 120px;
-    }
-
-    .pasta-texto {
-      font-size: 1.5rem;
-      letter-spacing: 3px;
+    .pasta-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .pasta-img {
-      max-width: 280px;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        display: block;
     }
 
+    .pasta-texto {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Aber Mono', monospace;
+        font-size: 8rem;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        white-space: normal;
+        text-align: center;
+        line-height: 0.9;
+    }
+
+    /* Culpado - Canto inferior direito */
     .hero-culpado {
-      bottom: 1rem;
-      right: 1rem;
+        position: absolute;
+        bottom: 8rem;
+        right: 3px;
     }
 
     .culpado-img {
-      max-width: 100px;
+        width: 100%;
+        max-width: 360px;
+        height: auto;
     }
 
+    /* Furos no fim do hero */
+    .hero-furos {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .furos-sobre-svg {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    /* Secção Medalha e Texto */
+    .medalha-section {
+        background-color: #fff;
+        padding: 4rem 3rem;
+        width: 100%;
+    }
+
+    .medalha-container {
+        display: flex;
+        border: 2px solid #2B302D;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .medalha-imagem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .medalha-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .medalha-texto {
+        flex: 0 0 66.666%;
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        border-left: 2px solid #2B302D;
+    }
+
+    .texto-descricao {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #000;
+    }
+
+    /* Secção 30 Anos */
+    .anos-section {
+        background-color: #fff;
+        padding: 4rem 3rem;
+        width: 100%;
+    }
+
+    .anos-container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .anos-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .anos-text {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 10rem;
+        font-weight: 800;
+        color: #000;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    .primeira-linha { margin-bottom: 0; }
+    .segunda-linha {
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+        margin-left: 185px;
+    }
+
+    .terceira-linha {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .portugal-mini-container {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        padding: 0 2rem;
+        text-align: left;
+        max-width: 600px;
+    }
+
+    .portugal-mini {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1rem;
+        font-weight: 50;
+        color: #39BE91; /* Verde */
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: left;
+    }
+
+    /* Secção de Citação (Quote) */
+    .quote-section {
+        background-color: #fff;
+        padding: 5rem 3rem;
+        width: 100%;
+    }
+
+    .quote-container {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        margin-left: 400px;
+        margin-top: -75px;
+    }
+
+    .quote-aspas-svg {
+        width: 680px;
+        height: auto;
+        margin-bottom: 2rem;
+        display: block;
+    }
+
+    .quote-text {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: #000;
+        line-height: 1.4;
+        margin-top: -300px;
+        margin-left: 105px;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    .quote-author {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: -300px;
+    }
+
+    /* Secção Em que Consiste */
+    .consiste-section {
+        background-color: #39BE91; /* Verde */
+        padding: 4rem 3rem;
+        width: 100%;
+    }
+
+    .consiste-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        border: 2px solid #2B302D;
+        background-color: #EBEBEB;
+    }
+
+    .consiste-header {
+        padding: 2rem 3rem;
+        border-bottom: 2px solid #2B302D;
+    }
+
+    .consiste-main-title {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .consiste-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        padding: 4rem 3rem;
+    }
+
+    .consiste-item {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .consiste-item-title {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: #000;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .consiste-item-text {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000;
+        margin: 0;
+        line-height: 1.5;
+        text-transform: uppercase;
+        max-width: 550px;
+    }
+
+    /* Container dos furos */
+    .furos {
+        margin-top: 100px;
+        width: 100%;
+        background-color: #39BE91;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem 1rem;
+    }
+
+    .furos img {
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        display: block;
+    }
+
+    /* Secção Info 1-2-3 */
+    .info-section {
+        background-color: #EBEBEB;
+        padding: 5rem 3rem;
+        width: 100%;
+    }
+
+    .info-container {
+        max-width: 1400px;
+        margin: 100px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4rem;
+        align-items: start;
+    }
+
+    .info-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        position: relative;
+        height: 120px;
+        overflow: visible;
+    }
+
+    .info-title {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #000;
+        text-transform: uppercase;
+        max-width: 60%;
+        line-height: 1.2;
+        margin: 0;
+        z-index: 2;
+    }
+
+    .info-number {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 9rem;
+        font-weight: 700;
+        color: #000;
+        line-height: 0;
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        transform: translateY(-55%);
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .info-body {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.85rem;
+        font-weight: 400;
+        color: #000;
+        text-transform: uppercase;
+        line-height: 1.5;
+        z-index: 2;
+        position: relative;
+    }
+
+    .info-body p { margin-bottom: 1.2rem; }
+    .info-body strong { font-weight: 700; }
+
+    .info-list {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .info-list li {
+        margin-bottom: 0.8rem;
+        position: relative;
+        padding-left: 1.2rem;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .info-list li::before {
+        content: '.';
+        position: absolute;
+        left: 0;
+        top: -0.6rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .info-link {
+        color: #39BE91;
+        text-decoration: underline;
+        font-weight: 700;
+        transition: opacity 0.3s;
+    }
+    .info-link:hover { opacity: 0.7; }
+
+    .timeline-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 2rem;
+        background-color: #EBEBEB;
+    }
+
+    .timeline-img {
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        display: block;
+    }
+
+    /* Footer Extra Image */
+    .footer-extra-sobre-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 2rem 0 0 0;
+        margin-top: 10rem;
+        margin-bottom: -115px;
+        margin-left: -10px;
+    }
+
+    .footer-extra-sobre-img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+    }
+
+    .footer-extra-sobre-container-2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 2rem 0 0 0;
+        margin-top: 10rem;
+        margin-bottom: -115px;
+        margin-left: 1000px;
+    }
+
+    .footer-extra-sobre-img-2 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+    }
+
+    /* --- FOOTER ATUALIZADO (VERSÃO ROGER - VERDE) --- */
     .footer {
-      padding: 2rem 1rem;
+        background-color: #39BE91; /* Fundo Verde */
+        padding: 2rem 2rem 3rem;
+        position: relative;
+        font-family: 'IBM Plex Mono', monospace;
     }
 
+    .footer-rows-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: transparent;
+        border: none;
+    }
+
+    /* Estilo Base da Linha */
+    .footer-row {
+        width: 100%;
+        border: 2px solid #000;
+        margin-bottom: 1.5rem;
+        background-color: transparent;
+        padding: 1.5rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-row:last-child {
+        margin-bottom: 0;
+        border-bottom: 2px solid #000;
+    }
+
+    /* Labels */
+    .f-label {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 2rem;
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+    }
+
+    .text-right {
+        text-align: right;
+        width: 100%;
+    }
+
+    /* Imagens Gerais */
+    .f-img {
+        height: 40px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    .f-img.big-logo { height: 50px; }
+
+    /* Imagens Pequenas (Row 4 e 5) */
+    .f-img2 {
+        height: 30px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    /* Ajuste específico para OMNICOM ficar menor */
+    .small-logo {
+        height: 20px !important;
+        width: auto;
+    }
+
+    .f-img.single-logo {
+        width: 70%;
+        max-width: 700px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .f-imgs-row {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .f-imgs-row.gap-medium { gap: 2rem; }
+
+    /* Grupos */
+    .f-group-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .f-group-left img[alt="MOP"] {
+        height: 60px;
+        width: auto;
+    }
+
+    .f-group-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    /* Regras Específicas Row 1, 2, 3 */
+    .row-2 .f-group-left .f-label {
+        display: block;
+        margin-top: 0;
+        line-height: 1.2;
+        padding-top: 0;
+        margin-bottom: 4.5rem;
+    }
+
+    .row-1, .row-2 { align-items: flex-end; }
+
+    .row-3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .partners-left { max-width: 100%; }
+    .partners-left .f-img {
+        transform: scale(0.8);
+        transform-origin: left center;
+    }
+
+    .bootcamp-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        gap: 2rem;
+    }
+    .bootcamp-right .f-label { margin: 0; }
+
+    /* --- ROW 4: GRID 5 COLUNAS --- */
+    .row-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .f-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .f-col.right-align {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .f-img2.end { align-self: flex-end; }
+
+    /* --- ROW 5: Flex Space Between --- */
+    .row-5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 2rem;
+    }
+
+    .force-right {
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .right-aligned-imgs { justify-content: flex-end; }
+
+    /* Redes Sociais */
     .footer-social {
-      gap: 1rem;
-      padding: 2rem 1rem 1rem;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3rem 4rem 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .social-link {
-      font-size: 0.875rem;
+        color: #000;
+        text-decoration: none;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.125rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        transition: opacity 0.3s;
+        position: relative;
     }
-  }
+
+    .social-link:hover { opacity: 0.7; }
+    .social-link::before {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #000;
+        transition: width 0.3s;
+    }
+    .social-link:hover::before { width: 100%; }
+
+    /* Furos Bottom Section */
+    .furos-bottom-section {
+        background-color: #EBEBEB;
+        padding: 0;
+        width: 100%;
+    }
+
+    .furos-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 4rem;
+    }
+
+    .furos-svg {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* --- RESPONSIVO GERAL --- */
+    /* --- TABLET E MOBILE (Tudo abaixo de 1024px) --- */
+    @media screen and (max-width: 1024px) {
+
+        /* --- HERO (Mantido original com ajustes de escala) --- */
+        .pasta-texto {
+            font-size: 4rem;
+            letter-spacing: 5px;
+        }
+        .pasta-img { max-width: 500px; }
+        .culpado-img { max-width: 180px; }
+        .logo-img { max-width: 220px; }
+
+        /* --- CORREÇÕES DAS OUTRAS SECÇÕES --- */
+
+        /* 1. MEDALHA: Colocar imagem em cima e texto em baixo */
+        .medalha-container {
+            flex-direction: column;
+            max-width: 100%;
+        }
+
+        .medalha-texto {
+            border-left: none;
+            border-top: 2px solid #2B302D;
+            padding: 2rem;
+            width: 100%;
+        }
+
+        /* 2. SECÇÃO "ACADEMIA DOS FUTUROS" (Texto gigante corrigido) */
+        .anos-row {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+        }
+
+        .anos-text {
+            font-size: 3.5rem; /* Reduzido de 10rem para caber no ecrã */
+            line-height: 1;
+            word-break: break-word;
+        }
+
+        .primeira-linha {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .segunda-linha {
+            margin-left: 0; /* Remove a indentação gigante */
+            justify-content: flex-start;
+        }
+
+        .terceira-linha {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .portugal-mini-container {
+            margin-top: 1.5rem;
+            padding: 0;
+            max-width: 100%;
+        }
+
+        .portugal-mini {
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        /* 3. DORES / QUOTE (Correção das margens negativas que partiam tudo) */
+        .quote-section {
+            padding: 4rem 1.5rem;
+        }
+
+        .quote-container {
+            margin: 0 auto; /* Remove as margens gigantes */
+            width: 100%;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .quote-aspas-svg {
+            width: 60px;
+            margin-bottom: 1.5rem;
+        }
+
+        .quote-text {
+            margin: 0 0 1.5rem 0; /* Remove as margens negativas */
+            font-size: 1.3rem;
+            width: 100%;
+        }
+
+        .quote-author {
+            margin: 0; /* Remove as margens negativas */
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        /* Esconder imagens decorativas laterais que criam scroll horizontal */
+        .footer-extra-sobre-container,
+        .footer-extra-sobre-container-2 {
+            display: none;
+        }
+
+        /* 4. CONSISTE GRID & OUTROS */
+        .consiste-main-title { font-size: 1.5rem; }
+        .consiste-grid { grid-template-columns: 1fr; gap: 3rem; padding: 2rem; }
+
+        /* Info Section */
+        .info-container { grid-template-columns: 1fr; gap: 3rem; margin: 3rem auto; }
+        .info-header { height: auto; margin-bottom: 1rem; }
+        .info-number { position: relative; transform: none; right: auto; top: auto; font-size: 5rem; line-height: 1; }
+        .info-title { font-size: 1.5rem; max-width: 100%; }
+
+        /* Footer adjustments */
+        .footer-row { flex-direction: column; align-items: flex-start; gap: 2rem; }
+        .row-4 { display: flex; flex-direction: column; }
+        .row-5 { flex-direction: column; align-items: flex-start; }
+        .f-group-right, .f-col.right-align, .text-right, .force-right { text-align: left !important; align-items: flex-start !important; margin-left: 0; }
+        .f-img2.end { align-self: flex-start; }
+    }
+
+    /* --- MOBILE PEQUENO (Ajustes extra para ecrãs pequenos) --- */
+    @media (max-width: 480px) {
+        .hero-roger { min-height: 60vh; padding: 1.5rem; }
+        .hero-logo { top: 1rem; left: 1rem; }
+        .logo-img { max-width: 120px; }
+
+        /* Ajuste fino da pasta em ecrãs muito pequenos */
+        .pasta-texto { font-size: 1.8rem; letter-spacing: 2px; }
+        .pasta-img { max-width: 260px; }
+
+        .hero-culpado { bottom: 1rem; right: 1rem; }
+        .culpado-img { max-width: 100px; }
+
+        .anos-text { font-size: 2.8rem; }
+
+        .footer { padding: 2rem 1rem; }
+        .footer-social { gap: 1rem; padding: 2rem 1rem 1rem; }
+        .social-link { font-size: 0.875rem; }
+    }
+
+    @media (max-width: 480px) {
+        .hero-roger { min-height: 60vh; padding: 1.5rem; }
+        .hero-logo { top: 1rem; left: 1rem; }
+        .logo-img { max-width: 120px; }
+        .pasta-texto { font-size: 1.5rem; letter-spacing: 3px; }
+        .pasta-img { max-width: 280px; }
+        .hero-culpado { bottom: 1rem; right: 1rem; }
+        .culpado-img { max-width: 100px; }
+
+        .footer { padding: 2rem 1rem; }
+        .footer-social { gap: 1rem; padding: 2rem 1rem 1rem; }
+        .social-link { font-size: 0.875rem; }
+    }
 </style>
 

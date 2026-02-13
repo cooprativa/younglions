@@ -276,19 +276,16 @@
 
     </section>
 
-    <div class="footer-extra-sobre-container">
-        <img src="/assets/fundos/footerextrahistoria.png" alt="" class="footer-extra-sobre-img" />
-    </div>
+
 
     <footer class="footer">
-
         <div class="footer-rows-container">
 
             <div class="footer-row row-1">
                 <div class="f-group-left">
                     <span class="f-label">ORGANIZAÇÃO</span>
                     <div class="f-imgs-row">
-                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img" />
+                        <img src="/footerimagens/mop.png" alt="MOP" class="f-img img1" />
                     </div>
                 </div>
                 <div class="f-group-right">
@@ -304,23 +301,26 @@
                 </div>
                 <div class="f-group-right">
                     <span class="f-label text-right">PATROCINADORES</span>
-                    <div class="f-imgs-row gap-large">
-                        <img src="/footerimagens/belissimo.png" alt="Bellissimo" class="f-img" />
-                        <img src="/footerimagens/nos.png" alt="NOS" class="f-img" />
-                        <img src="/footerimagens/worten.png" alt="Worten" class="f-img" />
-                    </div>
+                    <img src="/footerimagens/patrocinadores.png" alt="Patrocinadores" class="f-img single-logo" />
                 </div>
             </div>
 
             <div class="footer-row row-3">
-                <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
-                <div class="f-imgs-row gap-medium">
-                    <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
-                    <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
-                    <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
-                    <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
-                    <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
-                    <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                <div class="f-group-left partners-left">
+                    <span class="f-label">PARCEIROS INSTITUCIONAIS</span>
+                    <div class="f-imgs-row gap-medium">
+                        <img src="/footerimagens/apame.png" alt="Apeme" class="f-img" />
+                        <img src="/footerimagens/apan2.png" alt="Apan" class="f-img" />
+                        <img src="/footerimagens/apap.png" alt="APAP" class="f-img" />
+                        <img src="/footerimagens/apce.png" alt="APCE" class="f-img" />
+                        <img src="/footerimagens/apecom.png" alt="Apecom" class="f-img" />
+                        <img src="/footerimagens/ccp.png" alt="Clube Criatividade" class="f-img" />
+                    </div>
+                </div>
+
+                <div class="f-group-right bootcamp-right">
+                    <span class="f-label">Bootcamp Host</span>
+                    <img src="/footerimagens/IADE.png" alt="IADE" class="f-img" />
                 </div>
             </div>
 
@@ -329,46 +329,46 @@
                     <span class="f-label">CAMPANHA</span>
                     <img src="/footerimagens/fernando.png" alt="Campanha" class="f-img2 start" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA MEDIA</span>
-                    <img src="/footerimagens/ipgmediabrands.png" alt="IPG" class="f-img2 start ipg-logo" />
+                    <img src="/footerimagens/OMNICOM.png" alt="OMNICOM" class="f-img2 start small-logo" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">AGÊNCIA RP</span>
                     <img src="/footerimagens/centraldeinformacao.png" alt="Central" class="f-img2 start" />
                 </div>
+
                 <div class="f-col">
                     <span class="f-label">PRODUTORA OFICIAL</span>
-                    <img src="/footerimagens/78films.png" alt="Film Brokers" class="f-img2 start" />
+                    <img src="/footerimagens/ProdutoraOficial.png" alt="Film Brokers" class="f-img2 start" />
                 </div>
+
                 <div class="f-col right-align">
+                    <span class="f-label text-right">PARCEIRO WEB</span>
+                    <img src="/footerimagens/cooprativa.png" alt="Cooprativa" class="f-img2 end" />
+                </div>
+            </div>
+
+            <div class="footer-row row-5">
+                <div class="f-group-left">
                     <span class="f-label">PARCEIRO EM ANALÍTICA E ESTUDOS DE MERCADO</span>
                     <div class="f-imgs-row">
                         <img src="/footerimagens/carma.png" alt="Carma" class="f-img2" />
                         <img src="/footerimagens/newssearch.png" alt="NewsSearch" class="f-img2" />
                     </div>
                 </div>
-            </div>
 
-            <div class="footer-row row-5">
-                <div class="f-group-left narrow">
-                    <span class="f-label">AGÊNCIA ATIVAÇÃO</span>
-                    <img src="/footerimagens/29graus.png" alt="29 Graus" class="f-img" />
-                </div>
-
-                <div class="f-group-center">
-                    <span class="f-label">PARCEIROS MEDIA</span>
-                    <div class="f-imgs-row gap-medium">
-                        <img src="/footerimagens/+m.png" alt="M80" class="f-img" />
-                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img" />
-                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img" />
-                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img" />
+                <div class="f-group-right force-right">
+                    <span class="f-label text-right">PARCEIROS MEDIA</span>
+                    <div class="f-imgs-row gap-medium right-aligned-imgs">
+                        <img src="/footerimagens/+m.png" alt="M80" class="f-img2" />
+                        <img src="/footerimagens/mop2.png" alt="MOP" class="f-img2" />
+                        <img src="/footerimagens/publico.png" alt="Publico" class="f-img2" />
+                        <img src="/footerimagens/RFM.png" alt="RFM" class="f-img2" />
+                        <img src="/footerimagens/rtp.png" alt="RTP" class="f-img2" />
                     </div>
-                </div>
-
-                <div class="f-group-right narrow">
-                    <span class="f-label text-right">APOIO</span>
-                    <img src="/footerimagens/sagres.png" alt="Sagres" class="f-img" />
                 </div>
             </div>
 
@@ -391,6 +391,7 @@
 </div>
 
 <style>
+    /* --- FONTES --- */
     @font-face {
         font-family: 'Aber Mono';
         src: url('../fonts/Aber-Mono-Bold.woff2') format('woff2'),
@@ -415,11 +416,11 @@
         font-style: normal;
     }
 
-    /* Alterado para o novo fundo rosa */
+    /* --- GERAL DA PÁGINA HISTÓRIA --- */
     .historia-page {
         width: 100%;
         min-height: 100vh;
-        background-color: #D60A4D;
+        background-color: #D60A4D; /* Rosa */
         overflow-x: hidden;
     }
 
@@ -428,7 +429,7 @@
         width: 100%;
         min-height: 80vh;
         padding: 4rem 3rem 10rem;
-        background-color: #D60A4D; /* Fundo rosa */
+        background-color: #D60A4D;
         position: relative;
         display: flex;
         justify-content: center;
@@ -478,7 +479,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: 'Aber Mono', monospace;
-        font-size: 10rem; /* Reduzido de 15rem para caber "HISTÓRIA" */
+        font-size: 10rem;
         font-weight: 700;
         color: #fff;
         text-transform: uppercase;
@@ -519,8 +520,8 @@
 
     /* Secção Intro Culpados */
     .intro-culpados {
-        background-color: #fff; /* Fundo branco */
-        padding: 6rem 3rem; /* Espaçamento generoso */
+        background-color: #fff;
+        padding: 6rem 3rem;
         width: 100%;
     }
 
@@ -529,45 +530,31 @@
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centra tudo horizontalmente */
+        align-items: center;
         text-align: center;
     }
 
     .culpados-svg {
         width: 100%;
-        max-width: 600px; /* Ajusta este valor se quiseres a imagem maior/menor */
+        max-width: 600px;
         height: auto;
         display: block;
-        margin-bottom: -8rem; /* Espaço entre a imagem e o texto */
+        margin-bottom: -8rem;
     }
 
     .intro-text {
         font-family: 'IBM Plex Mono', monospace;
-        font-size: 1.5rem; /* Tamanho legível */
-        font-weight: 500; /* Peso pedido */
+        font-size: 1.5rem;
+        font-weight: 500;
         color: #000;
         line-height: 1.4;
-        max-width: 1200px; /* Limita a largura do texto para leitura confortável */
+        max-width: 1200px;
         text-transform: uppercase;
     }
 
-    /* Responsivo */
-    @media (max-width: 768px) {
-        .intro-culpados {
-            padding: 4rem 2rem;
-        }
-
-        .intro-text {
-            font-size: 1.125rem;
-        }
-
-        .culpados-svg {
-            max-width: 100%;
-        }
-    }
-
+    /* --- TIMELINE SECTION --- */
     .timeline-section {
-        background-color: #FFF; /* Fundo cinzento muito claro, quase branco, como na imagem */
+        background-color: #FFF;
         padding: 0 3rem 6rem;
         width: 100%;
         display: flex;
@@ -577,27 +564,26 @@
     .timeline-clean-container {
         width: 100%;
         max-width: 1300px;
-        height: 700px; /* Altura fixa para permitir scroll */
+        height: 700px;
         display: flex;
         position: relative;
-        /* Sem border em volta, conforme pedido "clean" */
     }
 
-    /* CLASSE MÁGICA PARA ESCONDER SCROLLBARS */
+    /* Scrollbars invisíveis */
     .hide-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        -ms-overflow-style: none;
+        scrollbar-width: none;
     }
     .hide-scrollbar::-webkit-scrollbar {
-        display: none; /* Chrome, Safari and Opera */
+        display: none;
     }
 
-    /* --- Coluna Esquerda: Navegação --- */
+    /* Coluna Esquerda: Navegação */
     .timeline-nav {
         width: 150px;
-        padding-top: 5rem; /* Espaço no topo para alinhar com o título */
+        padding-top: 5rem;
         position: relative;
-        overflow-y: auto; /* Permite scroll se a lista for longa */
+        overflow-y: auto;
         flex-shrink: 0;
     }
 
@@ -605,18 +591,17 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: flex-end; /* Alinha números à direita, perto da linha */
-        padding-right: 20px; /* Espaço entre números e linha */
+        align-items: flex-end;
+        padding-right: 20px;
     }
 
-    /* A Linha Vertical */
     .vertical-line {
         position: absolute;
         top: 0;
         bottom: 0;
-        right: 0; /* Encostada à direita do container nav */
+        right: 0;
         width: 1px;
-        background-color: #888; /* Linha fina cinzenta */
+        background-color: #888;
     }
 
     .nav-year {
@@ -630,50 +615,44 @@
         margin-bottom: 1rem;
         cursor: pointer;
         transition: all 0.3s;
-        opacity: 1; /* Todos visíveis a preto */
+        opacity: 1;
         position: relative;
         width: 100%;
         text-align: right;
     }
 
-    .nav-year:hover {
-        opacity: 0.7;
-    }
+    .nav-year:hover { opacity: 0.7; }
 
-    /* Losango Vermelho */
     .diamond {
         position: absolute;
-        right: -26px; /* Ajuste para ficar EM CIMA da linha vertical (padding-right 20 + largura metade do losango) */
+        right: -26px;
         top: 50%;
         transform: translateY(-50%) rotate(45deg);
         width: 11px;
         height: 11px;
-        background-color: #D60A4D; /* Rosa/Vermelho */
-        opacity: 0; /* Invisível por defeito */
+        background-color: #D60A4D; /* Rosa */
+        opacity: 0;
         transition: opacity 0.3s;
     }
 
-    /* Estado Ativo */
-    .nav-year.active .diamond {
-        opacity: 1;
-    }
+    .nav-year.active .diamond { opacity: 1; }
 
-    /* --- Coluna Direita: Conteúdo --- */
+    /* Coluna Direita: Conteúdo */
     .timeline-scroll-area {
         flex: 1;
-        overflow-y: scroll; /* Scroll funcional */
+        overflow-y: scroll;
         scroll-behavior: smooth;
-        padding-left: 4rem; /* Afasta da linha vertical */
+        padding-left: 4rem;
         padding-top: 2rem;
     }
 
     .year-block {
-        min-height: 450px; /* Reduzi de 700px para 450px */
-        padding-bottom: 4rem; /* Espaço no fim de cada bloco antes do próximo */
-        margin-bottom: 0; /* Removi margem extra */
+        min-height: 450px;
+        padding-bottom: 4rem;
+        margin-bottom: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Tenta manter o conteúdo centrado no bloco */
+        justify-content: center;
     }
 
     .year-header-clean {
@@ -684,7 +663,7 @@
 
     .giant-year {
         font-family: 'Aber Mono', monospace;
-        font-size: 8rem; /* Tamanho gigante */
+        font-size: 8rem;
         font-weight: 700;
         color: #D60A4D; /* Rosa */
         line-height: 0.8;
@@ -697,7 +676,7 @@
         color: #000;
         margin-left: 1rem;
         text-transform: uppercase;
-        margin-top: 1rem; /* Pequeno ajuste visual */
+        margin-top: 1rem;
     }
 
     .year-body-clean {
@@ -706,9 +685,7 @@
         align-items: center;
     }
 
-    .year-text-area {
-        flex: 1;
-    }
+    .year-text-area { flex: 1; }
 
     .clean-subtitle {
         font-family: 'IBM Plex Mono', monospace;
@@ -725,31 +702,28 @@
         line-height: 1.6;
         color: #333;
     }
-    /* Contentor da pilha vertical */
+
     .multi-image-stack {
         display: flex;
-        flex-direction: column; /* Garante que ficam uma em cima da outra */
-        gap: 2rem; /* Espaço generoso entre o primeiro bloco (img+legenda) e o segundo */
+        flex-direction: column;
+        gap: 2rem;
         width: 100%;
     }
 
-    /* Bloco individual que agrupa uma imagem e a sua legenda */
     .single-media-block {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    /* Ajuste fino para a legenda dentro do bloco não ficar muito longe da imagem */
     .single-media-block .clean-caption {
         margin-top: 0.5rem;
         margin-bottom: 0;
     }
 
     .year-img-area {
-        /* flex: 0 0 400px;  <-- VALOR ANTIGO */
-        flex: 0 0 320px; /* <-- NOVO VALOR MENOR: Ajusta a largura da coluna da imagem */
-        max-width: 320px; /* Garante que não cresce mais que isso */
+        flex: 0 0 320px;
+        max-width: 320px;
     }
 
     .clean-img {
@@ -767,78 +741,42 @@
         margin-top: 0.5rem;
     }
 
-    /* Responsivo */
-    @media (max-width: 1024px) {
-        .giant-year { font-size: 6rem; }
-        .year-body-clean { flex-direction: column; }
-        .year-img-area { flex: 1; width: 100%; }
-    }
-
-    @media (max-width: 768px) {
-        .timeline-clean-container { height: auto; flex-direction: column; }
-        .timeline-nav {
-            width: 100%;
-            height: 60px;
-            overflow-x: auto;
-            overflow-y: hidden;
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #ccc;
-            padding: 0 1rem;
-            margin-bottom: 2rem;
-        }
-        .nav-track { flex-direction: row; align-items: center; padding: 0; height: 100%; }
-        .vertical-line { display: none; } /* Remove linha vertical no mobile */
-        .nav-year { width: auto; margin: 0 1.5rem 0 0; padding: 0; text-align: center; }
-        .diamond { display: none; } /* Remove losango no mobile, usa cor de texto */
-        .nav-year.active { color: #D60A4D; text-decoration: underline; }
-
-        .timeline-scroll-area { padding-left: 0; padding-top: 0; overflow-y: visible; }
-        .year-block { min-height: auto; margin-bottom: 4rem; border-bottom: 1px solid #eee; padding-bottom: 2rem; }
-    }
-
     .footer-extra-sobre-container {
         display: flex;
-        justify-content: center; /* Centra horizontalmente */
+        justify-content: center;
         align-items: flex-end;
         width: 100%;
-
-        /* Espaçamento */
-        padding-top: 4rem;    /* Afasta da timeline em cima */
-
-        margin-bottom: 0rem;  /* Afasta do footer em baixo (SEM VALORES NEGATIVOS) */
-
-        background-color: transparent; /* Garante que não tapa nada */
+        padding-top: 4rem;
+        margin-bottom: 0rem;
+        background-color: transparent;
         position: relative;
         z-index: 10;
     }
 
     .footer-extra-sobre-img {
         width: 100%;
-        max-width: 400px; /* Tamanho da imagem */
+        max-width: 400px;
         height: auto;
         display: block;
         margin-top: 100px;
     }
 
-    /* Footer */
+    /* --- FOOTER GLOBAL (Versão Rosa) --- */
     .footer {
-        background-color: #D60A4D; /* Fundo rosa para combinar */
+        background-color: #D60A4D; /* Cor de fundo Rosa */
         padding: 2rem 2rem 3rem;
         position: relative;
+        font-family: 'IBM Plex Mono', monospace;
     }
-
-    /* --- CSS DO NOVO FOOTER CORRIGIDO E AJUSTADO --- */
 
     .footer-rows-container {
         max-width: 1400px;
         margin: 0 auto;
         background-color: transparent;
         border: none;
-        font-family: 'IBM Plex Mono', monospace;
     }
 
-    /* Estilo Base para cada Linha */
+    /* Estilo Base da Linha */
     .footer-row {
         width: 100%;
         border: 2px solid #000;
@@ -855,12 +793,12 @@
         border-bottom: 2px solid #000;
     }
 
-    /* --- LABELS E TEXTOS --- */
+    /* Labels */
     .f-label {
         font-size: 1rem;
         font-weight: 700;
         color: #000;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         display: block;
         text-transform: uppercase;
         letter-spacing: 0.5px;
@@ -872,7 +810,7 @@
         width: 100%;
     }
 
-    /* --- IMAGENS GERAIS --- */
+    /* Imagens Gerais */
     .f-img {
         height: 40px;
         width: auto;
@@ -880,17 +818,29 @@
         display: block;
     }
 
-    .f-img.big-logo {
-        height: 50px;
-    }
+    .f-img.big-logo { height: 50px; }
 
-    /* --- IMAGENS PEQUENAS (LINHA 4) --- */
-    /* Corrigido: classe isolada e tamanho reduzido para 30px */
+    /* Imagens Pequenas (Row 4 e 5) */
     .f-img2 {
-        height: 30px; /* Reduzido para dar espaço */
+        height: 30px;
         width: auto;
         object-fit: contain;
         display: block;
+    }
+
+    /* Ajuste específico para OMNICOM ficar menor */
+    .small-logo {
+        height: 20px !important;
+        width: auto;
+    }
+
+    .f-img.single-logo {
+        width: 70%;
+        max-width: 700px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin-top: 1rem;
     }
 
     .f-imgs-row {
@@ -900,16 +850,19 @@
         flex-wrap: wrap;
     }
 
-    .f-imgs-row.gap-large { gap: 3rem; }
     .f-imgs-row.gap-medium { gap: 2rem; }
 
-
-    /* --- GRUPOS DE POSICIONAMENTO --- */
+    /* Grupos */
     .f-group-left {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
+    }
+
+    .f-group-left img[alt="MOP"] {
+        height: 60px;
+        width: auto;
     }
 
     .f-group-right {
@@ -919,21 +872,42 @@
         text-align: right;
     }
 
-    /* --- REGRAS ESPECÍFICAS POR LINHA --- */
-
-    .row-1, .row-2 {
-        align-items: flex-end;
+    /* Regras Específicas Row 1, 2, 3 */
+    .row-2 .f-group-left .f-label {
+        display: block;
+        margin-top: 0;
+        line-height: 1.2;
+        padding-top: 0;
+        margin-bottom: 4.5rem;
     }
 
+    .row-1, .row-2 { align-items: flex-end; }
+
     .row-3 {
-        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
         align-items: flex-start;
     }
 
-    /* Linha 4: Grid com 5 colunas */
+    .partners-left { max-width: 100%; }
+    .partners-left .f-img {
+        transform: scale(0.8);
+        transform-origin: left center;
+    }
+
+    .bootcamp-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        gap: 2rem;
+    }
+    .bootcamp-right .f-label { margin: 0; }
+
+    /* --- ROW 4: GRID 5 COLUNAS --- */
     .row-4 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         gap: 1rem;
         align-items: start;
     }
@@ -949,73 +923,27 @@
         text-align: right;
     }
 
-    /* Garante que na direita as imagens ficam lado a lado e encostadas à direita */
-    .f-col.right-align .f-imgs-row {
-        justify-content: flex-end;
-    }
+    .f-img2.end { align-self: flex-end; }
 
-    /* --- LINHA 5: AJUSTES PARA ESQUERDA --- */
+    /* --- ROW 5: Flex Space Between --- */
     .row-5 {
         display: flex;
-        /* Altera o justify para start para podermos controlar a posição manualmente */
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: flex-end;
-        gap: 4rem; /* Dá espaço entre o grupo da esquerda e o do meio */
+        gap: 2rem;
     }
 
-    /* O grupo do meio (Parceiros Media) agora alinha à esquerda */
-    .f-group-center {
+    .force-right {
+        margin-left: auto;
         display: flex;
         flex-direction: column;
-        align-items: flex-start; /* Alinha à esquerda */
-        padding: 0; /* Remove padding antigo */
+        align-items: flex-end;
+        text-align: right;
     }
 
-    /* Força o grupo da direita (Apoio) a ir para o extremo direito */
-    .f-group-right.narrow {
-        margin-left: auto; /* Isto empurra este elemento sozinho para a direita */
-        flex: 0 0 auto;
-    }
+    .right-aligned-imgs { justify-content: flex-end; }
 
-    .f-group-left.narrow {
-        flex: 0 0 auto;
-    }
-
-    /* Ajuste específico para o IPG */
-    .ipg-logo {
-        height: 22px; /* Era 30px, reduz para 22px ou 20px conforme o gosto */
-    }
-
-
-    /* --- RESPONSIVO (MOBILE) --- */
-    @media (max-width: 1024px) {
-        .footer-row {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 2rem;
-        }
-
-        .row-4 {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .row-5 {
-            gap: 2rem; /* Reduz gap no mobile */
-        }
-
-        .f-group-right,
-        .f-col.right-align,
-        .text-right,
-        .f-col.right-align .f-imgs-row,
-        .f-group-right.narrow {
-            align-items: flex-start;
-            justify-content: flex-start;
-            text-align: left;
-            margin-left: 0; /* Remove o auto margin no mobile */
-        }
-    }
-
+    /* Redes Sociais */
     .footer-social {
         display: flex;
         gap: 2rem;
@@ -1038,10 +966,7 @@
         position: relative;
     }
 
-    .social-link:hover {
-        opacity: 0.7;
-    }
-
+    .social-link:hover { opacity: 0.7; }
     .social-link::before {
         content: '';
         position: absolute;
@@ -1052,10 +977,7 @@
         background-color: #000;
         transition: width 0.3s;
     }
-
-    .social-link:hover::before {
-        width: 100%;
-    }
+    .social-link:hover::before { width: 100%; }
 
     /* Furos Bottom Section */
     .furos-bottom-section {
@@ -1080,114 +1002,89 @@
         display: block;
     }
 
-    /* Responsive */
+    /* --- RESPONSIVO --- */
     @media (max-width: 1024px) {
-        .pasta-texto {
-            font-size: 4rem;
-            letter-spacing: 8px;
-        }
+        .giant-year { font-size: 6rem; }
+        .year-body-clean { flex-direction: column; }
+        .year-img-area { flex: 1; width: 100%; }
 
-        .pasta-img {
-            max-width: 500px;
+        /* Footer Mobile */
+        .footer-row {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2rem;
         }
-
-        .culpado-img {
-            max-width: 300px;
+        .row-4 {
+            display: flex;
+            flex-direction: column;
         }
-
-        .logo-img {
-            max-width: 220px;
+        .row-5 {
+            flex-direction: column;
+            align-items: flex-start;
         }
+        .f-group-right,
+        .f-col.right-align,
+        .text-right,
+        .force-right,
+        .right-aligned-imgs {
+            align-items: flex-start !important;
+            justify-content: flex-start !important;
+            text-align: left !important;
+            margin-left: 0;
+        }
+        .f-img2.end { align-self: flex-start; }
     }
 
     @media (max-width: 768px) {
-        .hero-historia {
-            min-height: 70vh;
-            padding: 2rem;
+        .timeline-clean-container { height: auto; flex-direction: column; }
+        .timeline-nav {
+            width: 100%;
+            height: 60px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding: 0 1rem;
+            margin-bottom: 2rem;
         }
+        .nav-track { flex-direction: row; align-items: center; padding: 0; height: 100%; }
+        .vertical-line { display: none; }
+        .nav-year { width: auto; margin: 0 1.5rem 0 0; padding: 0; text-align: center; }
+        .diamond { display: none; }
+        .nav-year.active { color: #D60A4D; text-decoration: underline; }
+        .timeline-scroll-area { padding-left: 0; padding-top: 0; overflow-y: visible; }
+        .year-block { min-height: auto; margin-bottom: 4rem; border-bottom: 1px solid #eee; padding-bottom: 2rem; }
 
-        .hero-logo {
-            top: 1.5rem;
-            left: 1.5rem;
-        }
-
-        .logo-img {
-            max-width: 160px;
-        }
-
-        .pasta-texto {
-            font-size: 3rem;
-            letter-spacing: 5px;
-        }
-
-        .pasta-img {
-            max-width: 380px;
-        }
-
-        .hero-culpado {
-            bottom: 1.5rem;
-            right: 1.5rem;
-        }
-
-        .culpado-img {
-            max-width: 220px;
-        }
+        .hero-historia { min-height: 70vh; padding: 2rem; }
+        .hero-logo { top: 1.5rem; left: 1.5rem; }
+        .logo-img { max-width: 160px; }
+        .pasta-texto { font-size: 3rem; letter-spacing: 5px; }
+        .pasta-img { max-width: 380px; }
+        .hero-culpado { bottom: 1.5rem; right: 1.5rem; }
+        .culpado-img { max-width: 220px; }
+        .intro-culpados { padding: 4rem 2rem; }
+        .intro-text { font-size: 1.125rem; }
 
         .footer-social {
             gap: 1.5rem;
             justify-content: center;
             padding: 2rem 2rem 1rem;
         }
-
-        .social-link {
-            font-size: 1rem;
-        }
+        .social-link { font-size: 1rem; }
     }
 
     @media (max-width: 480px) {
-        .hero-historia {
-            min-height: 60vh;
-            padding: 1.5rem;
-        }
+        .hero-historia { min-height: 60vh; padding: 1.5rem; }
+        .hero-logo { top: 1rem; left: 1rem; }
+        .logo-img { max-width: 120px; }
+        .pasta-texto { font-size: 2rem; letter-spacing: 3px; }
+        .pasta-img { max-width: 280px; }
+        .hero-culpado { bottom: 1rem; right: 1rem; }
+        .culpado-img { max-width: 160px; }
 
-        .hero-logo {
-            top: 1rem;
-            left: 1rem;
-        }
-
-        .logo-img {
-            max-width: 120px;
-        }
-
-        .pasta-texto {
-            font-size: 2rem;
-            letter-spacing: 3px;
-        }
-
-        .pasta-img {
-            max-width: 280px;
-        }
-
-        .hero-culpado {
-            bottom: 1rem;
-            right: 1rem;
-        }
-
-        .culpado-img {
-            max-width: 160px;
-        }
-
-        .footer {
-            padding: 2rem 1rem;
-        }
-
-        .footer-social {
-            gap: 1rem;
-            padding: 2rem 1rem 1rem;
-        }
-
-        .social-link {
-            font-size: 0.875rem;
-        }
+        .footer { padding: 2rem 1rem; }
+        .footer-social { gap: 1rem; padding: 2rem 1rem 1rem; }
+        .social-link { font-size: 0.875rem; }
     }
 </style>
