@@ -81,7 +81,9 @@
         <p class="tribunal-subtitulo">CONSULTA O NOSSO CÓDIGO DA CRIATIVIDADE!</p>
       </div>
       <div class="tribunal-botao-container">
-        <button class="tribunal-botao">CÓDIGO DA CRIATIVIDADE</button>
+          <a href="/assets/Codigo-da-criatividade.pdf" target="_blank" class="tribunal-link">
+              <button class="tribunal-botao">CÓDIGO DA CRIATIVIDADE</button>
+          </a>
       </div>
     </div>
   </section>
@@ -924,6 +926,110 @@
             padding: 2rem 1rem 1rem;
         }
         .social-link { font-size: 0.875rem; }
+    }
+    @media (max-width: 768px) {
+
+        /* Secção Medalha */
+        .medalha-container {
+            flex-direction: column; /* Empilha imagem e texto */
+        }
+
+        .medalha-imagem, .medalha-texto {
+            flex: 0 0 100%;
+        }
+
+        .aspas-container {
+            padding-left: 0; /* Remove padding lateral em mobile */
+            padding-top: 2rem;
+        }
+
+        .aspas-svg {
+            width: 150px; /* Reduz drasticamente o tamanho das aspas */
+            top: -20px;
+        }
+
+        .texto-descricao {
+            font-size: 0.9rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        /* Secção 30 Anos */
+        .anos-text {
+            font-size: 4rem; /* Reduz de 10rem para 4rem */
+        }
+
+        .anos-row {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .primeira-linha, .segunda-linha, .terceira-linha {
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .young-lion-inline {
+            width: 60px; /* Leão mais pequeno */
+        }
+
+        .terceira-linha {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .portugal-mini-container {
+            text-align: center;
+            padding-bottom: 0;
+            margin-top: 1rem;
+        }
+
+        .portugal-mini {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        /* Secção Tribunal */
+        .tribunal-container {
+            flex-direction: column;
+        }
+
+        .tribunal-texto {
+            border-right: none;
+            border-bottom: 2px solid #2B302D;
+            padding: 2rem;
+        }
+
+        .tribunal-titulo {
+            font-size: 1.5rem;
+        }
+
+        .tribunal-botao-container {
+            padding: 2rem;
+        }
+
+        /* Ajuste da imagem do rodapé que estava com margin negativa */
+        .footer-extra-sobre-container {
+            margin-left: 0;
+            margin-bottom: -50px;
+            justify-content: center;
+        }
+
+        .footer-extra-sobre-img {
+            max-width: 0px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .anos-text {
+            font-size: 2.5rem; /* Ainda mais pequeno para ecrãs mini */
+        }
+
+        .pasta-texto {
+            font-size: 3rem; /* Ajuste no "SOBRE" dentro da pasta */
+        }
     }
 </style>
 
