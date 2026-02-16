@@ -923,7 +923,7 @@
         text-align: right;
     }
 
-    .f-img2.end { align-self: flex-end; }
+    .f-img2.end { align-self: flex-end; height: 40px;}
 
     /* --- ROW 5: Flex Space Between --- */
     .row-5 {
@@ -1002,6 +1002,12 @@
         display: block;
     }
 
+    /* Ajuste forçado para o Menu Mobile */
+    :global(.mobile-menu a[href="#inscricao"]),
+    :global(.mobile-menu a[href="#inscrever"]) {
+        margin-top: 20px !important; /* Força espaço extra no topo do botão inscrever */
+    }
+
     /* --- RESPONSIVO --- */
     @media (max-width: 1024px) {
         .giant-year { font-size: 6rem; }
@@ -1036,6 +1042,35 @@
     }
 
     @media (max-width: 768px) {
+
+        .f-group-left img[alt="MOP"] {
+            height: 40px; /* Estava a 60px no desktop */
+        }
+
+        /* 1. MUDANÇA: Colocar o Título DEBAIXO do Ano */
+        .year-header-clean {
+            flex-direction: column; /* Empilha verticalmente */
+            align-items: flex-start; /* Alinha à esquerda */
+            margin-bottom: 1.5rem;
+        }
+
+        /* 2. MUDANÇA: Reduzir o tamanho do Ano para caber melhor */
+        .giant-year {
+            font-size: 4.5rem; /* Era muito grande, reduzimos para caber */
+            line-height: 1;
+        }
+
+        /* 3. MUDANÇA: Ajustar o título (A Estreia, etc.) */
+        .giant-dash {
+            margin-left: 0; /* Remove a margem esquerda */
+            margin-top: 0.5rem; /* Dá espaço no topo */
+            font-size: 1.5rem; /* Tamanho legível */
+        }
+
+        /* Garante que o texto descritivo não bate nas bordas */
+        .year-body-clean {
+            padding-right: 1rem;
+        }
         .timeline-clean-container { height: auto; flex-direction: column; }
         .timeline-nav {
             width: 100%;
@@ -1060,7 +1095,7 @@
         .hero-logo { top: 1.5rem; left: 1.5rem; }
         .logo-img { max-width: 160px; }
         .pasta-texto { font-size: 3rem; letter-spacing: 5px; }
-        .pasta-img { max-width: 380px; }
+        .pasta-img { max-width: 210px; }
         .hero-culpado { bottom: 1.5rem; right: 1.5rem; }
         .culpado-img { max-width: 220px; }
         .intro-culpados { padding: 4rem 2rem; }
@@ -1079,7 +1114,7 @@
         .hero-logo { top: 1rem; left: 1rem; }
         .logo-img { max-width: 120px; }
         .pasta-texto { font-size: 2rem; letter-spacing: 3px; }
-        .pasta-img { max-width: 280px; }
+        .pasta-img { max-width: 210px; width: 210px;}
         .hero-culpado { bottom: 1rem; right: 1rem; }
         .culpado-img { max-width: 160px; }
 

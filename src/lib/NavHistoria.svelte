@@ -32,13 +32,11 @@
         <span></span>
     </button>
 
-
-
     <div class="nav-overlay" class:active={isOpen}>
         <a href="#home" class="nav-home" aria-label="Home" on:click={closeMenu}>
             <span class="nav-text mobile-only">HOME</span>
-            <span class="sr-only">Home</span>
         </a>
+
         <a href="#sobre" class="nav-link link-sobre" on:click={closeMenu}>
             <span class="nav-text">SOBRE</span>
         </a>
@@ -59,11 +57,13 @@
 </nav>
 
 <style>
+    /* --- ESTRUTURA GERAL --- */
     .nav {
         position: relative;
         width: 100%;
         background: transparent;
         line-height: 0;
+        z-index: 50; /* Garante que a nav está acima do conteúdo */
     }
 
     .nav-bg {
@@ -78,43 +78,7 @@
         margin: 0 auto;
     }
 
-    .nav-overlay {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-51%);
-        width: 92%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        line-height: normal;
-    }
-
-    /* DESKTOP: HOME INVISÍVEL */
-    .nav-home {
-        position: absolute;
-        left: 0%;
-        width: 7%;
-        height: 100%;
-        z-index: 5;
-        top: 5%;
-    }
-
-    /* ESCONDE O TEXTO "HOME" NO PC */
-    .mobile-only {
-        display: none;
-    }
-
-    .nav-link {
-        position: absolute;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        color: #000;
-        transform: translateY(-15%);
-    }
+    .hamburger { display: none; } /* Desktop: escondido */
 
     .nav-text {
         font-family: 'IBM Plex Mono', monospace;
@@ -123,30 +87,56 @@
         letter-spacing: 1.8px;
         text-transform: uppercase;
         white-space: nowrap;
+        color: #000;
     }
 
     .white { color: #fff; }
+    .mobile-only { display: none; }
 
-    /* --- POSIÇÕES DESKTOP --- */
-    .link-sobre { left: -1%; width: 17%; }
-    .link-juri { left: 18%; width: 17%; }
-    .link-historia { left: 40%; width: 17%; }
-    .link-roger { left: 61%; width: 17%; }
-    .link-inscreve { left: 78%; width: 20%; }
+    /* --- DESKTOP (POSICIONAMENTO SOBRE O SVG) --- */
+    @media (min-width: 851px) {
+        .nav-overlay {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-51%);
+            width: 92%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background: transparent;
+        }
 
-    .hamburger { display: none; }
+        .nav-home {
+            position: absolute;
+            left: 0; top: 5%;
+            width: 7%; height: 100%;
+            z-index: 5;
+        }
 
-    .sr-only {
-        position: absolute;
-        width: 1px; height: 1px; padding: 0; margin: -1px;
-        overflow: hidden; clip: rect(0 0 0 0); border: 0;
+        .nav-link {
+            position: absolute;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transform: translateY(-15%);
+        }
+
+        .link-sobre { left: -1%; width: 17%; }
+        .link-juri { left: 18%; width: 17%; }
+        .link-historia { left: 40%; width: 17%; }
+        .link-roger { left: 61%; width: 17%; }
+        .link-inscreve { left: 78%; width: 20%; }
     }
 
-    /* --- MOBILE --- */
+    /* --- MOBILE (< 850px) --- */
     @media (max-width: 850px) {
-        .nav { height: 70px; background: transparent; }
-        .nav-bg { display: none !important; }
+        .nav { height: 70px; }
+        .nav-bg { display: none; }
 
+        /* Hambúrguer Visível */
         .hamburger {
             display: flex;
             flex-direction: column;
@@ -155,90 +145,71 @@
             height: 20px;
             background: transparent;
             border: none;
-            z-index: 101;
+            z-index: 200; /* Acima do menu aberto */
             position: absolute;
             right: 20px;
             top: 25px;
+            cursor: pointer;
+            padding: 0;
         }
 
         .hamburger span { width: 100%; height: 2px; background: #000; transition: 0.3s; }
-        .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-        .hamburger.open span:nth-child(2) { opacity: 0; }
-        .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
+        /* Animação do X */
+        .hamburger.open span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+        .hamburger.open span:nth-child(2) { opacity: 0; }
+        .hamburger.open span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
+        /* --- MENU FULLSCREEN --- */
         .nav-overlay {
             position: fixed;
             top: 0;
-            right: -100%;
-            width: 100%;
+            left: 0;
+            width: 100vw;
             height: 100vh;
             background-color: #ffffff;
+            z-index: 100;
+
+            /* FLEXBOX PARA CENTRAR ITENS */
+            display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            transition: 0.4s ease-in-out;
-            z-index: 100;
-            visibility: hidden; /* Esconde tudo enquanto fechado */
+            gap: 2rem;
+
+            /* LÓGICA DE ESCONDER (O SEGREDO ESTÁ AQUI) */
+            transform: translateX(100%); /* Move 100% para a direita (fora do ecrã) */
+            transition: transform 0.4s ease-in-out;
+            visibility: hidden; /* Para não ser clicável quando escondido */
         }
 
+        /* QUANDO ABERTO */
         .nav-overlay.active {
-            right: 0;
+            transform: translateX(0); /* Traz de volta para o centro */
             visibility: visible;
         }
 
-        /* 🔹 RESET TOTAL DA HOME NO MOBILE 🔹 */
-        .nav-home {
-            /* Forçamos o link a comportar-se como um item da lista */
-            position: relative !important;
-            display: flex !important;
-            align-items: center;
-            justify-content: center;
-
-            /* Anulamos todas as coordenadas do Desktop */
-            left: auto !important;
-            top: auto !important;
-            bottom: auto !important;
-            right: auto !important;
-            transform: none !important;
-
-            /* Damos tamanho para ele ser visível e clicável */
-            width: auto !important;
-            height: auto !important;
-            margin-bottom: 25px !important;
-            z-index: 110;
+        /* Reset dos Links para Mobile */
+        .nav-link, .nav-home {
+            position: relative;
+            transform: none;
+            width: auto;
+            height: auto;
+            left: auto; top: auto;
+            text-decoration: none;
+            display: block;
         }
 
-        /* Revela o texto que adicionaste no HTML */
-        .mobile-only {
-            display: inline-block !important;
-            font-size: 22px !important;
-            color: #000 !important;
-            font-family: 'IBM Plex Mono', monospace;
-            visibility: visible !important;
-        }
-
-        /* RESET DOS OUTROS LINKS */
-        .nav-link {
-            position: relative !important;
-            left: auto !important;
-            top: auto !important;
-            width: auto !important;
-            height: auto !important;
-            margin: 15px 0 !important;
-            transform: none !important;
-            display: flex !important;
-        }
+        .mobile-only { display: inline-block; }
 
         .nav-text {
-            font-size: 22px !important;
-            color: #000 !important;
-            visibility: visible !important;
+            font-size: 24px; /* Letra maior no telemóvel */
         }
 
         .nav-text.white {
             background: #000;
-            color: #fff !important;
-            padding: 10px 25px;
+            color: #fff;
+            padding: 10px 30px;
             border-radius: 4px;
         }
     }

@@ -978,7 +978,7 @@
         text-align: right;
     }
 
-    .f-img2.end { align-self: flex-end; }
+    .f-img2.end { align-self: flex-end; height: 40px;}
 
     /* --- ROW 5: Flex Space Between --- */
     .row-5 {
@@ -1060,6 +1060,38 @@
     /* --- RESPONSIVO GERAL --- */
     /* --- TABLET E MOBILE (Tudo abaixo de 1024px) --- */
     @media screen and (max-width: 1024px) {
+
+        .f-group-left img[alt="MOP"] {
+            height: 40px; /* Estava a 60px no desktop */
+        }
+
+        .terceira-linha {
+            display: flex;
+            flex-direction: column; /* Empilha verticalmente */
+            align-items: flex-start;
+        }
+
+        /* 2. Forçar o "VENCE" a ser o primeiro elemento visual */
+        .terceira-linha .anos-text:nth-child(1) {
+            order: 1;
+            margin-bottom: 0px; /* Ajuste negativo para colar ao "DORES" */
+            line-height: 0.9; /* Garante que não há espaço extra */
+        }
+
+        /* 3. Forçar o "DORES" a ser o segundo elemento visual */
+        .terceira-linha .anos-text:nth-child(3) {
+            order: 2;
+            margin-bottom: 2rem; /* Dá espaço antes de começar o texto descritivo */
+            line-height: 0.9;
+        }
+
+        /* 4. Forçar o Texto Descritivo a ir para o fim */
+        .portugal-mini-container {
+            order: 3;
+            margin-top: 0;
+            padding: 0;
+            max-width: 100%;
+        }
 
         /* --- HERO (Mantido original com ajustes de escala) --- */
         .pasta-texto {
@@ -1188,7 +1220,7 @@
 
         /* Ajuste fino da pasta em ecrãs muito pequenos */
         .pasta-texto { font-size: 1.8rem; letter-spacing: 2px; }
-        .pasta-img { max-width: 260px; }
+        .pasta-img { max-width: 210px; }
 
         .hero-culpado { bottom: 1rem; right: 1rem; }
         .culpado-img { max-width: 100px; }
@@ -1200,12 +1232,19 @@
         .social-link { font-size: 0.875rem; }
     }
 
+    @media (max-width: 768px) {
+        .hero-logo { top: 1.5rem; left: 1.5rem; }
+        .logo-img { max-width: 160px; }
+        .pasta-texto { font-size: 3rem; letter-spacing: 5px; }
+        .pasta-img { max-width: 210px; }
+    }
+
     @media (max-width: 480px) {
         .hero-roger { min-height: 60vh; padding: 1.5rem; }
         .hero-logo { top: 1rem; left: 1rem; }
         .logo-img { max-width: 120px; }
         .pasta-texto { font-size: 1.5rem; letter-spacing: 3px; }
-        .pasta-img { max-width: 280px; }
+        .pasta-img { max-width: 210px; }
         .hero-culpado { bottom: 1rem; right: 1rem; }
         .culpado-img { max-width: 100px; }
 

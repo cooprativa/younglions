@@ -21,6 +21,19 @@
           currentPage = 'historia';
       } else {
           currentPage = 'home';
+
+          if (hash === 'juri') {
+              // setTimeout(..., 100) dá tempo ao navegador para renderizar o HTML da Home
+              setTimeout(() => {
+                  const element = document.getElementById('juri');
+                  if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                  }
+              }, 100);
+          } else {
+              // Se for só Home normal, vai para o topo
+              window.scrollTo(0, 0);
+          }
       }
   }
 
@@ -30,12 +43,20 @@
     window.addEventListener('hashchange', handleRoute);
   }
 
-  import { onMount } from 'svelte';
+  if (typeof window !== 'undefined') {
+      // Executar no load inicial
+      onMount(() => {
+          handleRoute();
+      });
+      window.addEventListener('hashchange', handleRoute);
+  }
+
+  import { onMount, tick } from 'svelte';
 
   let countdown = 'Carregando...';
 
-  // Data alvo do countdown (exemplo aleatório: 13 de março de 2026, 23:59)
-  const targetDate = new Date('2026-03-13T23:59:00');
+  // Data alvo do countdown (exemplo aleatório: 09 de março de 2026, 23:59)
+  const targetDate = new Date('2026-03-09T23:59:00');
 
   function updateCountdown() {
       const now = new Date();
@@ -679,9 +700,7 @@
     }
 
     /* Garante que a imagem Cooprativa encosta à direita */
-    .f-img2.end {
-        align-self: flex-end;
-    }
+    .f-img2.end { align-self: flex-end; height: 40px;}
 
     .produtora {
         height: 40px;
@@ -772,6 +791,23 @@
     /* Responsive Design */
     @media (max-width: 1024px) {
 
+
+        .brands-section {
+            padding-bottom: 1rem; /* Era 4rem */
+        }
+
+        /* 2. Reduzir padding da secção Estatísticas */
+        .stats-section {
+            padding: 1rem 1.5rem; /* Reduzido de 4rem para 1rem */
+        }
+
+        /* 3. Colar os furos à imagem das estatísticas */
+        .stats-section .furos-container {
+            padding-top: 3rem;
+            padding-bottom: 0rem;
+            margin-bottom: -25px;
+        }
+
         .section-header {
             padding: 1.5rem 2rem;
             flex-direction: column;
@@ -820,6 +856,11 @@
 
     @media (max-width: 768px) {
 
+        .f-group-left img[alt="MOP"] {
+            height: 40px; /* Estava a 60px no desktop */
+        }
+
+
         .hero-content {
             margin-bottom: 3rem;
         }
@@ -860,6 +901,14 @@
     }
 
     @media (max-width: 480px) {
+
+        .cta-tab-text {
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+
+            /* ADICIONA ISTO: */
+            top: calc(45% - 2px); /* Sobe exatamente 2px em relação à posição original */
+        }
 
         .hero {
             padding: 2rem 0 0 0;

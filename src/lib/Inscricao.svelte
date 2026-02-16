@@ -48,110 +48,120 @@
         </div>
       </div>
 
-      <!-- Formulário de Inscrição -->
-      <div class="form-overlay">
-        <form class="inscricao-form">
-          <!-- Categoria -->
-          <div class="form-group">
-            <label class="form-label" for="categoria">CATEGORIA DA TUA INSCRIÇÃO</label>
-            <select id="categoria" class="form-select">
-              <option value="" disabled selected>CATEGORIA</option>
-              <option value="filme">Filme</option>
-              <option value="imprensa">Imprensa/Outdoor</option>
-              <option value="design">Design</option>
-              <option value="digital">Digital</option>
-              <option value="media">Media</option>
-              <option value="pr">PR</option>
-              <option value="marketing">Marketing</option>
-            </select>
-          </div>
+        <div class="form-overlay">
+            <form class="inscricao-form">
+                <div class="form-group">
+                    <label class="form-label" for="categoria">CATEGORIA DA TUA INSCRIÇÃO</label>
+                    <select id="categoria" class="form-select">
+                        <option value="" disabled selected>CATEGORIA</option>
+                        <option value="filme">Filme</option>
+                        <option value="imprensa">Imprensa/Outdoor</option>
+                        <option value="design">Design</option>
+                        <option value="digital">Digital</option>
+                        <option value="media">Media</option>
+                        <option value="pr">PR</option>
+                        <option value="marketing">Marketing</option>
+                    </select>
+                </div>
 
-          <!-- Participante Nº1 -->
-          <div class="form-section">
-            <h3 class="section-title">PARTICIPANTE Nº1</h3>
+                <div class="form-section">
+                    <h3 class="section-title">PARTICIPANTE Nº1</h3>
 
-            <div class="form-group">
-              <input type="text" class="form-input" placeholder="NOME" />
-            </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="NOME" />
+                    </div>
 
-            <div class="form-row">
-              <div class="form-group">
-                <input type="date" class="form-input" placeholder="DATA DE NASCIMENTO" />
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-input" placeholder="EMAIL" />
-              </div>
-            </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input
+                                    type="text"
+                                    class="form-input"
+                                    placeholder="DATA DE NASCIMENTO"
+                                    on:focus={(e) => (e.currentTarget.type = 'date')}
+                                    on:blur={(e) => {
+      if (!e.currentTarget.value) e.currentTarget.type = 'text';
+    }}
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="EMAIL" />
+                        </div>
+                    </div>
 
-            <div class="form-row">
-              <div class="form-group">
-                <input type="tel" class="form-input" placeholder="CONTACTO TELEFÓNICO" />
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-input" placeholder="FUNÇÃO / EMPRESA" />
-              </div>
-            </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" class="form-input" placeholder="CONTACTO TELEFÓNICO" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="FUNÇÃO / EMPRESA" />
+                        </div>
+                    </div>
 
-            <div class="form-group">
-              <label class="upload-area">
-                <input type="file" class="file-input" accept=".zip,.rar" />
-                <span class="upload-text">CLIQUE AQUI PARA CARREGAR O SEU CV/PORTFÓLIO + CC</span>
-                <span class="upload-subtext">Formatos .ZIP ou .RAR (max. 50mb)</span>
-              </label>
-            </div>
-          </div>
+                    <div class="form-group">
+                        <label class="upload-area">
+                            <input type="file" class="file-input" accept=".zip,.rar" />
+                            <span class="upload-text">CLICA AQUI PARA CARREGAR O TEU CV/PORTFÓLIO + CC</span>
+                            <span class="upload-subtext">Formatos .ZIP ou .RAR (max. 50mb)</span>
+                        </label>
+                    </div>
+                </div>
 
-          <!-- Participante Nº2 -->
-          <div class="form-section">
-            <h3 class="section-title">PARTICIPANTE Nº2</h3>
+                <div class="form-section">
+                    <h3 class="section-title">PARTICIPANTE Nº2</h3>
 
-            <div class="form-group">
-              <input type="text" class="form-input" placeholder="NOME" />
-            </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="NOME" />
+                    </div>
 
-            <div class="form-row">
-              <div class="form-group">
-                <input type="date" class="form-input" placeholder="DATA DE NASCIMENTO" />
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-input" placeholder="EMAIL" />
-              </div>
-            </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input
+                                    type="text"
+                                    class="form-input"
+                                    placeholder="DATA DE NASCIMENTO"
+                                    on:focus={(e) => (e.currentTarget.type = 'date')}
+                                    on:blur={(e) => {
+      if (!e.currentTarget.value) e.currentTarget.type = 'text';
+    }}
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="EMAIL" />
+                        </div>
+                    </div>
 
-            <div class="form-row">
-              <div class="form-group">
-                <input type="tel" class="form-input" placeholder="CONTACTO TELEFÓNICO" />
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-input" placeholder="FUNÇÃO / EMPRESA" />
-              </div>
-            </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" class="form-input" placeholder="CONTACTO TELEFÓNICO" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="FUNÇÃO / EMPRESA" />
+                        </div>
+                    </div>
 
-            <div class="form-group">
-              <label class="upload-area">
-                <input type="file" class="file-input" accept=".zip,.rar" />
-                <span class="upload-text">CLIQUE AQUI PARA CARREGAR O SEU CV/PORTFÓLIO + CC</span>
-                <span class="upload-subtext">Formatos .ZIP ou .RAR (max. 50mb)</span>
-              </label>
-            </div>
-          </div>
+                    <div class="form-group">
+                        <label class="upload-area">
+                            <input type="file" class="file-input" accept=".zip,.rar" />
+                            <span class="upload-text">CLICA AQUI PARA CARREGAR O TEU CV/PORTFÓLIO + CC</span>
+                            <span class="upload-subtext">Formatos .ZIP ou .RAR (max. 50mb)</span>
+                        </label>
+                    </div>
+                </div>
 
-          <!-- Consentimento -->
-          <div class="form-group consent-group">
-            <label class="consent-label">
-              <input type="checkbox" class="consent-checkbox" />
-              <span class="consent-text">
-                Lemos e concordamos com os termos estabelecidos no <a href="#regulamento" class="consent-link">regulamento</a> da categoria a que concorremos.
+                <div class="form-group consent-group">
+                    <label class="consent-label">
+                        <input type="checkbox" class="consent-checkbox" />
+                        <span class="consent-text">
+                Lemos e concordamos com os termos estabelecidos no <a href="/assets/REGULAMENTO%20GERAL%20YLP%202026.pdf" class="consent-link">regulamento</a> da categoria a que concorremos.
               </span>
-            </label>
-          </div>
+                    </label>
+                </div>
 
-          <!-- Botão Submit -->
-          <div class="submit-container">
-            <button type="submit" class="submit-btn">SUBMETER</button>
-          </div>
-        </form>
-      </div>
+                <div class="submit-container">
+                    <button type="submit" class="submit-btn">SUBMETER</button>
+                </div>
+            </form>
+        </div>
     </div>
   </section>
 
@@ -815,7 +825,7 @@
         text-align: right;
     }
 
-    .f-img2.end { align-self: flex-end; }
+    .f-img2.end { align-self: flex-end; height: 40px;}
 
     /* --- ROW 5: Flex Space Between --- */
     .row-5 {
@@ -875,6 +885,10 @@
 
     /* Tablet e Mobile (até 1024px) */
     @media screen and (max-width: 1024px) {
+
+        .f-group-left img[alt="MOP"] {
+            height: 40px; /* Estava a 60px no desktop */
+        }
 
         /* --- ALTERAÇÃO PRINCIPAL: Esconder as folhas de fundo --- */
         .folhas-juntas {
