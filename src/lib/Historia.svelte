@@ -480,9 +480,9 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family: 'Aber Mono', monospace;
+        font-family: 'IBM Plex Mono', monospace;
         font-size: 10rem;
-        font-weight: 700;
+        font-weight: 400;
         color: #fff;
         text-transform: uppercase;
         letter-spacing: 5px;
