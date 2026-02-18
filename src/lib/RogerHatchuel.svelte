@@ -281,7 +281,7 @@
                         <img src="/footerimagens/+m.png" alt="M80" class="f-img2" />
                         <img src="/footerimagens/mop2.png" alt="MOP" class="f-img2" />
                         <img src="/footerimagens/publico.png" alt="Publico" class="f-img2" />
-                        <img src="/footerimagens/RFM.png" alt="RFM" class="f-img2" />
+                        <img src="/footerimagens/RFM.png" alt="RFM" class="f-img2 rfm" />
                         <img src="/footerimagens/rtp.png" alt="RTP" class="f-img2" />
                     </div>
                 </div>
@@ -949,6 +949,9 @@
         flex-direction: column;
         align-items: flex-end;
         text-align: right;
+    }
+    .f-img2.rfm {
+        height: 55px; /* Aumentado de 30px para 55px */
     }
 
     /* Regras Específicas Row 1, 2, 3 */
