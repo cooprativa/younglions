@@ -181,7 +181,13 @@
             </div>
         </div>
         <div class="timeline-container">
-            <img src="/svg/timeline.svg" alt="Timeline" class="timeline-img" />
+            <img src="/svg/timeline.svg" alt="Timeline" class="timeline-img desktop-timeline" />
+
+            <div class="mobile-timeline-wrapper">
+                <img src="/assets/time1.png" alt="Timeline Parte 1" class="mobile-timeline-img" />
+                <img src="/assets/time2.png" alt="Timeline Parte 2" class="mobile-timeline-img" />
+                <img src="/assets/time3.png" alt="Timeline Parte 3" class="mobile-timeline-img" />
+            </div>
         </div>
         <div class="footer-extra-sobre-container-2">
             <img src="/assets/fundos/extraroger.png" alt="" class="footer-extra-sobre-img-2" />
@@ -781,6 +787,24 @@
         display: block;
     }
 
+    /* --- NOVOS ESTILOS BASE DA TIMELINE --- */
+    /* Por padrão (Desktop), esconde o wrapper mobile */
+    .mobile-timeline-wrapper {
+        display: none;
+    }
+    /* Garante que a versão desktop aparece */
+    .desktop-timeline {
+        display: block;
+    }
+    /* Estilo base para as imagens mobile quando aparecerem */
+    .mobile-timeline-img {
+        width: 100%;
+        height: auto;
+        display: block;
+        /* Opcional: define uma largura máxima para não ficarem gigantes em tablets */
+        max-width: 600px;
+    }
+
     /* Footer Extra Image */
     .footer-extra-sobre-container {
         display: flex;
@@ -1061,6 +1085,27 @@
     /* --- TABLET E MOBILE (Tudo abaixo de 1024px) --- */
     @media screen and (max-width: 1024px) {
 
+        .f-img2.end { align-self: flex-start; }
+
+
+        /* --- NOVAS REGRAS TIMELINE MOBILE --- */
+        .desktop-timeline {
+            display: none; /* Esconde a imagem grande SVG */
+        }
+
+        .mobile-timeline-wrapper {
+            display: flex; /* Mostra o contentor mobile */
+            flex-direction: column; /* Empilha as imagens verticalmente */
+            align-items: center; /* Centra as imagens */
+            gap: 2rem; /* Espaço entre as 3 imagens cortadas */
+            width: 100%;
+        }
+
+        /* Ajusta o padding do container principal para dar mais ar no mobile */
+        .timeline-container {
+            padding: 3rem 1.5rem;
+        }
+
         .f-group-left img[alt="MOP"] {
             height: 40px; /* Estava a 60px no desktop */
         }
@@ -1218,6 +1263,10 @@
         .hero-logo { top: 1rem; left: 1rem; }
         .logo-img { max-width: 120px; }
 
+        .pasta-container {
+            margin-top: 6rem; /* Aumenta este valor se quiseres mais espaço */
+        }
+
         /* Ajuste fino da pasta em ecrãs muito pequenos */
         .pasta-texto { font-size: 1.8rem; letter-spacing: 2px; }
         .pasta-img { max-width: 210px; }
@@ -1233,6 +1282,9 @@
     }
 
     @media (max-width: 768px) {
+        .pasta-container {
+            margin-top: 6rem; /* Aumenta este valor se quiseres mais espaço */
+        }
         .hero-logo { top: 1.5rem; left: 1.5rem; }
         .logo-img { max-width: 160px; }
         .pasta-texto { font-size: 3rem; letter-spacing: 5px; }

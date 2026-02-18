@@ -875,6 +875,10 @@
         .f-group-left img[alt="MOP"] {
             height: 40px; /* Estava a 60px no desktop */
         }
+
+        .pasta-container {
+            margin-top: 6rem; /* Aumenta este valor se quiseres mais espaço */
+        }
         .hero-sobre {
             min-height: 70vh;
             padding: 2rem;

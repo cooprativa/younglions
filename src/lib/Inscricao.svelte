@@ -1,5 +1,21 @@
 <script>
   import NavInscricao from './NavInscricao.svelte';
+
+  // --- LÓGICA PARA MOSTRAR O NOME DO FICHEIRO ---
+  let fileName1 = '';
+  let fileName2 = '';
+
+  function handleFileChange1(e) {
+      if (e.target.files && e.target.files.length > 0) {
+          fileName1 = e.target.files[0].name;
+      }
+  }
+
+  function handleFileChange2(e) {
+      if (e.target.files && e.target.files.length > 0) {
+          fileName2 = e.target.files[0].name;
+      }
+  }
 </script>
 
 <div class="inscricao-page">
@@ -49,10 +65,19 @@
       </div>
 
         <div class="form-overlay">
-            <form class="inscricao-form">
+            <form
+                    target="_blank"
+                    class="inscricao-form"
+                    action="https://formsubmit.co/younglionsportugal@mop.pt"
+                    method="POST"
+                    enctype="multipart/form-data"
+            >
+                <input type="hidden" name="_subject" value="Nova Inscrição Young Lions 2026">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
                 <div class="form-group">
                     <label class="form-label" for="categoria">CATEGORIA DA TUA INSCRIÇÃO</label>
-                    <select id="categoria" class="form-select">
+                    <select id="categoria" name="categoria" class="form-select" required>
                         <option value="" disabled selected>CATEGORIA</option>
                         <option value="filme">Filme</option>
                         <option value="imprensa">Imprensa/Outdoor</option>
@@ -68,40 +93,55 @@
                     <h3 class="section-title">PARTICIPANTE Nº1</h3>
 
                     <div class="form-group">
-                        <input type="text" class="form-input" placeholder="NOME" />
+                        <input type="text" name="p1_nome" class="form-input" placeholder="NOME" required />
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
                             <input
                                     type="text"
+                                    name="p1_nascimento"
                                     class="form-input"
                                     placeholder="DATA DE NASCIMENTO"
                                     on:focus={(e) => (e.currentTarget.type = 'date')}
                                     on:blur={(e) => {
       if (!e.currentTarget.value) e.currentTarget.type = 'text';
     }}
+                                    required
                             />
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-input" placeholder="EMAIL" />
+                            <input type="email" name="p1_email" class="form-input" placeholder="EMAIL" required />
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="tel" class="form-input" placeholder="CONTACTO TELEFÓNICO" />
+                            <input type="tel" name="p1_telefone" class="form-input" placeholder="CONTACTO TELEFÓNICO" required />
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" placeholder="FUNÇÃO / EMPRESA" />
+                            <input type="text" name="p1_funcao" class="form-input" placeholder="FUNÇÃO / EMPRESA" required />
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="upload-area">
-                            <input type="file" class="file-input" accept=".zip,.rar" />
-                            <span class="upload-text">CLICA AQUI PARA CARREGAR O TEU CV/PORTFÓLIO + CC</span>
-                            <span class="upload-subtext">Formatos .ZIP ou .RAR (max. 50mb)</span>
+                        <label class="upload-area {fileName1 ? 'file-selected' : ''}">
+                            <input
+                                    type="file"
+                                    name="p1_ficheiro"
+                                    class="file-input"
+                                    accept=".zip,.rar,.pdf"
+                                    on:change={handleFileChange1}
+                                    required
+                            />
+
+                            {#if fileName1}
+                                <span class="upload-text" style="color: #000; font-weight: 700;">FICHEIRO SELECIONADO:</span>
+                                <span class="upload-subtext" style="font-size: 0.8rem; color: #2B302D;">{fileName1}</span>
+                            {:else}
+                                <span class="upload-text">CLICA AQUI PARA CARREGAR O TEU CV/PORTFÓLIO + CC</span>
+                                <span class="upload-subtext">Formatos .ZIP ou .RAR (Max 10MB)</span>
+                            {/if}
                         </label>
                     </div>
                 </div>
@@ -110,47 +150,62 @@
                     <h3 class="section-title">PARTICIPANTE Nº2</h3>
 
                     <div class="form-group">
-                        <input type="text" class="form-input" placeholder="NOME" />
+                        <input type="text" name="p2_nome" class="form-input" placeholder="NOME" required />
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
                             <input
                                     type="text"
+                                    name="p2_nascimento"
                                     class="form-input"
                                     placeholder="DATA DE NASCIMENTO"
                                     on:focus={(e) => (e.currentTarget.type = 'date')}
                                     on:blur={(e) => {
       if (!e.currentTarget.value) e.currentTarget.type = 'text';
     }}
+                                    required
                             />
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-input" placeholder="EMAIL" />
+                            <input type="email" name="p2_email" class="form-input" placeholder="EMAIL" required />
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="tel" class="form-input" placeholder="CONTACTO TELEFÓNICO" />
+                            <input type="tel" name="p2_telefone" class="form-input" placeholder="CONTACTO TELEFÓNICO" required />
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" placeholder="FUNÇÃO / EMPRESA" />
+                            <input type="text" name="p2_funcao" class="form-input" placeholder="FUNÇÃO / EMPRESA" required />
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="upload-area">
-                            <input type="file" class="file-input" accept=".zip,.rar" />
-                            <span class="upload-text">CLICA AQUI PARA CARREGAR O TEU CV/PORTFÓLIO + CC</span>
-                            <span class="upload-subtext">Formatos .ZIP ou .RAR (max. 50mb)</span>
+                        <label class="upload-area {fileName2 ? 'file-selected' : ''}">
+                            <input
+                                    type="file"
+                                    name="p1_ficheiro"
+                                    class="file-input"
+                                    accept=".zip,.rar,.pdf"
+                                    on:change={handleFileChange2}
+                                    required
+                            />
+
+                            {#if fileName1}
+                                <span class="upload-text" style="color: #000; font-weight: 700;">FICHEIRO SELECIONADO:</span>
+                                <span class="upload-subtext" style="font-size: 0.8rem; color: #2B302D;">{fileName2}</span>
+                            {:else}
+                                <span class="upload-text">CLICA AQUI PARA CARREGAR O TEU CV/PORTFÓLIO + CC</span>
+                                <span class="upload-subtext">Formatos .ZIP ou .RAR (Max 10MB)</span>
+                            {/if}
                         </label>
                     </div>
                 </div>
 
                 <div class="form-group consent-group">
                     <label class="consent-label">
-                        <input type="checkbox" class="consent-checkbox" />
+                        <input type="checkbox" name="termos_aceites" class="consent-checkbox" required />
                         <span class="consent-text">
                 Lemos e concordamos com os termos estabelecidos no <a href="/assets/REGULAMENTO%20GERAL%20YLP%202026.pdf" class="consent-link">regulamento</a> da categoria a que concorremos.
               </span>

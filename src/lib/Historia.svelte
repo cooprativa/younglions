@@ -391,27 +391,29 @@
 </div>
 
 <style>
+
+
     /* --- FONTES --- */
     @font-face {
         font-family: 'Aber Mono';
-        src: url('../fonts/Aber-Mono-Bold.woff2') format('woff2'),
-        url('../fonts/Aber-Mono-Bold.woff') format('woff');
+        src: url('/fonts/Aber-Mono-Bold.woff2') format('woff2'),
+        url('/fonts/Aber-Mono-Bold.woff') format('woff');
         font-weight: 700;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Aber Mono';
-        src: url('../fonts/Aber-Mono-Regular.woff2') format('woff2'),
-        url('../fonts/Aber-Mono-Regular.woff') format('woff');
+        src: url('/fonts/Aber-Mono-Regular.woff2') format('woff2'),
+        url('/fonts/Aber-Mono-Regular.woff') format('woff');
         font-weight: 400;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Aber Mono';
-        src: url('../fonts/Aber-Mono-Light.woff2') format('woff2'),
-        url('../fonts/Aber-Mono-Light.woff') format('woff');
+        src: url('/fonts/Aber-Mono-Light.woff2') format('woff2'),
+        url('/fonts/Aber-Mono-Light.woff') format('woff');
         font-weight: 300;
         font-style: normal;
     }
@@ -483,7 +485,8 @@
         font-weight: 700;
         color: #fff;
         text-transform: uppercase;
-        letter-spacing: 10px;
+        letter-spacing: 5px;
+        white-space: nowrap;
     }
 
     /* Culpado - Canto inferior direito */
@@ -543,7 +546,7 @@
     }
 
     .intro-text {
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Aber Mono', monospace;
         font-size: 1.5rem;
         font-weight: 500;
         color: #000;
@@ -1045,6 +1048,10 @@
 
         .f-group-left img[alt="MOP"] {
             height: 40px; /* Estava a 60px no desktop */
+        }
+
+        .pasta-container {
+            margin-top: 6rem; /* Aumenta este valor se quiseres mais espaço */
         }
 
         /* 1. MUDANÇA: Colocar o Título DEBAIXO do Ano */
