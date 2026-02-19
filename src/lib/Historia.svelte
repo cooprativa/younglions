@@ -141,7 +141,7 @@
             title: 'BRONZE DIGITAL',
             text: 'O sucesso na era digital. Tomás Almeida e João Chicau conquistaram o Bronze na categoria Digital. A comitiva portuguesa mostrou uma consistência notável, alcançando ainda Shortlists nas categorias de Filme (Francisco Machado) e Design (David Canaes e Francisco Roque do Vale).',
             image: '/imagenshistoria/Imagem16.jpg',
-            caption: 'João Chicau e Francisco Roque do Vale'
+            caption: 'João Chicau e Tomás Almeida'
         }
     ];
 
