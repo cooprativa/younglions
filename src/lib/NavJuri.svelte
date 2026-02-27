@@ -18,7 +18,7 @@
 
 <nav class="nav">
     <div class="nav-bg">
-        <img src="../../public/svg/nav/jurinav.svg" alt="" class="nav-svg" />
+        <img src="svg/nav/jurinav.svg" alt="" class="nav-svg" />
     </div>
 
     <button
