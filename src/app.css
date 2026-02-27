@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -8,16 +10,14 @@
   font-weight: 400;
   color: #000;
   background-color: #FFCD00;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 #app {
