@@ -218,22 +218,36 @@
             </div>
 
             <div class="jury-content-area">
-                {#if activeTabIndex === 0}
-                    <JuriFilme />
-                {:else if activeTabIndex === 1}
-                    <JuriOutdoor />
-                {:else if activeTabIndex === 2}
-                    <JuriDesign />
-                {:else if activeTabIndex === 3}
-                    <JuriDigital />
-                {:else if activeTabIndex === 4}
-                    <JuriMedia />
-                {:else if activeTabIndex === 5}
-                    <JuriPr />
-                {:else if activeTabIndex === 6}
-                    <JuriMarketing />
-                {/if}
-            </div>
+      {#if activeTabIndex === 0}
+        <div class="jury-coming-soon">
+          <p class="coming-soon-text">EM BREVE SABEREMOS QUEM SÃO OS JURADOS DE FILME</p>
+        </div>
+      {:else if activeTabIndex === 1}
+        <div class="jury-coming-soon">
+          <p class="coming-soon-text">EM BREVE SABEREMOS QUEM SÃO OS JURADOS DE IMPRENSA</p>
+        </div>
+      {:else if activeTabIndex === 2}
+        <div class="jury-coming-soon">
+          <p class="coming-soon-text">EM BREVE SABEREMOS QUEM SÃO OS JURADOS DE DESIGN</p>
+        </div>
+      {:else if activeTabIndex === 3}
+        <div class="jury-coming-soon">
+          <p class="coming-soon-text">EM BREVE SABEREMOS QUEM SÃO OS JURADOS DE DIGITAL</p>
+        </div>
+      {:else if activeTabIndex === 4}
+        <div class="jury-coming-soon">
+          <p class="coming-soon-text">EM BREVE SABEREMOS QUEM SÃO OS JURADOS DE MEDIA</p>
+        </div>
+      {:else if activeTabIndex === 5}
+        <div class="jury-coming-soon">
+          <p class="coming-soon-text">EM BREVE SABEREMOS QUEM SÃO OS JURADOS DE PR</p>
+        </div>
+      {:else if activeTabIndex === 6}
+        <div class="jury-coming-soon">
+          <p class="coming-soon-text">EM BREVE SABEREMOS QUEM SÃO OS JURADOS DE MARKETING</p>
+        </div>
+      {/if}
+    </div>
 
             <div class="footer-extra-container">
                 <img src="/assets/fundos/Footerextra.png" alt="" class="footer-extra-img" />
