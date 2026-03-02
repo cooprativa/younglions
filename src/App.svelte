@@ -28,9 +28,20 @@
             currentPage = 'roger';
         } else if (hash === 'historia') {
             currentPage = 'historia';
-        } else if (hash === 'juri') {
-            currentPage = 'juri';
-        }
+        } else {
+          currentPage = 'home';
+
+          if (hash === 'juri') {
+              setTimeout(() => {
+                  const element = document.getElementById('juri');
+                  if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                  }
+              }, 100);
+          } else {
+              window.scrollTo(0, 0);
+          }
+      }
     }
 
     if (typeof window !== 'undefined') {
