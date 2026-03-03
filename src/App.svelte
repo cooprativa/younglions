@@ -182,7 +182,7 @@
             </div>
         </section>
 
-        <section class="jury-section" id="juri">
+        <section class="jury-section" id="old">
 
 
             <div class="tabs-container">
