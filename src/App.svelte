@@ -30,7 +30,7 @@
             currentPage = 'historia';
         } else if (hash === 'juri') {
             currentPage = 'juri';
-        }
+        } else (currentPage = 'home');
     }
 
     if (typeof window !== 'undefined') {
