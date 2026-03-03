@@ -182,7 +182,7 @@
                     </div>
                     <div class="passo-box">
                         <span class="passo-numero">2</span>
-                        <p class="passo-texto">Lê o regulamento e escolhe<br />as categorias em que querem participar</p>
+                        <p class="passo-texto">Lê o <a href="/assets/REGULAMENTO GERAL YLP 2026.pdf" target="_blank" rel="noopener noreferrer" class="regulamento-link">regulamento</a> e escolhe<br />as categorias em que querem participar</p>
                     </div>
                     <div class="passo-box">
                         <span class="passo-numero">3</span>
@@ -474,6 +474,8 @@
     .passo-box { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 1rem; border: 2px solid #0A1214; background-color: transparent; }
     .passo-numero { font-family: 'IBM Plex Mono', monospace; font-size: 4.5rem; font-weight: 700; color: #0A1214; line-height: 1; }
     .passo-texto { font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; font-weight: 400; color: #0A1214; line-height: 1.4; text-transform: uppercase; margin: 0; }
+    .regulamento-link { color: #0A1214; text-decoration: underline; font-weight: 700; cursor: pointer; }
+    .regulamento-link:hover { opacity: 0.7; }
 
     .form-overlay { position: absolute; top: 5%; right: 2%; width: 52%; max-width: 650px; height: auto; padding: 2rem; z-index: 10; }
     .inscricao-form { display: flex; flex-direction: column; gap: 12px; }
