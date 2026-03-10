@@ -148,7 +148,7 @@
             </div>
 
             <div class="hero-countdown">
-                Inscreve-te até {countdown}
+                {countdown}
             </div>
 
             <a href="#inscricao" class="cta-tab">
