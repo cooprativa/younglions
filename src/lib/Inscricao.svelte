@@ -2,6 +2,7 @@
     import NavInscricao from './NavInscricao.svelte';
 
     // --- ESTADOS DO FORMULÁRIO ---
+    let inscricoesAbertas = false;
     let submitting = false;
     let statusMessage = '';
     let statusType = ''; // 'success', 'error' ou 'info'
@@ -77,6 +78,11 @@
 
     // --- ENVIO DO FORMULÁRIO ---
     async function handleSubmit(e) {
+
+        if (!inscricoesAbertas) {
+            alert("As inscrições já se encontram encerradas.");
+            return; 
+        }
 
         if (!file1 || !file2) {
             alert("Por favor anexa os portfólios dos dois participantes antes de enviar.");
@@ -193,6 +199,7 @@
 
             <div class="form-overlay">
                 <form class="inscricao-form" on:submit|preventDefault={handleSubmit}>
+                    <fieldset disabled={!inscricoesAbertas} class="fieldset-bloqueio">
 
                     <div class="form-group">
                         <label class="form-label" for="categoria">CATEGORIA DA TUA INSCRIÇÃO</label>
@@ -292,6 +299,7 @@
                             {submitting ? 'A ENVIAR...' : 'SUBMETER'}
                         </button>
                     </div>
+                </fieldset>
                 </form>
             </div>
         </div>
