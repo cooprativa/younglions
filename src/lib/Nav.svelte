@@ -54,8 +54,8 @@
             <span class="nav-text">ROGER HATCHUEL</span>
         </a>
 
-        <a href="#inscricao" class="nav-link link-inscreve" on:click={closeMenu}>
-            <span class="nav-text white">INSCREVE-TE</span>
+        <a href="#vencedores" class="nav-link link-inscreve" on:click={closeMenu}>
+            <span class="nav-text white">VENCEDORES</span>
         </a>
     </div>
 </nav>

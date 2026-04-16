@@ -5,6 +5,7 @@
     import RogerHatchuel from './lib/RogerHatchuel.svelte';
     import Historia from './lib/Historia.svelte';
     import Juri from './lib/Juri.svelte'
+    import Vencedores from "./lib/Vencedores.svelte";
     import { onMount, tick } from 'svelte';
     import JuriFilme from './lib/juri/JuriFilme.svelte';
     import JuriOutdoor from './lib/juri/JuriOutdoor.svelte';
@@ -30,7 +31,10 @@
             currentPage = 'historia';
         } else if (hash === 'juri') {
             currentPage = 'juri';
-        } else (currentPage = 'home');
+        } else if (hash === 'vencedores') {
+            currentPage = 'vencedores';
+        }
+        else (currentPage = 'home');
     }
 
     if (typeof window !== 'undefined') {
@@ -138,6 +142,8 @@
     <RogerHatchuel />
 {:else if currentPage === 'historia'}
     <Historia />
+{:else if currentPage === 'vencedores'}
+    <Vencedores />
 {:else}
     <div class="app">
         <Nav />
@@ -148,7 +154,7 @@
             </div>
 
             <div class="hero-countdown">
-                {countdown}
+                Inscreve-te até {countdown}
             </div>
 
             <a href="#inscricao" class="cta-tab">
