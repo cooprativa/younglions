@@ -34,10 +34,16 @@
   </section>
 
   <!-- Secção Vencedores Culpados -->
-  <section class="vencedores-conteudo">
-    <img src="/svg/vencedoresculpados.svg" alt="Vencedores Culpados" class="vencedores-culpados-svg" />
-    <img src="/imagens/vencedores.png" alt="Vencedores" class="vencedores-img" />
-  </section>
+    <section class="vencedores-conteudo">
+      <img src="/svg/vencedoresculpados.svg" alt="Vencedores Culpados" class="vencedores-culpados-svg" />
+      <object data="/svg/vencedores/imprensa.svg" type="image/svg+xml" aria-label="Vencedores" class="vencedores-img"></object>
+        <object data="/svg/vencedores/filme.svg" type="image/svg+xml" aria-label="Vencedores" class="vencedores-img"></object>
+        <object data="/svg/vencedores/digital.svg" type="image/svg+xml" aria-label="Vencedores" class="vencedores-img"></object>
+        <object data="/svg/vencedores/design.svg" type="image/svg+xml" aria-label="Vencedores" class="vencedores-img"></object>
+        <object data="/svg/vencedores/media.svg" type="image/svg+xml" aria-label="Vencedores" class="vencedores-img"></object>
+        <object data="/svg/vencedores/pr.svg" type="image/svg+xml" aria-label="Vencedores" class="vencedores-img"></object>
+        <object data="/svg/vencedores/marketing.svg" type="image/svg+xml" aria-label="Vencedores" class="vencedores-img"></object>
+    </section>
 
   <footer class="footer">
 
